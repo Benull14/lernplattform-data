@@ -1,0 +1,700 @@
+{
+  "Lernfeld_6": {
+    "title": "Lernfeld - 6",
+    "description": "Serviceanfragen bearbeiten",
+    "chapters": {
+      "servicearten": {
+        "title": "Servicearten und Serviceanforderungen im IT-Bereich",
+        "available": true,
+        "presentationScript": {
+          "title": "Servicearten und Serviceanforderungen im IT-Bereich – Präsentationsskript",
+          "description": "Kapitel 1: Servicearten und Serviceanforderungen im IT-Bereich",
+          "pdfUrl": "./scripts/Servicearten-und-Serviceanforderungen-im-IT-Bereich.pdf"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "type": "boolean",
+            "question": "IT-Abteilungen agieren in Unternehmen als interne Dienstleister für alle Mitarbeiter.",
+            "options": ["Wahr", "Falsch"],
+            "correctAnswer": ["Wahr"],
+            "hint": "Interne Services sichern den IT-Betrieb.",
+            "explanation": "IT-Abteilungen stellen Anwendungen und Services intern bereit und sichern die Funktionstüchtigkeit der IT."
+          },
+          {
+            "id": 2,
+            "type": "boolean",
+            "question": "Externe IT-Dienstleister werden vor allem bei einfachen Aufgaben eingesetzt.",
+            "options": ["Wahr", "Falsch"],
+            "correctAnswer": ["Falsch"],
+            "hint": "Komplexität spielt eine Rolle.",
+            "explanation": "Externe Dienstleister werden aufgrund von Spezialwissen und hoher Komplexität eingebunden."
+          },
+          {
+            "id": 3,
+            "type": "multiple",
+            "question": "Welche zentralen Entwicklungen prägen den IT-Servicebereich?",
+            "options": ["Digitalisierung", "Outsourcing", "Qualität", "Datenschutz"],
+            "correctAnswer": ["Digitalisierung", "Outsourcing", "Qualität", "Datenschutz"],
+            "hint": "Vier Hauptentwicklungen laut Kapitel.",
+            "explanation": "Diese vier Faktoren beeinflussen maßgeblich den modernen IT-Service."
+          },
+          {
+            "id": 4,
+            "type": "single",
+            "question": "Was versteht man laut ITIL® 4 unter einem IT-Service?",
+            "options": [
+              "Ein Produkt zur Steigerung des Unternehmensgewinns",
+              "Ein Mittel zur gemeinsamen Wertschöpfung mit dem Kunden",
+              "Eine Software für den internen Gebrauch",
+              "Eine rein technische Dienstleistung"
+            ],
+            "correctAnswer": ["Ein Mittel zur gemeinsamen Wertschöpfung mit dem Kunden"],
+            "hint": "Kundenorientierung steht im Mittelpunkt.",
+            "explanation": "ITIL® 4 betont die gemeinsame Wertschöpfung zwischen Dienstleister und Kunde."
+          },
+          {
+            "id": 5,
+            "type": "multiple",
+            "question": "Welche gehören zu den traditionellen IT-Services?",
+            "options": ["Hardware-Vertrieb", "Vor-Ort-Support", "Wartungsverträge", "Chatbots"],
+            "correctAnswer": ["Hardware-Vertrieb", "Vor-Ort-Support", "Wartungsverträge"],
+            "hint": "Drei klassische Servicearten.",
+            "explanation": "Traditionelle IT-Services konzentrieren sich auf physische Hardware und Wartung."
+          },
+          {
+            "id": 6,
+            "type": "multiple",
+            "question": "Welche zählen zu modernen IT-Servicearten?",
+            "options": ["Cloud-Services", "Managed Services", "Automatisierte Chatbots", "Faxdienste"],
+            "correctAnswer": ["Cloud-Services", "Managed Services", "Automatisierte Chatbots"],
+            "hint": "Digitale und automatisierte Services.",
+            "explanation": "Moderne IT-Services basieren auf Virtualisierung, Automatisierung und Cloud-Technologien."
+          },
+          {
+            "id": 7,
+            "type": "single",
+            "question": "Was beschreibt der Begriff 'Break/Fix-Support'?",
+            "options": [
+              "Proaktive Überwachung von Servern",
+              "Reaktive IT-Dienstleistung nach Bedarf",
+              "Entwicklung neuer Software",
+              "Automatisierte Wartung"
+            ],
+            "correctAnswer": ["Reaktive IT-Dienstleistung nach Bedarf"],
+            "hint": "Wird erst bei Störungen aktiv.",
+            "explanation": "Beim Break/Fix-Modell werden Leistungen nach Bedarf erbracht und abgerechnet."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Welche Ebene gehört NICHT zu den Cloud-Services?",
+            "options": ["IaaS", "PaaS", "FaaS", "SaaP"],
+            "correctAnswer": ["SaaP"],
+            "hint": "Nur vier definierte Ebenen.",
+            "explanation": "Die vier Cloud-Ebenen heißen IaaS, PaaS, SaaS und FaaS."
+          },
+          {
+            "id": 9,
+            "type": "boolean",
+            "question": "Managed Services werden einmalig angeboten und nicht wiederkehrend.",
+            "options": ["Wahr", "Falsch"],
+            "correctAnswer": ["Falsch"],
+            "hint": "Stichwort: Dauerhafte Betreuung.",
+            "explanation": "Managed Services sind dauerhafte, wiederkehrende Leistungen mit festen SLAs."
+          },
+          {
+            "id": 10,
+            "type": "single",
+            "question": "Welcher Schritt gehört zum IMAC/R/D-Lebenszyklus?",
+            "options": ["Inspect", "Install", "Invent", "Integrate"],
+            "correctAnswer": ["Install"],
+            "hint": "Es beginnt mit der Installation.",
+            "explanation": "Der Lebenszyklus umfasst Install, Move, Add, Change, Remove und Dispose."
+          },
+          {
+            "id": 11,
+            "type": "multiple",
+            "question": "Welche Aufgaben gehören zum Service-Level-Management?",
+            "options": [
+              "Planung von SLAs",
+              "Verwaltung von SLAs",
+              "Kundenbeziehungsaufbau",
+              "Portfolioanalyse"
+            ],
+            "correctAnswer": ["Planung von SLAs", "Verwaltung von SLAs"],
+            "hint": "Es geht um Service-Qualität und Vereinbarungen.",
+            "explanation": "Service-Level-Management legt Leistungsniveaus fest und überwacht deren Einhaltung."
+          },
+          {
+            "id": 12,
+            "type": "single",
+            "question": "Welches Ziel verfolgt das Incident Management?",
+            "options": [
+              "Langfristige Ursachenanalyse",
+              "Schnellstmögliche Wiederherstellung des Servicebetriebs",
+              "Reduktion von Lizenzen",
+              "Optimierung der Netzwerkstruktur"
+            ],
+            "correctAnswer": ["Schnellstmögliche Wiederherstellung des Servicebetriebs"],
+            "hint": "Kurzfristige Reaktion steht im Fokus.",
+            "explanation": "Das Incident Management zielt auf die schnelle Wiederherstellung des Betriebs nach einer Störung."
+          },
+          {
+            "id": 13,
+            "type": "boolean",
+            "question": "Problem Management befasst sich mit der Ursachenanalyse wiederkehrender Störungen.",
+            "options": ["Wahr", "Falsch"],
+            "correctAnswer": ["Wahr"],
+            "hint": "Es geht um dauerhafte Lösungen.",
+            "explanation": "Im Gegensatz zum Incident Management analysiert das Problem Management die Ursachen tiefergehend."
+          },
+          {
+            "id": 14,
+            "type": "multiple",
+            "question": "Welche Standards und Frameworks sind im IT-Service-Management besonders wichtig?",
+            "options": ["ISO/IEC 20000", "ITIL® 4", "FitSM®", "COBIT®"],
+            "correctAnswer": ["ISO/IEC 20000", "ITIL® 4", "FitSM®", "COBIT®"],
+            "hint": "Vier zentrale Regelwerke.",
+            "explanation": "Diese Frameworks definieren Prozesse und Qualitätsstandards für IT-Services."
+          },
+          {
+            "id": 15,
+            "type": "single",
+            "question": "Welches Gesetz schützt geistiges Eigentum wie Software oder Bilder?",
+            "options": ["HGB", "UrhG", "TMG", "DSGVO"],
+            "correctAnswer": ["UrhG"],
+            "hint": "Urheberrecht.",
+            "explanation": "Das Urheberrechtsgesetz (UrhG) schützt geistige Schöpfungen."
+          },
+          {
+            "id": 16,
+            "type": "multiple",
+            "question": "Welche Vertragsarten existieren im IT-Service-Bereich?",
+            "options": ["SLA", "OLA", "UC", "MLA"],
+            "correctAnswer": ["SLA", "OLA", "UC"],
+            "hint": "Drei typische Vereinbarungen.",
+            "explanation": "Service Level Agreements, Operational Level Agreements und Underpinning Contracts regeln Serviceverhältnisse."
+          },
+          {
+            "id": 17,
+            "type": "boolean",
+            "question": "SaaS-Verträge sind im deutschen Recht klar gesetzlich geregelt.",
+            "options": ["Wahr", "Falsch"],
+            "correctAnswer": ["Falsch"],
+            "hint": "Sonderfall im Vertragsrecht.",
+            "explanation": "SaaS-Verträge sind rechtlich nicht speziell geregelt, daher ist eine genaue Prüfung nötig."
+          },
+          {
+            "id": 18,
+            "type": "single",
+            "question": "Welche Hauptanforderung stellt Art. 28 DSGVO an IT-Dienstleister?",
+            "options": [
+              "Verpflichtung zur Auftragsverarbeitung",
+              "Bereitstellung von Quellcode",
+              "Preisregulierung",
+              "Verzicht auf Datenübertragung"
+            ],
+            "correctAnswer": ["Verpflichtung zur Auftragsverarbeitung"],
+            "hint": "Datenschutzrechtlich wichtig.",
+            "explanation": "Bei der Verarbeitung personenbezogener Daten ist ein AV-Vertrag nach Art. 28 DSGVO zwingend."
+          },
+          {
+            "id": 19,
+            "type": "boolean",
+            "question": "Das Markenrecht schützt Softwarecodes vor unbefugter Nutzung.",
+            "options": ["Wahr", "Falsch"],
+            "correctAnswer": ["Falsch"],
+            "hint": "Unterscheide Urheber- und Markenrecht.",
+            "explanation": "Das Markenrecht schützt Bezeichnungen und Logos, nicht den Quellcode selbst."
+          },
+          {
+            "id": 20,
+            "type": "single",
+            "question": "Was ist laut Zusammenfassung entscheidend für erfolgreiche IT-Services?",
+            "options": [
+              "Reine Hardwarekompetenz",
+              "Professionelles Management und rechtliche Compliance",
+              "Hohe Preise und starke Werbung",
+              "Interne IT ohne Standards"
+            ],
+            "correctAnswer": ["Professionelles Management und rechtliche Compliance"],
+            "hint": "Fokus auf Qualität und Organisation.",
+            "explanation": "Professionelles Service-Management und rechtssichere Abläufe sind Basis für nachhaltige IT-Services."
+          }
+        ]
+      },
+  "serviceanfragen_annahme_bearbeitung_steuerung": {
+    "title": "IT-Serviceanfragen: Annahme, Bearbeitung und Steuerung",
+    "available": true,
+    "presentationScript": {
+      "title": "IT-Serviceanfragen – Annahme, Bearbeitung und Steuerung",
+      "description": "Kapitel 2: IT-Serviceanfragen im Rahmen des Service-Management-Prozesses",
+      "pdfUrl": "./scripts/IT-Serviceanfragen-Annahme-Bearbeitung-und-Steuerung.pdf"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "type": "boolean",
+        "question": "Das Ziel der IT-Servicebearbeitung ist eine effiziente und kundenzufriedene Fallbearbeitung vom Erstkontakt bis zum Abschluss.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Wahr"],
+        "hint": "Zielorientierung der Prozessstruktur.",
+        "explanation": "Der Prozess folgt dem FitSM®-Standard und zielt auf effiziente, qualitativ hochwertige Servicebearbeitung ab."
+      },
+      {
+        "id": 2,
+        "type": "single",
+        "question": "Was versteht man unter einem Service-Management-System (SMS)?",
+        "options": [
+          "Eine Software zur Ticketerstellung",
+          "Ein System zur Organisation und Weiterentwicklung von Serviceprozessen",
+          "Ein Hardware-Überwachungstool",
+          "Ein CRM-System"
+        ],
+        "correctAnswer": ["Ein System zur Organisation und Weiterentwicklung von Serviceprozessen"],
+        "hint": "Grundlage des Service-Managements.",
+        "explanation": "Das SMS umfasst alle organisatorischen Aufgaben zur professionellen Serviceerbringung."
+      },
+      {
+        "id": 3,
+        "type": "boolean",
+        "question": "Ein Ticketsystem dient ausschließlich der Kommunikation zwischen Kunde und IT-Leitung.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Mehrere Funktionen.",
+        "explanation": "Ein Ticketsystem steuert, klassifiziert und dokumentiert alle Serviceanfragen zentral."
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "Welche Kontaktmöglichkeiten gehören typischerweise zum Single Point of Contact (SPOC)?",
+        "options": ["Direkter Ansprechpartner", "Telefonzentrale", "Automatic Call Distribution", "Social-Media-Kanal"],
+        "correctAnswer": ["Direkter Ansprechpartner", "Telefonzentrale", "Automatic Call Distribution"],
+        "hint": "Zentrale Kommunikationswege.",
+        "explanation": "Diese drei Kanäle bündeln den Kundenzugang. Social Media ist in der Regel kein offizieller SPOC."
+      },
+      {
+        "id": 5,
+        "type": "single",
+        "question": "Was ist der erste Schritt im Servicedesk-Bearbeitungsprozess?",
+        "options": ["Analyse", "Serviceticket erstellen", "Abschlusskontrolle", "Service durchführen"],
+        "correctAnswer": ["Serviceticket erstellen"],
+        "hint": "Prozessstart.",
+        "explanation": "Jede Anfrage führt zur Erstellung eines Servicetickets, das die Grundlage des Prozesses ist."
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Welche Schritte sind Teil eines typischen IT-Serviceprozesses?",
+        "options": [
+          "Anfrage entgegennehmen",
+          "Reaktionszeit mitteilen",
+          "Service durchführen",
+          "Werbeanzeige schalten"
+        ],
+        "correctAnswer": ["Anfrage entgegennehmen", "Reaktionszeit mitteilen", "Service durchführen"],
+        "hint": "Standardisierte Prozesskette.",
+        "explanation": "Diese Schritte gehören zum standardisierten IT-Serviceablauf – Werbung hingegen nicht."
+      },
+      {
+        "id": 7,
+        "type": "boolean",
+        "question": "In der RACI-Matrix darf eine Aktivität mehreren Personen mit der Rolle 'A' (Accountable) zugewiesen werden.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Nur eine Person trägt die Gesamtverantwortung.",
+        "explanation": "Laut RACI-Regel darf nur eine Person pro Aktivität 'Accountable' sein."
+      },
+      {
+        "id": 8,
+        "type": "single",
+        "question": "Was bedeutet das 'R' in der RACI-Matrix?",
+        "options": ["Responsible", "Reviewer", "Registered", "Reliable"],
+        "correctAnswer": ["Responsible"],
+        "hint": "Verantwortlich für die Durchführung.",
+        "explanation": "Responsible bedeutet, dass die Person die eigentliche Arbeit durchführt."
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Welche Arten von Anfragen gibt es im IT-Service?",
+        "options": ["Service Request", "Incident", "Problem", "Support Invoice"],
+        "correctAnswer": ["Service Request", "Incident", "Problem"],
+        "hint": "Basierend auf ITIL®-Prozessarten.",
+        "explanation": "Diese drei Kategorien sind die häufigsten IT-Anfragen; Rechnungen gehören nicht dazu."
+      },
+      {
+        "id": 10,
+        "type": "single",
+        "question": "Was beschreibt ein 'Incident'?",
+        "options": [
+          "Eine geplante Änderung",
+          "Eine ungeplante Unterbrechung oder Verschlechterung eines Services",
+          "Eine Marketingkampagne",
+          "Eine Lizenzanfrage"
+        ],
+        "correctAnswer": ["Eine ungeplante Unterbrechung oder Verschlechterung eines Services"],
+        "hint": "Störung im Betrieb.",
+        "explanation": "Ein Incident ist eine ungeplante Störung des normalen Servicebetriebs."
+      },
+      {
+        "id": 11,
+        "type": "boolean",
+        "question": "Die Priorität eines Tickets hängt ausschließlich von der Reihenfolge des Eingangs ab.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Dringlichkeit und Auswirkung zählen.",
+        "explanation": "Die Priorität ergibt sich aus der Kombination von Auswirkung und Dringlichkeit."
+      },
+      {
+        "id": 12,
+        "type": "single",
+        "question": "Was geschieht, wenn ein Fall im First-Level-Support nicht gelöst werden kann?",
+        "options": [
+          "Er wird gelöscht",
+          "Er wird eskaliert",
+          "Er wird ignoriert",
+          "Er wird archiviert"
+        ],
+        "correctAnswer": ["Er wird eskaliert"],
+        "hint": "Eskalationsprinzip.",
+        "explanation": "Nicht lösbare Fälle werden an höhere Support-Level weitergegeben."
+      },
+      {
+        "id": 13,
+        "type": "single",
+        "question": "Welcher Support-Level bearbeitet besonders komplexe Probleme meist mit Herstellern?",
+        "options": ["First-Level", "Second-Level", "Third-Level", "User-Level"],
+        "correctAnswer": ["Third-Level"],
+        "hint": "Höchste Expertise.",
+        "explanation": "Third-Level-Support umfasst meist externe Hersteller oder Spezialisten."
+      },
+      {
+        "id": 14,
+        "type": "boolean",
+        "question": "Ein Workaround ist eine temporäre Lösung zur schnellen Wiederherstellung des Betriebs.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Wahr"],
+        "hint": "Übergangslösung.",
+        "explanation": "Workarounds überbrücken Ausfälle, bis eine dauerhafte Lösung verfügbar ist."
+      },
+      {
+        "id": 15,
+        "type": "single",
+        "question": "Was ist der Zweck der KPI-Messung im IT-Service?",
+        "options": [
+          "Steuerung von Marketingkampagnen",
+          "Ermittlung von Kundenzufriedenheit und Prozessqualität",
+          "Erhöhung der Serverkosten",
+          "Berechnung von Lizenzgebühren"
+        ],
+        "correctAnswer": ["Ermittlung von Kundenzufriedenheit und Prozessqualität"],
+        "hint": "Kennzahlen dienen der Bewertung.",
+        "explanation": "KPIs helfen, die Servicequalität messbar zu machen und Prozesse zu optimieren."
+      },
+      {
+        "id": 16,
+        "type": "multiple",
+        "question": "Welche Kennzahlen (KPIs) werden im IT-Service häufig verwendet?",
+        "options": [
+          "Lösungsrate im Erstkontakt",
+          "Verfügbarkeit",
+          "Mean Time To Repair",
+          "Marketingreichweite"
+        ],
+        "correctAnswer": ["Lösungsrate im Erstkontakt", "Verfügbarkeit", "Mean Time To Repair"],
+        "hint": "Technische Leistungsindikatoren.",
+        "explanation": "Diese KPIs zeigen Servicequalität und Effizienz; Marketingkennzahlen sind irrelevant."
+      },
+      {
+        "id": 17,
+        "type": "single",
+        "question": "Wie berechnet sich die Verfügbarkeit eines Systems?",
+        "options": [
+          "(Gesamtbetriebszeit - Ausfallzeit) / Gesamtbetriebszeit × 100%",
+          "Ausfallzeit / Gesamtbetriebszeit × 100%",
+          "Gesamtbetriebszeit × Ausfallzeit",
+          "Ausfallzeit × 100%"
+        ],
+        "correctAnswer": ["(Gesamtbetriebszeit - Ausfallzeit) / Gesamtbetriebszeit × 100%"],
+        "hint": "Formelkenntnis.",
+        "explanation": "Die Verfügbarkeit zeigt den Anteil der Zeit, in der das System betriebsbereit ist."
+      },
+      {
+        "id": 18,
+        "type": "boolean",
+        "question": "Eine hohe Systemverfügbarkeit trägt wesentlich zur Kundenzufriedenheit bei.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Wahr"],
+        "hint": "Verfügbarkeit = Zuverlässigkeit.",
+        "explanation": "Hohe Verfügbarkeit reduziert Ausfälle und stärkt das Vertrauen der Kunden."
+      },
+      {
+        "id": 19,
+        "type": "multiple",
+        "question": "Welche Faktoren gelten als Erfolgsfaktoren für exzellenten IT-Service?",
+        "options": [
+          "SLAs einhalten",
+          "Frühzeitig eskalieren",
+          "Tickets präzise beschreiben",
+          "Werbekosten reduzieren"
+        ],
+        "correctAnswer": ["SLAs einhalten", "Frühzeitig eskalieren", "Tickets präzise beschreiben"],
+        "hint": "Qualitätsorientierte Arbeitsweise.",
+        "explanation": "Diese Faktoren fördern Effizienz und Qualität im IT-Service; Werbekosten sind irrelevant."
+      },
+      {
+        "id": 20,
+        "type": "single",
+        "question": "Welcher Standard dient als Grundlage für strukturierte IT-Serviceprozesse?",
+        "options": ["FitSM®", "COBIT®", "ISO 9001", "BSI-Grundschutz"],
+        "correctAnswer": ["FitSM®"],
+        "hint": "Leichtgewichtiges Framework.",
+        "explanation": "FitSM® bietet klare, praxisnahe Strukturen für effiziente IT-Serviceprozesse."
+      }
+    ]
+  },
+
+        "it_serviceanfragen_vertiefend_analysieren": {
+    "title": "IT-Serviceanfragen vertiefend analysieren und Lösungen erarbeiten",
+    "available": true,
+    "presentationScript": {
+      "title": "IT-Serviceanfragen vertiefend analysieren und Lösungen erarbeiten – Präsentationsskript",
+      "description": "Kapitel 3: Vertiefende Analyse und Lösungsentwicklung bei IT-Serviceanfragen",
+      "pdfUrl": "./scripts/IT-Serviceanfragen-analysieren-und-Losungen-erarbeiten.pdf"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "type": "boolean",
+        "question": "Die Analyse von Serviceanfragen beginnt erst nach der Bearbeitung im Ticketsystem.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Analyse startet bereits bei der Annahme.",
+        "explanation": "Die Analyse beginnt unmittelbar mit der Annahme der Anfrage, um sie korrekt zu kategorisieren und zu priorisieren."
+      },
+      {
+        "id": 2,
+        "type": "single",
+        "question": "Welche persönliche Eigenschaft ist besonders wichtig für IT-Servicedesk-Mitarbeiter?",
+        "options": ["Kreativität", "Kunden- und Serviceorientierung", "Finanzwissen", "Fremdsprachenkenntnisse"],
+        "correctAnswer": ["Kunden- und Serviceorientierung"],
+        "hint": "Zentrale Soft Skill im Servicebereich.",
+        "explanation": "Eine hohe Kunden- und Serviceorientierung ist entscheidend für den professionellen Umgang mit Anwendern."
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "Welche fachlichen Anforderungen gelten für IT-Helpdesk-Mitarbeiter?",
+        "options": [
+          "Fehleranalyse und Support bei IT-Störungen",
+          "Kenntnisse in Betriebssystemen",
+          "Kenntnisse in Netzwerkinfrastruktur",
+          "Grundkenntnisse in Buchhaltung"
+        ],
+        "correctAnswer": [
+          "Fehleranalyse und Support bei IT-Störungen",
+          "Kenntnisse in Betriebssystemen",
+          "Kenntnisse in Netzwerkinfrastruktur"
+        ],
+        "hint": "Technisches Know-how ist zentral.",
+        "explanation": "Helpdesk-Mitarbeiter müssen über breite technische Kenntnisse verfügen, um IT-Probleme effektiv zu lösen."
+      },
+      {
+        "id": 4,
+        "type": "single",
+        "question": "Was beschreibt die '5-Warum-Methode'?",
+        "options": [
+          "Eine Methode zur Ursachenforschung durch wiederholtes Fragen nach dem 'Warum'",
+          "Ein Monitoring-Tool",
+          "Ein Kommunikationsmodell",
+          "Eine Reporting-Vorlage"
+        ],
+        "correctAnswer": ["Eine Methode zur Ursachenforschung durch wiederholtes Fragen nach dem 'Warum'"],
+        "hint": "Hilft bei der Ursachenanalyse.",
+        "explanation": "Die Methode der 5 Warum deckt die eigentliche Ursache eines Problems durch wiederholtes Hinterfragen auf."
+      },
+      {
+        "id": 5,
+        "type": "boolean",
+        "question": "Der DMAIC-Zyklus ist eine Methode aus dem ITIL-Framework.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Er stammt aus dem Qualitätsmanagement.",
+        "explanation": "DMAIC ist Teil des Six-Sigma-Ansatzes und dient der systematischen Problemlösung in Qualitätsprozessen."
+      },
+      {
+        "id": 6,
+        "type": "single",
+        "question": "Welche Phase gehört NICHT zum DMAIC-Zyklus?",
+        "options": ["Define", "Measure", "Control", "Evaluate"],
+        "correctAnswer": ["Evaluate"],
+        "hint": "Es gibt fünf fest definierte Phasen.",
+        "explanation": "Der Zyklus besteht aus Define, Measure, Analyze, Improve und Control – Evaluate gehört nicht dazu."
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Welche Tätigkeiten gehören zur Phase 'Define' im DMAIC-Zyklus?",
+        "options": [
+          "Problemdefinition und Abgrenzung",
+          "Stakeholder-Analyse",
+          "KPI-Analyse",
+          "Simulation von Lösungen"
+        ],
+        "correctAnswer": [
+          "Problemdefinition und Abgrenzung",
+          "Stakeholder-Analyse",
+          "KPI-Analyse"
+        ],
+        "hint": "Erste Phase = Definition des Problems.",
+        "explanation": "In dieser Phase werden Problemumfang und Beteiligte analysiert, Simulationen erfolgen erst später."
+      },
+      {
+        "id": 8,
+        "type": "boolean",
+        "question": "Die Problemlösungsmatrix hilft, Abweichungen zwischen Ist- und Soll-Zustand zu identifizieren.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Sie vergleicht Ist und Ist-Nicht.",
+        "explanation": "Die Matrix untersucht die Unterschiede zwischen Ist und Ist-Nicht, um Ursachen einzugrenzen."
+      },
+      {
+        "id": 9,
+        "type": "single",
+        "question": "Wer entwickelte das Ishikawa-Diagramm?",
+        "options": ["Kaoru Ishikawa", "William Edwards Deming", "Joseph Juran", "Philip Crosby"],
+        "correctAnswer": ["Kaoru Ishikawa"],
+        "hint": "Japanischer Qualitätsforscher.",
+        "explanation": "Kaoru Ishikawa entwickelte das Ursachen-Wirkungsdiagramm zur systematischen Problemanalyse."
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Welche Hauptkategorien werden typischerweise im Ishikawa-Diagramm betrachtet?",
+        "options": ["Mensch", "Maschine", "Material", "Management"],
+        "correctAnswer": ["Mensch", "Maschine", "Material", "Management"],
+        "hint": "Vier typische Einflussbereiche.",
+        "explanation": "Diese Kategorien helfen, Ursachen systematisch zu analysieren und einzuordnen."
+      },
+      {
+        "id": 11,
+        "type": "boolean",
+        "question": "Monitoring bezeichnet die laufende Kontrolle von IT-Systemen und Anwendungen.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Wahr"],
+        "hint": "Ziel ist die Überwachung und Früherkennung.",
+        "explanation": "Monitoring überprüft IT-Systeme kontinuierlich und meldet Störungen automatisch."
+      },
+      {
+        "id": 12,
+        "type": "single",
+        "question": "Was wird im Rahmen des Infrastruktur-Monitorings überwacht?",
+        "options": [
+          "Server und Netzwerkgeräte",
+          "Verkaufsstatistiken",
+          "Buchhaltungssoftware",
+          "Personaleinsatzplanung"
+        ],
+        "correctAnswer": ["Server und Netzwerkgeräte"],
+        "hint": "Technische Infrastruktur im Fokus.",
+        "explanation": "Infrastruktur-Monitoring überwacht Geräte, Server und Netzwerkkomponenten."
+      },
+      {
+        "id": 13,
+        "type": "multiple",
+        "question": "Welche Tools werden typischerweise für das Monitoring verwendet?",
+        "options": ["Traceroute", "SNMP-MIB-Browser", "Remote-Zugriffstools", "Texteditor"],
+        "correctAnswer": ["Traceroute", "SNMP-MIB-Browser", "Remote-Zugriffstools"],
+        "hint": "Hilfreiche Analyse-Tools.",
+        "explanation": "Diese Tools dienen der Überwachung von Netzwerkverbindungen und Systemleistung."
+      },
+      {
+        "id": 14,
+        "type": "single",
+        "question": "Welche Kennzahl beschreibt den Datendurchsatz einer Verbindung?",
+        "options": ["Bandbreite", "Latenz", "Packet Loss", "SYN-Fehler"],
+        "correctAnswer": ["Bandbreite"],
+        "hint": "Gemessen in Gbit/s.",
+        "explanation": "Die Bandbreite beschreibt die maximale Datenrate einer Netzwerkverbindung."
+      },
+      {
+        "id": 15,
+        "type": "boolean",
+        "question": "Eine hohe Latenz bedeutet eine besonders schnelle Netzwerkverbindung.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Je niedriger, desto besser.",
+        "explanation": "Latenz ist die Verzögerung der Datenübertragung – eine hohe Latenz ist unerwünscht."
+      },
+      {
+        "id": 16,
+        "type": "single",
+        "question": "Was beschreibt ein 'Known Error' im Problem Management?",
+        "options": [
+          "Ein bekanntes, aber noch nicht behobenes Problem mit dokumentiertem Workaround",
+          "Ein Fehler, der bereits vollständig behoben wurde",
+          "Ein Tippfehler im Ticket",
+          "Ein fehlerhaftes Monitoring-Tool"
+        ],
+        "correctAnswer": ["Ein bekanntes, aber noch nicht behobenes Problem mit dokumentiertem Workaround"],
+        "hint": "Bekannt, aber nicht gelöst.",
+        "explanation": "Known Errors werden dokumentiert, damit sie bei Wiederauftreten schnell umgangen werden können."
+      },
+      {
+        "id": 17,
+        "type": "multiple",
+        "question": "Welche Phasen gehören zum Change-Prozess?",
+        "options": [
+          "Erfassung des RfC",
+          "Klassifizierung",
+          "Implementierung",
+          "Werbung für den Change"
+        ],
+        "correctAnswer": ["Erfassung des RfC", "Klassifizierung", "Implementierung"],
+        "hint": "Nur Prozessschritte, keine PR.",
+        "explanation": "Diese Phasen bilden den Kern des formalen Change-Management-Prozesses."
+      },
+      {
+        "id": 18,
+        "type": "boolean",
+        "question": "Ein Standard Change ist ein autorisierter, risikoarmer Änderungsprozess.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Wahr"],
+        "hint": "Routineänderung.",
+        "explanation": "Standard Changes sind vorab genehmigt, standardisiert und mit geringem Risiko verbunden."
+      },
+      {
+        "id": 19,
+        "type": "single",
+        "question": "Welche Kategorie von Change erfordert meist eine sofortige Umsetzung zur Störungsbehebung?",
+        "options": ["Standard Change", "Normal Change", "Emergency Change", "Critical Change"],
+        "correctAnswer": ["Emergency Change"],
+        "hint": "Dringend und unplanbar.",
+        "explanation": "Emergency Changes werden eingesetzt, um schwerwiegende Störungen schnell zu beheben."
+      },
+      {
+        "id": 20,
+        "type": "multiple",
+        "question": "Welche Einflussfaktoren bestimmen die Reaktionszeit auf eine Serviceanfrage?",
+        "options": [
+          "SLA/Vertragsbedingungen",
+          "Art der Störung",
+          "Verfügbarkeit von Ressourcen",
+          "Unternehmensgröße"
+        ],
+        "correctAnswer": [
+          "SLA/Vertragsbedingungen",
+          "Art der Störung",
+          "Verfügbarkeit von Ressourcen"
+        ],
+        "hint": "Sachlich und organisatorisch bedingt.",
+        "explanation": "Diese Faktoren beeinflussen maßgeblich, wie schnell eine qualifizierte Reaktion erfolgt."
+      }
+    ]
+  }
+      
+    }
+  }
+}

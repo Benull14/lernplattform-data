@@ -1,0 +1,430 @@
+{
+    "Beschaffung": {
+      "title": "Beschaffung",
+      "description": "Beschaffung",
+      "chapters": {
+        "lagerhaltung_moderne_logistik": {
+            "title": "Lagerhaltung in der modernen Logistik",
+            "available": true,
+            "presentationScript": {
+              "title": "Lagerhaltung in der modernen Logistik – Präsentationsskript",
+              "description": "Präsentationsskript zu den Grundlagen der modernen Lagerhaltung",
+              "pdfUrl": "./scripts/Lagerhaltung-in-der-modernen-Logistik.pdf"
+            },
+            "questions": [
+              {
+                "id": 1,
+                "type": "boolean",
+                "question": "Die Lagerhaltung dient in erster Linie der reinen Aufbewahrung von Waren.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Falsch"],
+                "hint": "Lagerhaltung erfüllt mehrere Aufgaben.",
+                "explanation": "Neben der Aufbewahrung erfüllt die Lagerhaltung Sicherungs-, Überbrückungs-, Veredelungs- und Spekulationsaufgaben."
+              },
+              {
+                "id": 2,
+                "type": "multiple",
+                "question": "Welche der folgenden Aufgaben gehören zu den Kernaufgaben der Lagerhaltung?",
+                "options": ["Sicherungsaufgabe", "Überbrückungsaufgabe", "Veredelungsaufgabe", "Spekulationsaufgabe", "Transportaufgabe"],
+                "correctAnswer": ["Sicherungsaufgabe", "Überbrückungsaufgabe", "Veredelungsaufgabe", "Spekulationsaufgabe"],
+                "hint": "Es sind vier Hauptaufgaben.",
+                "explanation": "Die vier Kernaufgaben sind Sicherung, Überbrückung, Veredelung und Spekulation."
+              },
+              {
+                "id": 3,
+                "type": "single",
+                "question": "Welche Aufgabe der Lagerhaltung dient dem Ausgleich zwischen Produktions- und Verwendungszeitpunkt?",
+                "options": ["Sicherungsaufgabe", "Überbrückungsaufgabe", "Veredelungsaufgabe", "Spekulationsaufgabe"],
+                "correctAnswer": ["Überbrückungsaufgabe"],
+                "hint": "Sie gleicht Zeitdifferenzen aus.",
+                "explanation": "Die Überbrückungsaufgabe gleicht zeitliche Unterschiede zwischen Produktion und Verbrauch aus."
+              },
+              {
+                "id": 4,
+                "type": "boolean",
+                "question": "Ein Sicherheitsbestand im Lager dient dazu, Lieferengpässe und Nachfragespitzen abzufangen.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Wahr"],
+                "hint": "Das ist Teil der Sicherungsaufgabe.",
+                "explanation": "Die Sicherungsaufgabe schafft Puffer für unerwartete Ereignisse wie Lieferprobleme oder hohe Nachfrage."
+              },
+              {
+                "id": 5,
+                "type": "single",
+                "question": "Welche Aufgabe ermöglicht es, von Preisschwankungen am Markt zu profitieren?",
+                "options": ["Sicherungsaufgabe", "Überbrückungsaufgabe", "Spekulationsaufgabe", "Veredelungsaufgabe"],
+                "correctAnswer": ["Spekulationsaufgabe"],
+                "hint": "Sie nutzt Marktveränderungen strategisch.",
+                "explanation": "Die Spekulationsaufgabe erlaubt, Waren günstig einzukaufen und bei höheren Preisen zu verkaufen."
+              },
+              {
+                "id": 6,
+                "type": "multiple",
+                "question": "Welche Beispiele verdeutlichen die Veredelungsaufgabe?",
+                "options": ["Wein reift im Keller", "Holz trocknet vor Weiterverarbeitung", "Obst wird saisonal gelagert", "Geschenksets werden im Lager zusammengestellt"],
+                "correctAnswer": ["Wein reift im Keller", "Holz trocknet vor Weiterverarbeitung", "Geschenksets werden im Lager zusammengestellt"],
+                "hint": "Denk an Qualitätsentwicklung und letzte Montageschritte.",
+                "explanation": "Bei der Veredelungsaufgabe findet während der Lagerung eine Qualitätssteigerung oder Verarbeitung statt."
+              },
+              {
+                "id": 7,
+                "type": "boolean",
+                "question": "Eigenlagerung bietet maximale Kontrolle, verursacht aber hohe Fixkosten.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Wahr"],
+                "hint": "Kontrolle hat ihren Preis.",
+                "explanation": "Eigene Lager bedeuten volle Kontrolle, aber auch hohe Investitions- und Betriebskosten."
+              },
+              {
+                "id": 8,
+                "type": "single",
+                "question": "Welcher Nachteil ist typisch für Fremdlagerung?",
+                "options": ["Hohe Investitionskosten", "Geringere direkte Kontrolle", "Unmittelbare Verfügbarkeit", "Niedrige Skalierbarkeit"],
+                "correctAnswer": ["Geringere direkte Kontrolle"],
+                "hint": "Abhängigkeit vom Dienstleister.",
+                "explanation": "Beim Fremdlager ist man auf den externen Anbieter angewiesen und hat weniger Einfluss auf Abläufe."
+              },
+              {
+                "id": 9,
+                "type": "boolean",
+                "question": "Ein zentrales Lager führt meist zu höheren Gesamtkosten als dezentrale Lager.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Falsch"],
+                "hint": "Ein zentrales Lager bündelt Bestände.",
+                "explanation": "Zentrale Lager reduzieren die Gesamtlagerkosten durch geringere Bestände und einfachere Verwaltung."
+              },
+              {
+                "id": 10,
+                "type": "multiple",
+                "question": "Welche Vorteile bietet ein dezentrales Lagersystem?",
+                "options": ["Kurze Lieferzeiten", "Hohe Kundennähe", "Geringere Gesamtkosten", "Regionale Flexibilität"],
+                "correctAnswer": ["Kurze Lieferzeiten", "Hohe Kundennähe", "Regionale Flexibilität"],
+                "hint": "Nähe zum Kunden ist entscheidend.",
+                "explanation": "Dezentrale Lager sind regional verteilt und ermöglichen schnelle Belieferung und hohe Kundennähe."
+              },
+              {
+                "id": 11,
+                "type": "single",
+                "question": "Welche Kostenart zählt typischerweise zu den größten Posten in der Lagerhaltung?",
+                "options": ["Personalkosten", "Raumkosten", "Transportmittelkosten", "Fehlmengenkosten"],
+                "correctAnswer": ["Personalkosten"],
+                "hint": "Denke an die Mitarbeiter im Lager.",
+                "explanation": "Personalkosten machen oft den größten Anteil an den Lagerhaltungskosten aus."
+              },
+              {
+                "id": 12,
+                "type": "multiple",
+                "question": "Welche Kosten gehören zu den Warenkosten?",
+                "options": ["Versicherung", "Veralterung", "Zinskosten", "Energiekosten"],
+                "correctAnswer": ["Versicherung", "Veralterung", "Zinskosten"],
+                "hint": "Energiekosten gehören woanders hin.",
+                "explanation": "Warenkosten umfassen z. B. Verderb, Beschädigung, Schwund, Versicherung und Kapitalbindung."
+              },
+              {
+                "id": 13,
+                "type": "boolean",
+                "question": "Fehlmengenkosten entstehen, wenn Kundenaufträge wegen fehlender Ware nicht erfüllt werden können.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Wahr"],
+                "hint": "Denke an entgangene Gewinne.",
+                "explanation": "Fehlmengenkosten umfassen entgangene Umsätze, Eilbestellungen oder Kundenverluste."
+              },
+              {
+                "id": 14,
+                "type": "single",
+                "question": "Welche Formel beschreibt den Wareneinsatz korrekt?",
+                "options": [
+                  "Anfangsbestand + Wareneinkäufe – Endbestand",
+                  "Endbestand + Wareneinkäufe – Anfangsbestand",
+                  "Anfangsbestand – Wareneinkäufe + Endbestand",
+                  "Wareneinkäufe – Endbestand + Anfangsbestand"
+                ],
+                "correctAnswer": ["Anfangsbestand + Wareneinkäufe – Endbestand"],
+                "hint": "Am Anfang steht, was da war.",
+                "explanation": "Die Formel lautet: Wareneinsatz = Anfangsbestand + Wareneinkäufe – Endbestand."
+              },
+              {
+                "id": 15,
+                "type": "boolean",
+                "question": "Ein hoher Lagerumschlag deutet auf eine ineffiziente Lagerwirtschaft hin.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Falsch"],
+                "hint": "Je öfter sich das Lager dreht, desto besser.",
+                "explanation": "Eine hohe Umschlagshäufigkeit bedeutet effiziente Nutzung mit wenig gebundenem Kapital."
+              },
+              {
+                "id": 16,
+                "type": "single",
+                "question": "Was zeigt die Kennzahl 'durchschnittliche Lagerdauer' an?",
+                "options": [
+                  "Wie lange ein Artikel im Lager bleibt",
+                  "Wie viel Kapital im Lager gebunden ist",
+                  "Wie hoch der Umsatz pro Mitarbeiter ist",
+                  "Wie oft der Bestand im Jahr wechselt"
+                ],
+                "correctAnswer": ["Wie lange ein Artikel im Lager bleibt"],
+                "hint": "Dauer des Aufenthalts im Lager.",
+                "explanation": "Die durchschnittliche Lagerdauer gibt an, wie lange Artikel vom Wareneingang bis zum Verkauf gelagert werden."
+              },
+              {
+                "id": 17,
+                "type": "boolean",
+                "question": "Je kürzer die durchschnittliche Lagerdauer, desto niedriger sind meist die Lagerkosten.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Wahr"],
+                "hint": "Weniger Lagerzeit bedeutet weniger Kosten.",
+                "explanation": "Kurze Lagerzeiten reduzieren Kosten durch geringere Kapitalbindung und weniger Verderb."
+              },
+              {
+                "id": 18,
+                "type": "single",
+                "question": "Welche Branche strebt typischerweise eine besonders kurze Lagerdauer an?",
+                "options": ["Lebensmittelindustrie", "Möbelindustrie", "Modebranche", "Automobilindustrie"],
+                "correctAnswer": ["Lebensmittelindustrie"],
+                "hint": "Verderblichkeit ist entscheidend.",
+                "explanation": "Lebensmittel sind verderblich und erfordern kurze Lagerzeiten."
+              },
+              {
+                "id": 19,
+                "type": "multiple",
+                "question": "Welche Faktoren beeinflussen die optimale Lagerdauer?",
+                "options": ["Branche", "Produkttyp", "Kapitalbindung", "Produktionsmenge"],
+                "correctAnswer": ["Branche", "Produkttyp", "Kapitalbindung"],
+                "hint": "Drei Aspekte bestimmen sie wesentlich.",
+                "explanation": "Die ideale Lagerdauer hängt von der Art der Ware, dem Wirtschaftszweig und der Kapitalbindung ab."
+              },
+              {
+                "id": 20,
+                "type": "boolean",
+                "question": "Das Ziel der Lagerhaltung besteht darin, eine Balance zwischen Produktverfügbarkeit und Kapitalbindung zu erreichen.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Wahr"],
+                "hint": "Effizienz trifft auf Versorgungssicherheit.",
+                "explanation": "Eine gute Lagerstrategie sorgt für verfügbare Produkte bei möglichst geringem gebundenem Kapital."
+              }
+            ]
+          },
+          "bestellverfahren_materialwirtschaft": {
+            "title": "Bestellverfahren in der Materialwirtschaft",
+            "available": true,
+            "presentationScript": {
+              "title": "Bestellverfahren in der Materialwirtschaft – Präsentationsskript",
+              "description": "Skript zu den wichtigsten Bestellverfahren und deren Vergleich",
+              "pdfUrl": "./scripts/Bestellverfahren-in-der-Materialwirtschaft.pdf"
+            },
+            "questions": [
+              {
+                "id": 1,
+                "type": "boolean",
+                "question": "Das Ziel der Bestellverfahren ist es, die Lieferfähigkeit zu sichern und gleichzeitig Lagerkosten zu minimieren.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Wahr"],
+                "hint": "Kosteneffizienz und Versorgungssicherheit sind zentrale Ziele.",
+                "explanation": "Die Bestellverfahren dienen dazu, Materialverfügbarkeit zu gewährleisten und Kapitalbindung zu reduzieren."
+              },
+              {
+                "id": 2,
+                "type": "multiple",
+                "question": "Welche strategischen Ziele werden mit Bestellverfahren verfolgt?",
+                "options": ["Lieferfähigkeit sichern", "Kosten minimieren", "Effizienz steigern", "Personal reduzieren"],
+                "correctAnswer": ["Lieferfähigkeit sichern", "Kosten minimieren", "Effizienz steigern"],
+                "hint": "Drei Hauptziele stehen im Fokus.",
+                "explanation": "Bestellverfahren zielen auf Versorgungssicherheit, Kostensenkung und Prozessoptimierung ab."
+              },
+              {
+                "id": 3,
+                "type": "boolean",
+                "question": "Das Bestellpunktverfahren ist ein bedarfsgesteuertes Verfahren.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Falsch"],
+                "hint": "Es orientiert sich am Verbrauch, nicht am konkreten Bedarf.",
+                "explanation": "Das Bestellpunktverfahren gehört zu den verbrauchsgesteuerten Verfahren."
+              },
+              {
+                "id": 4,
+                "type": "single",
+                "question": "Beim Bestellpunktverfahren wird eine Bestellung ausgelöst, wenn der Lagerbestand ...",
+                "options": ["den Meldebestand erreicht oder unterschreitet", "den Höchstbestand übersteigt", "den Durchschnittsbestand erreicht", "den Sicherheitsbestand übersteigt"],
+                "correctAnswer": ["den Meldebestand erreicht oder unterschreitet"],
+                "hint": "Der Meldebestand ist die Bestellauslösungsschwelle.",
+                "explanation": "Unterschreitet der Lagerbestand den Meldebestand, wird automatisch nachbestellt."
+              },
+              {
+                "id": 5,
+                "type": "single",
+                "question": "Welche Formel beschreibt den Meldebestand richtig?",
+                "options": [
+                  "(Tagesverbrauch × Lieferzeit) + Mindestbestand",
+                  "(Höchstbestand – Mindestbestand) × Lieferzeit",
+                  "(Wareneinsatz ÷ Umschlagshäufigkeit) × Lieferzeit",
+                  "(Durchschnittsbestand × Lieferzeit) + Sicherheitsbestand"
+                ],
+                "correctAnswer": ["(Tagesverbrauch × Lieferzeit) + Mindestbestand"],
+                "hint": "Sie kombiniert Verbrauch, Zeit und Sicherheitsreserve.",
+                "explanation": "Der Meldebestand ergibt sich aus Tagesverbrauch multipliziert mit Lieferzeit plus Mindestbestand."
+              },
+              {
+                "id": 6,
+                "type": "multiple",
+                "question": "Welche Vorteile bietet das Bestellpunktverfahren?",
+                "options": [
+                  "Geringe Kapitalbindung",
+                  "Flexibilität bei Verbrauchsschwankungen",
+                  "Hoher Kontrollaufwand",
+                  "Einfache Sammelbestellungen"
+                ],
+                "correctAnswer": ["Geringe Kapitalbindung", "Flexibilität bei Verbrauchsschwankungen"],
+                "hint": "Zwei Aspekte sprechen für dieses Verfahren.",
+                "explanation": "Das Verfahren ist flexibel und hält die Bestände niedrig, erfordert aber ständige Kontrolle."
+              },
+              {
+                "id": 7,
+                "type": "boolean",
+                "question": "Beim Bestellrhythmusverfahren erfolgt die Bestellung zu variablen Zeitpunkten.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Falsch"],
+                "hint": "Rhythmus bedeutet feste Intervalle.",
+                "explanation": "Beim Bestellrhythmusverfahren werden Bestellungen in festen Zeitintervallen ausgelöst."
+              },
+              {
+                "id": 8,
+                "type": "single",
+                "question": "Was ist typisch für das Bestellrhythmusverfahren?",
+                "options": [
+                  "Fester Bestellzeitpunkt, variable Bestellmenge",
+                  "Variable Bestellzeitpunkte, feste Bestellmenge",
+                  "Hoher Kontrollaufwand",
+                  "Hohe Kapitalbindung"
+                ],
+                "correctAnswer": ["Fester Bestellzeitpunkt, variable Bestellmenge"],
+                "hint": "Es geht um einen regelmäßigen Bestellrhythmus.",
+                "explanation": "Beim Bestellrhythmusverfahren wird in festen Abständen bestellt, die Menge variiert je nach Lagerbestand."
+              },
+              {
+                "id": 9,
+                "type": "multiple",
+                "question": "Welche Vorteile bietet das Bestellrhythmusverfahren?",
+                "options": [
+                  "Geringer Planungsaufwand",
+                  "Möglichkeit von Sammelbestellungen",
+                  "Hohe Flexibilität bei Schwankungen",
+                  "Rabatte durch Mengenbündelung"
+                ],
+                "correctAnswer": ["Geringer Planungsaufwand", "Möglichkeit von Sammelbestellungen", "Rabatte durch Mengenbündelung"],
+                "hint": "Es erleichtert Planung und Einkauf.",
+                "explanation": "Durch feste Termine können Bestellungen gebündelt und Rabatte genutzt werden."
+              },
+              {
+                "id": 10,
+                "type": "boolean",
+                "question": "Das Bestellrhythmusverfahren ist besonders flexibel bei stark schwankendem Verbrauch.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Falsch"],
+                "hint": "Feste Intervalle sind nicht anpassbar.",
+                "explanation": "Es ist weniger flexibel, da Bestellungen zu fixen Terminen erfolgen, unabhängig vom tatsächlichen Verbrauch."
+              },
+              {
+                "id": 11,
+                "type": "single",
+                "question": "Was ist das Hauptziel des Just-in-Time-Verfahrens?",
+                "options": [
+                  "Minimale Lagerhaltung",
+                  "Hohe Sicherheitsbestände",
+                  "Große Sammelbestellungen",
+                  "Flexible Lieferzeiten"
+                ],
+                "correctAnswer": ["Minimale Lagerhaltung"],
+                "hint": "Ziel ist Reduktion der Lagerbestände.",
+                "explanation": "Just-in-Time zielt darauf ab, Materialien genau dann zu liefern, wenn sie benötigt werden."
+              },
+              {
+                "id": 12,
+                "type": "multiple",
+                "question": "Welche Voraussetzungen sind für Just-in-Time notwendig?",
+                "options": ["Präzise Produktionsplanung", "Zuverlässige Lieferanten", "Hohe Lagerbestände", "Eng abgestimmte Kommunikation"],
+                "correctAnswer": ["Präzise Produktionsplanung", "Zuverlässige Lieferanten", "Eng abgestimmte Kommunikation"],
+                "hint": "Planung und Abstimmung sind entscheidend.",
+                "explanation": "Das Verfahren setzt genaue Planung und Vertrauen in die Lieferkette voraus."
+              },
+              {
+                "id": 13,
+                "type": "boolean",
+                "question": "Ein Nachteil des Just-in-Time-Verfahrens ist die hohe Abhängigkeit von der Lieferzuverlässigkeit.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Wahr"],
+                "hint": "Keine Lagerpuffer bedeuten hohes Risiko.",
+                "explanation": "Lieferprobleme können direkt zu Produktionsausfällen führen, da keine Bestände vorhanden sind."
+              },
+              {
+                "id": 14,
+                "type": "single",
+                "question": "Was bedeutet 'Kanban' übersetzt?",
+                "options": ["Karte oder Schild", "Bedarf oder Nachfrage", "Signal oder Bestellung", "Lieferung oder Nachschub"],
+                "correctAnswer": ["Karte oder Schild"],
+                "hint": "Das Wort stammt aus dem Japanischen.",
+                "explanation": "Kanban heißt wörtlich ‚Karte‘ und dient zur visuellen Steuerung im Materialfluss."
+              },
+              {
+                "id": 15,
+                "type": "boolean",
+                "question": "Das Kanban-System funktioniert nach dem Push-Prinzip.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Falsch"],
+                "hint": "Material wird erst nach Bedarf nachgezogen.",
+                "explanation": "Kanban folgt dem Pull-Prinzip – Material wird nach Verbrauch nachgefordert."
+              },
+              {
+                "id": 16,
+                "type": "multiple",
+                "question": "Welche Vorteile bietet das Kanban-System?",
+                "options": [
+                  "Vermeidung von Überproduktion",
+                  "Reduzierung der Lagerbestände",
+                  "Komplexe IT-Steuerung erforderlich",
+                  "Hohe Reaktionsgeschwindigkeit"
+                ],
+                "correctAnswer": ["Vermeidung von Überproduktion", "Reduzierung der Lagerbestände", "Hohe Reaktionsgeschwindigkeit"],
+                "hint": "Es fördert schlanke Prozesse.",
+                "explanation": "Kanban reduziert Bestände, verbessert den Materialfluss und verhindert Überproduktion."
+              },
+              {
+                "id": 17,
+                "type": "boolean",
+                "question": "Das Kanban-System eignet sich besonders für Materialien mit stark schwankendem Verbrauch.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Falsch"],
+                "hint": "Es braucht gleichmäßigen Verbrauch.",
+                "explanation": "Kanban funktioniert am besten bei konstantem Verbrauch und stabilen Prozessen."
+              },
+              {
+                "id": 18,
+                "type": "single",
+                "question": "Welches Bestellverfahren benötigt eine permanente Lagerüberwachung?",
+                "options": ["Bestellpunktverfahren", "Bestellrhythmusverfahren", "Just-in-Time", "Kanban-System"],
+                "correctAnswer": ["Bestellpunktverfahren"],
+                "hint": "Dauerhafte Kontrolle des Meldebestands.",
+                "explanation": "Nur beim Bestellpunktverfahren wird der Lagerbestand kontinuierlich überwacht."
+              },
+              {
+                "id": 19,
+                "type": "multiple",
+                "question": "Welche Verfahren sind verbrauchsgesteuert?",
+                "options": ["Bestellpunktverfahren", "Bestellrhythmusverfahren", "Just-in-Time", "Kanban-System"],
+                "correctAnswer": ["Bestellpunktverfahren", "Bestellrhythmusverfahren", "Kanban-System"],
+                "hint": "Drei beruhen auf tatsächlichem Verbrauch.",
+                "explanation": "Diese Verfahren reagieren auf den Materialverbrauch, nicht auf Bedarfsprognosen."
+              },
+              {
+                "id": 20,
+                "type": "boolean",
+                "question": "Beim Just-in-Time-Verfahren wird Material auf Vorrat gelagert, um Engpässe zu vermeiden.",
+                "options": ["Wahr", "Falsch"],
+                "correctAnswer": ["Falsch"],
+                "hint": "JIT will Lagerbestände gerade vermeiden.",
+                "explanation": "Das Ziel von Just-in-Time ist es, Lagerbestände vollständig zu minimieren."
+              }
+            ]
+          }
+      }
+    }
+  }

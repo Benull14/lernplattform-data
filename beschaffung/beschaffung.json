@@ -424,7 +424,225 @@
                 "explanation": "Das Ziel von Just-in-Time ist es, Lagerbestände vollständig zu minimieren."
               }
             ]
-          }
+          },
+
+          "angebotsvergleich_bestellprozess": {
+    "title": "Der Angebotsvergleich im Bestellprozess",
+    "available": true,
+    "presentationScript": {
+      "title": "Angebotsvergleich im Bestellprozess – Präsentationsskript",
+      "description": "Skript zu quantitativen und qualitativen Methoden im Angebotsvergleich",
+      "pdfUrl": "./scripts/Der-Angebotsvergleich-im-Bestellprozess.pdf"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "type": "boolean",
+        "question": "Der Angebotsvergleich dient ausschließlich dazu, das günstigste Preisangebot zu finden.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Es geht um mehr als nur den Preis.",
+        "explanation": "Ein Angebotsvergleich berücksichtigt neben dem Preis auch qualitative Faktoren wie Qualität und Service."
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Welche Ziele verfolgt der Angebotsvergleich?",
+        "options": [
+          "Das vorteilhafteste Angebot identifizieren",
+          "Langfristige Lieferantenbeziehungen aufbauen",
+          "Nur den niedrigsten Preis finden",
+          "Risiken und Qualität berücksichtigen"
+        ],
+        "correctAnswer": ["Das vorteilhafteste Angebot identifizieren", "Langfristige Lieferantenbeziehungen aufbauen", "Risiken und Qualität berücksichtigen"],
+        "hint": "Strategische Entscheidungen sind wichtig.",
+        "explanation": "Ein systematischer Vergleich hilft, den optimalen Geschäftspartner langfristig zu wählen."
+      },
+      {
+        "id": 3,
+        "type": "single",
+        "question": "Welche zwei Hauptarten von Bewertungskriterien werden beim Angebotsvergleich unterschieden?",
+        "options": ["Quantitative und qualitative Kriterien", "Ökonomische und ökologische Kriterien", "Subjektive und objektive Kriterien", "Direkte und indirekte Kriterien"],
+        "correctAnswer": ["Quantitative und qualitative Kriterien"],
+        "hint": "Es geht um messbare und nicht messbare Faktoren.",
+        "explanation": "Quantitative Faktoren sind in Zahlen messbar, qualitative nicht direkt, aber dennoch entscheidend."
+      },
+      {
+        "id": 4,
+        "type": "boolean",
+        "question": "Quantitative Kriterien sind immer in Geldwerten messbar.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Wahr"],
+        "hint": "Zahlen spielen hier die Hauptrolle.",
+        "explanation": "Quantitative Kriterien wie Preis, Rabatt oder Skonto lassen sich in Geldwerten ausdrücken."
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "Welche Faktoren gehören zu den quantitativen Kriterien?",
+        "options": ["Listenpreis", "Rabatte", "Lieferzeit", "Skonto", "Transportkosten"],
+        "correctAnswer": ["Listenpreis", "Rabatte", "Skonto", "Transportkosten"],
+        "hint": "Finanzielle und messbare Faktoren.",
+        "explanation": "Diese beeinflussen direkt die Gesamtkosten und damit den Bezugspreis."
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Welche Faktoren zählen zu den qualitativen Kriterien?",
+        "options": ["Produktqualität", "Lieferzeit", "Service", "Rabatte", "Umweltfreundlichkeit"],
+        "correctAnswer": ["Produktqualität", "Lieferzeit", "Service", "Umweltfreundlichkeit"],
+        "hint": "Nicht alles lässt sich in Zahlen messen.",
+        "explanation": "Qualitative Kriterien betreffen Zuverlässigkeit, Kundendienst, Umweltbewusstsein und Qualität."
+      },
+      {
+        "id": 7,
+        "type": "boolean",
+        "question": "Die Bezugskalkulation wird genutzt, um den tatsächlichen Einstandspreis zu berechnen.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Wahr"],
+        "hint": "Es geht um den Vergleich auf Basis realer Kosten.",
+        "explanation": "Die Bezugskalkulation hilft, den Bezugspreis und damit das rechnerisch günstigste Angebot zu ermitteln."
+      },
+      {
+        "id": 8,
+        "type": "single",
+        "question": "Welches Ergebnis liefert die Bezugskalkulation?",
+        "options": ["Den Bezugspreis (Einstandspreis)", "Den Listenpreis", "Den Verkaufspreis", "Den Nettogewinn"],
+        "correctAnswer": ["Den Bezugspreis (Einstandspreis)"],
+        "hint": "Sie zeigt den endgültigen Preis nach Abzug aller Rabatte und Skonti.",
+        "explanation": "Der Bezugspreis enthält alle Preisnachlässe und Zusatzkosten und ist Grundlage des Preisvergleichs."
+      },
+      {
+        "id": 9,
+        "type": "single",
+        "question": "Welche Reihenfolge der Berechnungsschritte ist in der Bezugskalkulation korrekt?",
+        "options": [
+          "Listeneinkaufspreis – Rabatt – Skonto + Bezugskosten",
+          "Listeneinkaufspreis – Skonto – Rabatt + Bezugskosten",
+          "Listeneinkaufspreis + Bezugskosten – Skonto",
+          "Listeneinkaufspreis – Rabatt + Skonto"
+        ],
+        "correctAnswer": ["Listeneinkaufspreis – Rabatt – Skonto + Bezugskosten"],
+        "hint": "Rabatte und Skonti mindern den Preis, Bezugskosten erhöhen ihn.",
+        "explanation": "Diese Reihenfolge zeigt den Weg vom Listenpreis zum Bezugspreis."
+      },
+      {
+        "id": 10,
+        "type": "boolean",
+        "question": "Der Lieferant mit dem niedrigsten Bezugspreis ist immer die beste Wahl.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Preis allein reicht nicht.",
+        "explanation": "Qualitative Kriterien wie Qualität, Termintreue und Service sind ebenfalls entscheidend."
+      },
+      {
+        "id": 11,
+        "type": "single",
+        "question": "Welche Methode ermöglicht die Bewertung qualitativer Kriterien?",
+        "options": ["Nutzwertanalyse", "Bezugskalkulation", "Kostenvergleichsrechnung", "Deckungsbeitragsrechnung"],
+        "correctAnswer": ["Nutzwertanalyse"],
+        "hint": "Sie berücksichtigt nicht messbare Faktoren.",
+        "explanation": "Die Nutzwertanalyse dient dem Vergleich qualitativer Kriterien anhand von Gewichtung und Punktesystem."
+      },
+      {
+        "id": 12,
+        "type": "multiple",
+        "question": "Welche Schritte gehören zur Nutzwertanalyse?",
+        "options": [
+          "Kriterien festlegen",
+          "Kriterien gewichten",
+          "Punkte vergeben",
+          "Gesamtnutzenwert berechnen",
+          "Kostenquote ermitteln"
+        ],
+        "correctAnswer": ["Kriterien festlegen", "Kriterien gewichten", "Punkte vergeben", "Gesamtnutzenwert berechnen"],
+        "hint": "Sie folgt einer klaren Bewertungsstruktur.",
+        "explanation": "Die vier Schritte ermöglichen eine objektive Bewertung nicht quantifizierbarer Kriterien."
+      },
+      {
+        "id": 13,
+        "type": "boolean",
+        "question": "Bei der Nutzwertanalyse wird jedes Kriterium gleich stark gewichtet.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Nicht alle Faktoren sind gleich wichtig.",
+        "explanation": "Kriterien werden unterschiedlich gewichtet, je nach Bedeutung für die Entscheidung."
+      },
+      {
+        "id": 14,
+        "type": "single",
+        "question": "Wie wird der Gesamtnutzenwert eines Angebots berechnet?",
+        "options": [
+          "Punkte × Gewichtung pro Kriterium, dann Summierung",
+          "Summe aller Rabatte – Bezugskosten",
+          "Gesamtpreis geteilt durch Qualitätswert",
+          "Skonto × Rabatt"
+        ],
+        "correctAnswer": ["Punkte × Gewichtung pro Kriterium, dann Summierung"],
+        "hint": "Jedes Kriterium trägt mit einem Teilwert bei.",
+        "explanation": "Punkte werden mit ihrer Gewichtung multipliziert, um den Gesamtnutzen zu berechnen."
+      },
+      {
+        "id": 15,
+        "type": "multiple",
+        "question": "Welche qualitativen Kriterien wurden im Beispiel der Nutzwertanalyse bewertet?",
+        "options": ["Preis", "Qualität", "Lieferzeit", "Service", "Umweltfreundlichkeit"],
+        "correctAnswer": ["Preis", "Qualität", "Lieferzeit", "Service", "Umweltfreundlichkeit"],
+        "hint": "Das Beispiel umfasst fünf Kriterien.",
+        "explanation": "Im Beispiel wurden Preis, Qualität, Lieferzeit, Service und Umweltaspekte bewertet."
+      },
+      {
+        "id": 16,
+        "type": "boolean",
+        "question": "Die Kombination von Bezugskalkulation und Nutzwertanalyse liefert eine ganzheitliche Entscheidungsgrundlage.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Wahr"],
+        "hint": "Beide Methoden ergänzen sich.",
+        "explanation": "Quantitative und qualitative Analysen zusammen ermöglichen eine fundierte Lieferantenauswahl."
+      },
+      {
+        "id": 17,
+        "type": "single",
+        "question": "Was zeigt der Bezugspreis im Rahmen des Angebotsvergleichs an?",
+        "options": ["Die tatsächlichen Kosten pro Einheit", "Die Transportdauer", "Den Listenpreis", "Die Garantiezeit"],
+        "correctAnswer": ["Die tatsächlichen Kosten pro Einheit"],
+        "hint": "Er ist das Endergebnis der Bezugskalkulation.",
+        "explanation": "Der Bezugspreis zeigt, wie viel das Produkt nach allen Abzügen und Zuschlägen tatsächlich kostet."
+      },
+      {
+        "id": 18,
+        "type": "boolean",
+        "question": "Qualitative Kriterien wie Service und Umweltbewusstsein gewinnen in der Praxis zunehmend an Bedeutung.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Wahr"],
+        "hint": "Nachhaltigkeit spielt eine wachsende Rolle.",
+        "explanation": "Neben Preis und Qualität werden heute ökologische und soziale Faktoren immer wichtiger."
+      },
+      {
+        "id": 19,
+        "type": "multiple",
+        "question": "Welche Vorteile bietet eine strukturierte Angebotsbewertung?",
+        "options": [
+          "Transparenz bei der Entscheidung",
+          "Nachvollziehbare Bewertung",
+          "Reduzierung subjektiver Einflüsse",
+          "Schnellere Preisverhandlungen"
+        ],
+        "correctAnswer": ["Transparenz bei der Entscheidung", "Nachvollziehbare Bewertung", "Reduzierung subjektiver Einflüsse"],
+        "hint": "Eine strukturierte Analyse macht Entscheidungen objektiv nachvollziehbar.",
+        "explanation": "Sie ermöglicht faire und nachvollziehbare Entscheidungen im Beschaffungsprozess."
+      },
+      {
+        "id": 20,
+        "type": "boolean",
+        "question": "Die Bezugskalkulation berücksichtigt auch qualitative Faktoren wie Service und Termintreue.",
+        "options": ["Wahr", "Falsch"],
+        "correctAnswer": ["Falsch"],
+        "hint": "Sie betrachtet nur Zahlen.",
+        "explanation": "Die Bezugskalkulation bewertet ausschließlich monetäre Aspekte, nicht qualitative Merkmale."
+      }
+    ]
+  }
       }
     }
   }

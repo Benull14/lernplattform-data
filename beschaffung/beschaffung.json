@@ -3,6 +3,697 @@
       "title": "Beschaffung",
       "description": "Beschaffung",
       "chapters": {
+
+
+
+
+
+        "beschaffungsprozesse_und_logistik": {
+          "title": "Beschaffungsprozesse und Logistik",
+          "available": true,
+          "questions": [
+            {
+              "id": 1,
+              "type": "single",
+              "question": "Was umfasst die Definition von Logistik?",
+              "options": [
+                "Nur Transport und Lagerung von Gütern",
+                "Planung, Steuerung, Organisation, Abwicklung und Kontrolle des Güter-, Waren- und Informationsflusses vom Beschaffungsmarkt bis zum Absatzmarkt",
+                "Ausschließlich Produktionsprozesse",
+                "Nur die Steuerung von Lieferanten"
+              ],
+              "correctAnswer": ["Planung, Steuerung, Organisation, Abwicklung und Kontrolle des Güter-, Waren- und Informationsflusses vom Beschaffungsmarkt bis zum Absatzmarkt"],
+              "hint": "Die Logistik steuert Waren-, Güter- und Informationsflüsse ganzheitlich.",
+              "explanation": "Die Logistik koordiniert alle Flüsse – physisch und informativ – zwischen Beschaffung, Produktion und Absatz."
+            },
+            {
+              "id": 2,
+              "type": "multiple",
+              "question": "Welche Faktoren haben die moderne Logistik besonders geprägt?",
+              "options": ["Globalisierung", "Kostendruck", "Abnehmende Konkurrenz", "Steigende Marktanforderungen"],
+              "correctAnswer": ["Globalisierung", "Kostendruck", "Steigende Marktanforderungen"],
+              "hint": "Drei dieser Faktoren treiben die Entwicklung an.",
+              "explanation": "Die Globalisierung, wachsender Kostendruck und zunehmende Wettbewerbsintensität prägen die Logistik."
+            },
+            {
+              "id": 3,
+              "type": "single",
+              "question": "Was ist das Hauptziel der Beschaffungslogistik?",
+              "options": [
+                "Optimierung des Warenabsatzes",
+                "Optimale Beschaffung unter Berücksichtigung von Qualität, Kosten und Lieferzeiten",
+                "Ausschließliche Lageroptimierung",
+                "Nur Kontrolle der Lieferanten"
+              ],
+              "correctAnswer": ["Optimale Beschaffung unter Berücksichtigung von Qualität, Kosten und Lieferzeiten"],
+              "hint": "Beschaffung bedeutet Versorgungssicherheit und Wirtschaftlichkeit.",
+              "explanation": "Die Beschaffungslogistik sorgt für die wirtschaftliche und termingerechte Bereitstellung aller benötigten Materialien."
+            },
+            {
+              "id": 4,
+              "type": "multiple",
+              "question": "Welche Bereiche zählen zu den logistischen Einsatzfeldern?",
+              "options": [
+                "Beschaffungslogistik",
+                "Produktionslogistik",
+                "Lagerlogistik",
+                "Entsorgungslogistik"
+              ],
+              "correctAnswer": ["Beschaffungslogistik", "Produktionslogistik", "Lagerlogistik", "Entsorgungslogistik"],
+              "hint": "Denk an die gesamte Kette von der Beschaffung bis zur Rückführung.",
+              "explanation": "Alle diese Bereiche sind Teil des übergreifenden logistischen Systems."
+            },
+            {
+              "id": 5,
+              "type": "boolean",
+              "question": "Die Transportlogistik berücksichtigt sowohl Zeit, Kosten als auch Zuverlässigkeit.",
+              "options": ["Wahr", "Falsch"],
+              "correctAnswer": ["Wahr"],
+              "hint": "Transportlogistik ist mehr als nur Bewegung.",
+              "explanation": "Eine ökonomische Transportplanung integriert wirtschaftliche, zeitliche und qualitative Aspekte."
+            },
+            {
+              "id": 6,
+              "type": "single",
+              "question": "Was ist die Wertschöpfungskette (Supply Chain)?",
+              "options": [
+                "Nur die Produktion eines Gutes",
+                "Gesamte Liefer- und Leistungskette bis zum Endverbraucher",
+                "Ausschließlich der Transportweg",
+                "Nur der Beschaffungsprozess"
+              ],
+              "correctAnswer": ["Gesamte Liefer- und Leistungskette bis zum Endverbraucher"],
+              "hint": "Die Supply Chain umfasst alle Stufen der Wertschöpfung.",
+              "explanation": "Die Wertschöpfungskette beschreibt alle Stufen, in denen ein Produkt Wertzuwachs erfährt."
+            },
+            {
+              "id": 7,
+              "type": "multiple",
+              "question": "Welche Stufen gehören zur Wertschöpfungskette?",
+              "options": ["Beschaffung", "Produktion", "Lager", "Distribution"],
+              "correctAnswer": ["Beschaffung", "Produktion", "Lager", "Distribution"],
+              "hint": "Von der Rohstoffbeschaffung bis zur Lieferung.",
+              "explanation": "Diese Stufen bilden den Kern der physischen und organisatorischen Wertschöpfung."
+            },
+            {
+              "id": 8,
+              "type": "single",
+              "question": "Was ist ein zentrales Ziel des Supply-Chain-Managements (SCM)?",
+              "options": [
+                "Isolierte Optimierung einzelner Abteilungen",
+                "Durchgängige Optimierung von Beschaffung bis Kundenbelieferung",
+                "Nur Kostensenkung im Einkauf",
+                "Reduzierung der Kommunikation"
+              ],
+              "correctAnswer": ["Durchgängige Optimierung von Beschaffung bis Kundenbelieferung"],
+              "hint": "Ziel ist die durchgängige Koordination.",
+              "explanation": "Das SCM verbindet alle logistischen Teilprozesse zu einem einheitlich optimierten System."
+            },
+            {
+              "id": 9,
+              "type": "multiple",
+              "question": "Welche Herausforderungen betreffen das moderne Supply-Chain-Management?",
+              "options": [
+                "Hohe Marktsättigung",
+                "Technischer Fortschritt",
+                "Sinkende Markttransparenz",
+                "Neue Vertriebswege"
+              ],
+              "correctAnswer": ["Hohe Marktsättigung", "Technischer Fortschritt", "Neue Vertriebswege"],
+              "hint": "Diese Punkte erschweren die Wettbewerbsfähigkeit.",
+              "explanation": "Steigender Wettbewerb und technologische Innovationen erfordern dynamische SCM-Lösungen."
+            },
+            {
+              "id": 10,
+              "type": "boolean",
+              "question": "Ein Vorteil des SCM ist die verbesserte Transparenz über die gesamte Lieferkette.",
+              "options": ["Wahr", "Falsch"],
+              "correctAnswer": ["Wahr"],
+              "hint": "Transparenz stärkt Vertrauen und Effizienz.",
+              "explanation": "SCM ermöglicht Einsicht in Material-, Informations- und Geldflüsse entlang der gesamten Kette."
+            },
+            {
+              "id": 11,
+              "type": "single",
+              "question": "Was bezeichnet E-Procurement?",
+              "options": [
+                "Elektronische Beschaffung über Internet oder Intranet",
+                "Online-Verkauf an Endkunden",
+                "Nur elektronische Rechnungsstellung",
+                "Automatische Lagerverwaltung"
+              ],
+              "correctAnswer": ["Elektronische Beschaffung über Internet oder Intranet"],
+              "hint": "Es digitalisiert die Beschaffungsprozesse.",
+              "explanation": "E-Procurement beschreibt die digitale Zusammenarbeit zwischen Lieferanten und Kunden."
+            },
+            {
+              "id": 12,
+              "type": "multiple",
+              "question": "Welche zentralen Anwendungen gehören zum E-Procurement?",
+              "options": [
+                "Online-Kataloge",
+                "Digitale Anfragen und Angebote",
+                "Online-Bestellungen",
+                "Lieferstatus-Tracking"
+              ],
+              "correctAnswer": ["Online-Kataloge", "Digitale Anfragen und Angebote", "Online-Bestellungen", "Lieferstatus-Tracking"],
+              "hint": "Alle digitalen Schritte der Beschaffung sind enthalten.",
+              "explanation": "Diese Anwendungen optimieren Transparenz, Geschwindigkeit und Effizienz im Beschaffungsprozess."
+            },
+            {
+              "id": 13,
+              "type": "boolean",
+              "question": "E-Procurement erhöht die Flexibilität und Reaktionsgeschwindigkeit in der Beschaffung.",
+              "options": ["Wahr", "Falsch"],
+              "correctAnswer": ["Wahr"],
+              "hint": "Digitale Abläufe beschleunigen Entscheidungen.",
+              "explanation": "Durch Digitalisierung können Unternehmen schneller auf Markt- und Kundenveränderungen reagieren."
+            },
+            {
+              "id": 14,
+              "type": "single",
+              "question": "Nach welchem Prinzip funktioniert die zentrale Beschaffung?",
+              "options": ["Objektprinzip", "Funktionsprinzip", "Matrixprinzip", "Lokalprinzip"],
+              "correctAnswer": ["Funktionsprinzip"],
+              "hint": "Eine Stelle koordiniert alle Beschaffungen.",
+              "explanation": "Das Funktionsprinzip fasst alle Beschaffungen zentral zusammen, um Synergieeffekte zu nutzen."
+            },
+            {
+              "id": 15,
+              "type": "multiple",
+              "question": "Welche Vorteile bietet die zentrale Beschaffung?",
+              "options": [
+                "Bessere Verhandlungsposition",
+                "Höhere Mengenrabatte",
+                "Bessere Marktübersicht",
+                "Mehr Bürokratie"
+              ],
+              "correctAnswer": ["Bessere Verhandlungsposition", "Höhere Mengenrabatte", "Bessere Marktübersicht"],
+              "hint": "Zentralisierung stärkt die Effizienz.",
+              "explanation": "Durch Bündelung entstehen bessere Einkaufskonditionen und klare Prozesse."
+            },
+            {
+              "id": 16,
+              "type": "single",
+              "question": "Was bedeutet die Make-or-Buy-Entscheidung?",
+              "options": [
+                "Nur Preisvergleich",
+                "Entscheidung zwischen Eigenherstellung oder Fremdbezug",
+                "Nur Auswahl von Lieferanten",
+                "Beschaffung von Softwarelösungen"
+              ],
+              "correctAnswer": ["Entscheidung zwischen Eigenherstellung oder Fremdbezug"],
+              "hint": "Es geht um Eigenfertigung oder Zukauf.",
+              "explanation": "Unternehmen wägen ab, ob Produkte intern gefertigt oder extern bezogen werden."
+            },
+            {
+              "id": 17,
+              "type": "multiple",
+              "question": "Welche Faktoren beeinflussen Make-or-Buy-Entscheidungen?",
+              "options": ["Kostenvergleich", "Verfügbare Kapazitäten", "Qualitätskontrolle", "Wetterlage"],
+              "correctAnswer": ["Kostenvergleich", "Verfügbare Kapazitäten", "Qualitätskontrolle"],
+              "hint": "Es zählen Wirtschaftlichkeit, Ressourcen und Qualitätssicherung.",
+              "explanation": "Unternehmen vergleichen Kosten, prüfen ihre Produktionsmöglichkeiten und Qualitätsanforderungen."
+            },
+            {
+              "id": 18,
+              "type": "single",
+              "question": "Was kennzeichnet die fertigungssynchrone Beschaffung (Just-in-Time)?",
+              "options": [
+                "Lieferung exakt zum Produktionszeitpunkt mit minimalen Lagerbeständen",
+                "Beschaffung auf Vorrat",
+                "Langfristige Lagerhaltung",
+                "Unabhängigkeit von Lieferanten"
+              ],
+              "correctAnswer": ["Lieferung exakt zum Produktionszeitpunkt mit minimalen Lagerbeständen"],
+              "hint": "Just-in-Time bedeutet punktgenaue Lieferung.",
+              "explanation": "JIT minimiert Lagerkosten und setzt auf zuverlässige Lieferanten."
+            },
+            {
+              "id": 19,
+              "type": "boolean",
+              "question": "Die verbrauchsgesteuerte Bedarfsermittlung basiert auf historischen Verbrauchsdaten.",
+              "options": ["Wahr", "Falsch"],
+              "correctAnswer": ["Wahr"],
+              "hint": "Sie nutzt Vergangenheitswerte zur Planung.",
+              "explanation": "Diese Methode prognostiziert künftigen Bedarf anhand vergangener Verbrauchswerte."
+            },
+            {
+              "id": 20,
+              "type": "multiple",
+              "question": "Welche Methoden gehören zur bedarfsgesteuerten Bedarfsermittlung?",
+              "options": ["Stücklistenauflösung", "Materialbedarfsplanung", "Zeitreihenanalyse", "Verbrauchsstatistik"],
+              "correctAnswer": ["Stücklistenauflösung", "Materialbedarfsplanung"],
+              "hint": "Diese Methoden planen exakt nach Produktionsbedarf.",
+              "explanation": "Die bedarfsgesteuerte Methode berechnet den Bedarf auf Basis konkreter Produktionsaufträge."
+            }
+          ]
+        },
+
+        "beschaffungsprozesse_und_logistik_2": {
+          "title": "Beschaffungsprozesse und Logistik – 2",
+          "available": true,
+          "questions": [
+            {
+              "id": 1,
+              "type": "multiple",
+              "question": "Welche Faktoren treiben die Entwicklung der Logistik?",
+              "options": ["Fortschreitende Globalisierung", "Abnehmende Markttransparenz", "Steigender Kostendruck", "Reduzierte Konkurrenz"],
+              "correctAnswer": ["Fortschreitende Globalisierung", "Steigender Kostendruck"],
+              "hint": "Wettbewerb und internationale Vernetzung sind entscheidend.",
+              "explanation": "Die Globalisierung und der steigende Kostendruck sind Haupttreiber moderner Logistikstrategien."
+            },
+            {
+              "id": 2,
+              "type": "multiple",
+              "question": "Was sind Hauptaufgaben des Supply Chain Managements?",
+              "options": ["Koordination der Warenflüsse", "Verringerung der Lieferantenanzahl", "Optimierung der Informationsflüsse", "Erhöhung der Lagerbestände"],
+              "correctAnswer": ["Koordination der Warenflüsse", "Optimierung der Informationsflüsse"],
+              "hint": "Es geht um Effizienz in Material- und Informationsflüssen.",
+              "explanation": "Das SCM koordiniert Material-, Informations- und Geldströme über die gesamte Lieferkette."
+            },
+            {
+              "id": 3,
+              "type": "single",
+              "question": "Welche Kennzahl misst, wie effizient das Lager arbeitet?",
+              "options": ["Umschlagshäufigkeit", "Lagerfläche", "Lagerdauer", "Raumkosten"],
+              "correctAnswer": ["Umschlagshäufigkeit"],
+              "hint": "Je höher, desto besser die Auslastung.",
+              "explanation": "Die Umschlagshäufigkeit zeigt, wie oft der Lagerbestand im Jahr umgesetzt wird."
+            },
+            {
+              "id": 4,
+              "type": "multiple",
+              "question": "Welche Vorteile bietet die Just-in-Time-Produktion?",
+              "options": ["Reduzierte Lagerkosten", "Geringerer Platzbedarf", "Unabhängigkeit von Lieferanten", "Längere Lieferzeiten"],
+              "correctAnswer": ["Reduzierte Lagerkosten", "Geringerer Platzbedarf"],
+              "hint": "Diese Methode minimiert Bestände.",
+              "explanation": "Just-in-Time senkt Lagerkosten und benötigt weniger Lagerfläche."
+            },
+            {
+              "id": 5,
+              "type": "single",
+              "question": "Welches Transportmittel hat die höchste Umweltbelastung pro Tonnenkilometer?",
+              "options": ["LKW", "Bahn", "Schiff", "Luftfracht"],
+              "correctAnswer": ["Luftfracht"],
+              "hint": "Schnell, aber umweltschädlich.",
+              "explanation": "Flugtransporte verursachen die meisten Emissionen pro transportierter Einheit."
+            },
+            {
+              "id": 6,
+              "type": "multiple",
+              "question": "Welche Aufgaben erfüllt ein Distributionszentrum?",
+              "options": ["Konsolidierung von Warenströmen", "Langfristige Lagerhaltung", "Kommissionierung von Aufträgen", "Produktion von Waren"],
+              "correctAnswer": ["Konsolidierung von Warenströmen", "Kommissionierung von Aufträgen"],
+              "hint": "Es verbindet Lager und Versand.",
+              "explanation": "Distributionszentren fassen Lieferungen zusammen und stellen Kundenaufträge bereit."
+            },
+            {
+              "id": 7,
+              "type": "single",
+              "question": "Welche Funktion hat ein Warehouse Management System (WMS)?",
+              "options": ["Steuerung von Lagerprozessen", "Kundenservice", "Finanzbuchhaltung", "Personalplanung"],
+              "correctAnswer": ["Steuerung von Lagerprozessen"],
+              "hint": "Es digitalisiert Lagerbewegungen.",
+              "explanation": "Ein WMS organisiert Einlagerung, Kommissionierung und Bestandsführung digital."
+            },
+            {
+              "id": 8,
+              "type": "multiple",
+              "question": "Welche Ziele verfolgt die Beschaffungslogistik?",
+              "options": ["Sicherstellung der Materialversorgung", "Kostenoptimierung", "Reduzierung der Lieferanten", "Erhöhung der Lagerkosten"],
+              "correctAnswer": ["Sicherstellung der Materialversorgung", "Kostenoptimierung"],
+              "hint": "Kosten- und Versorgungseffizienz stehen im Fokus.",
+              "explanation": "Die Beschaffungslogistik sorgt für pünktliche, kostengünstige Materialverfügbarkeit."
+            },
+            {
+              "id": 9,
+              "type": "single",
+              "question": "Was versteht man unter Cross-Docking?",
+              "options": ["Direkter Warenumschlag ohne Zwischenlagerung", "Langfristige Lagerhaltung", "Produktion auf Bestellung", "Retourenabwicklung"],
+              "correctAnswer": ["Direkter Warenumschlag ohne Zwischenlagerung"],
+              "hint": "Waren werden direkt weitergeleitet.",
+              "explanation": "Beim Cross-Docking werden Güter ohne Einlagerung weitertransportiert."
+            },
+            {
+              "id": 10,
+              "type": "multiple",
+              "question": "Welche Faktoren beeinflussen die Standortwahl eines Logistikzentrums?",
+              "options": ["Verkehrsanbindung", "Nähe zu Kunden", "Klimazone", "Touristische Attraktivität"],
+              "correctAnswer": ["Verkehrsanbindung", "Nähe zu Kunden"],
+              "hint": "Logistik hängt von Transportwegen ab.",
+              "explanation": "Die Standortwahl richtet sich nach Kundennähe und Verkehrsanbindung."
+            },
+            {
+              "id": 11,
+              "type": "single",
+              "question": "Was sind Incoterms?",
+              "options": ["Internationale Handelsklauseln zu Lieferbedingungen", "Softwareprogramme", "Verpackungsvorschriften", "Zollgebühren"],
+              "correctAnswer": ["Internationale Handelsklauseln zu Lieferbedingungen"],
+              "hint": "Sie regeln Kosten- und Risikoübergang.",
+              "explanation": "Incoterms legen fest, wer welche Transport- und Versicherungskosten trägt."
+            },
+            {
+              "id": 12,
+              "type": "multiple",
+              "question": "Welche Kommissionierprinzipien existieren?",
+              "options": ["Mann-zur-Ware", "Ware-zum-Mann", "Ware-zur-Kasse", "Kunde-zur-Produktion"],
+              "correctAnswer": ["Mann-zur-Ware", "Ware-zum-Mann"],
+              "hint": "Sie beschreiben Bewegungsrichtungen.",
+              "explanation": "Diese Prinzipien definieren, ob Mitarbeiter oder Ware sich bewegen."
+            },
+            {
+              "id": 13,
+              "type": "single",
+              "question": "Was bedeutet RFID?",
+              "options": ["Radio Frequency Identification", "Remote Freight Information Data", "Rapid Freight International Delivery", "Regional Freight ID"],
+              "correctAnswer": ["Radio Frequency Identification"],
+              "hint": "Funkbasierte Identifikation.",
+              "explanation": "RFID verwendet Funktechnologie zur automatischen Warenidentifikation."
+            },
+            {
+              "id": 14,
+              "type": "multiple",
+              "question": "Welche Kosten zählen zu den Logistikkosten?",
+              "options": ["Transportkosten", "Lagerkosten", "Marketingkosten", "Forschungskosten"],
+              "correctAnswer": ["Transportkosten", "Lagerkosten"],
+              "hint": "Sie sind die Hauptkosten der physischen Logistik.",
+              "explanation": "Transport- und Lagerkosten machen den größten Anteil der Logistikkosten aus."
+            },
+            {
+              "id": 15,
+              "type": "single",
+              "question": "Was ist das Ziel der Routenoptimierung?",
+              "options": ["Minimierung von Transportkosten und -zeiten", "Maximierung der Kilometer", "Erhöhung der Fahrzeuganzahl", "Verlängerung der Lieferzeiten"],
+              "correctAnswer": ["Minimierung von Transportkosten und -zeiten"],
+              "hint": "Ziel ist Effizienz im Transport.",
+              "explanation": "Optimierte Routen sparen Zeit, Kraftstoff und Kosten."
+            },
+            {
+              "id": 16,
+              "type": "multiple",
+              "question": "Welche Ziele verfolgt Green Logistics?",
+              "options": ["CO₂-Reduzierung", "Einsatz umweltfreundlicher Verkehrsträger", "Erhöhung des Kraftstoffverbrauchs", "Maximale Transportstrecken"],
+              "correctAnswer": ["CO₂-Reduzierung", "Einsatz umweltfreundlicher Verkehrsträger"],
+              "hint": "Nachhaltigkeit ist zentrales Ziel.",
+              "explanation": "Green Logistics strebt umweltfreundliche und ressourcenschonende Prozesse an."
+            },
+            {
+              "id": 17,
+              "type": "single",
+              "question": "Was ist ein Hub?",
+              "options": ["Zentraler Umschlagpunkt im Logistiknetz", "Transportfahrzeug", "Computerprogramm", "Versandetikett"],
+              "correctAnswer": ["Zentraler Umschlagpunkt im Logistiknetz"],
+              "hint": "Hubs verbinden Transportwege.",
+              "explanation": "Ein Hub bündelt Sendungen und verteilt sie weiter."
+            },
+            {
+              "id": 18,
+              "type": "multiple",
+              "question": "Welche Trends prägen die moderne Logistik?",
+              "options": ["Automatisierung", "Künstliche Intelligenz", "Papierbasierte Prozesse", "Manuelle Kommissionierung"],
+              "correctAnswer": ["Automatisierung", "Künstliche Intelligenz"],
+              "hint": "Technologie ist der Schlüssel zur Effizienz.",
+              "explanation": "Moderne Logistik nutzt Automatisierung und KI für Präzision und Geschwindigkeit."
+            },
+            {
+              "id": 19,
+              "type": "single",
+              "question": "Was versteht man unter Reverse Logistics?",
+              "options": ["Rückführung von Produkten und Materialien", "Vorwärtsgerichtete Lieferkette", "Expressversand", "Verpackungslogistik"],
+              "correctAnswer": ["Rückführung von Produkten und Materialien"],
+              "hint": "Denk an Retouren und Recycling.",
+              "explanation": "Reverse Logistics umfasst Rücknahme, Recycling und Wiederverwertung von Waren."
+            },
+            {
+              "id": 20,
+              "type": "multiple",
+              "question": "Welche Kennzahlen sind für die Logistikleistung besonders relevant?",
+              "options": ["Liefertreue", "Durchlaufzeit", "Gewinnspanne", "Marketingbudget"],
+              "correctAnswer": ["Liefertreue", "Durchlaufzeit"],
+              "hint": "Sie zeigen, wie zuverlässig und schnell Prozesse sind.",
+              "explanation": "Diese Kennzahlen messen Effizienz und Zuverlässigkeit der Logistikprozesse."
+            }
+          ]
+        },
+
+        "bedarfsermittlung": {
+          "title": "Bedarfsermittlung verstehen",
+          "available": true,
+          "presentationScript": {
+            "title": "Tag 3 – Bedarfsermittlung",
+            "description": "Präsentationsskript mit den Grundlagen zu Bedarfsarten, Bezugsquellenermittlung und Bedarfsermittlungsmethoden",
+            "pdfUrl": "./scripts/tag3-bedarfsarten-und-ermittlung.pdf"
+          },
+          "questions": [
+            {
+              "id": 1,
+              "type": "single",
+              "question": "Was ist das Ziel der Bedarfsermittlung?",
+              "options": [
+                "Bestimmung des benötigten Materialbedarfs nach Art, Menge und Zeit",
+                "Festlegung der Verkaufspreise",
+                "Planung der Urlaubszeiten",
+                "Berechnung der Löhne"
+              ],
+              "correctAnswer": ["Bestimmung des benötigten Materialbedarfs nach Art, Menge und Zeit"],
+              "hint": "Die Bedarfsermittlung dient der Produktionsplanung.",
+              "explanation": "Sie sorgt dafür, dass Materialien rechtzeitig und in ausreichender Menge vorhanden sind."
+            },
+            {
+              "id": 2,
+              "type": "single",
+              "question": "Was beschreibt der Primärbedarf?",
+              "options": [
+                "Bedarf des Marktes an Erzeugnissen",
+                "Bedarf an Rohstoffen",
+                "Bedarf an Hilfsstoffen",
+                "Gesamter Zusatzbedarf"
+              ],
+              "correctAnswer": ["Bedarf des Marktes an Erzeugnissen"],
+              "hint": "Er bildet den Ausgangspunkt der Produktionsplanung.",
+              "explanation": "Der Primärbedarf beschreibt die Endprodukte, die am Markt verkauft werden sollen."
+            },
+            {
+              "id": 3,
+              "type": "single",
+              "question": "Was ist der Sekundärbedarf?",
+              "options": [
+                "Bedarf an Rohstoffen und Einzelteilen zur Herstellung der Erzeugnisse",
+                "Bedarf des Marktes",
+                "Zusatzbedarf durch Ausschuss",
+                "Lagerbestand"
+              ],
+              "correctAnswer": ["Bedarf an Rohstoffen und Einzelteilen zur Herstellung der Erzeugnisse"],
+              "hint": "Er wird aus dem Primärbedarf abgeleitet.",
+              "explanation": "Der Sekundärbedarf beschreibt, welche Materialien für die Produktion benötigt werden."
+            },
+            {
+              "id": 4,
+              "type": "single",
+              "question": "Was ist der Tertiärbedarf?",
+              "options": [
+                "Bedarf an Hilfs- und Betriebsstoffen",
+                "Bedarf an Rohstoffen",
+                "Bedarf des Marktes",
+                "Bedarf an Fertigwaren"
+              ],
+              "correctAnswer": ["Bedarf an Hilfs- und Betriebsstoffen"],
+              "hint": "Er betrifft Materialien, die nicht direkt ins Produkt eingehen.",
+              "explanation": "Zum Tertiärbedarf zählen z. B. Schmierstoffe, Energie oder Reinigungsmittel."
+            },
+            {
+              "id": 5,
+              "type": "multiple",
+              "question": "Welche Bedarfsarten ergeben zusammen den Bruttobedarf?",
+              "options": ["Sekundärbedarf", "Tertiärbedarf", "Zusatzbedarf", "Lagerbestand"],
+              "correctAnswer": ["Sekundärbedarf", "Tertiärbedarf", "Zusatzbedarf"],
+              "hint": "Es geht um die Gesamtheit aller Bedarfsformen.",
+              "explanation": "Der Bruttobedarf ergibt sich aus allen Materialien, die für die Produktion benötigt werden."
+            },
+            {
+              "id": 6,
+              "type": "single",
+              "question": "Wie wird der Nettobedarf berechnet?",
+              "options": [
+                "Bruttobedarf minus Lagerbestand und offene Bestellungen",
+                "Primärbedarf plus Sekundärbedarf",
+                "Bruttobedarf plus Zusatzbedarf",
+                "Tertiärbedarf minus Lagerbestand"
+              ],
+              "correctAnswer": ["Bruttobedarf minus Lagerbestand und offene Bestellungen"],
+              "hint": "Er berücksichtigt vorhandene Bestände.",
+              "explanation": "Der Nettobedarf ist der tatsächlich zu beschaffende Bedarf."
+            },
+            {
+              "id": 7,
+              "type": "multiple",
+              "question": "Welche Faktoren beeinflussen den Zusatzbedarf?",
+              "options": ["Ausschuss", "Verschnitt", "Produktionsfehler", "Wetterlage"],
+              "correctAnswer": ["Ausschuss", "Verschnitt"],
+              "hint": "Er ergibt sich aus produktionsbedingten Verlusten.",
+              "explanation": "Der Zusatzbedarf wird als prozentualer Aufschlag für unvermeidbare Verluste berechnet."
+            },
+            {
+              "id": 8,
+              "type": "single",
+              "question": "Was ist das Ziel der Bezugsquellenermittlung?",
+              "options": [
+                "Geeignete Lieferanten für benötigte Güter zu identifizieren",
+                "Den Verkaufspreis festzulegen",
+                "Die Lagerkosten zu reduzieren",
+                "Den Personalbedarf zu planen"
+              ],
+              "correctAnswer": ["Geeignete Lieferanten für benötigte Güter zu identifizieren"],
+              "hint": "Sie gehört zur Beschaffungsplanung.",
+              "explanation": "Ziel ist es, potenzielle Lieferanten zu finden und zu bewerten."
+            },
+            {
+              "id": 9,
+              "type": "multiple",
+              "question": "Welche Arten von Bezugsquellen gibt es?",
+              "options": ["Interne Bezugsquellen", "Externe Bezugsquellen", "Temporäre Bezugsquellen", "Digitale Bezugsquellen"],
+              "correctAnswer": ["Interne Bezugsquellen", "Externe Bezugsquellen"],
+              "hint": "Unternehmen können auf eigene oder externe Daten zurückgreifen.",
+              "explanation": "Interne Quellen stammen aus der Lieferantendatei, externe aus Messen oder Internet."
+            },
+            {
+              "id": 10,
+              "type": "multiple",
+              "question": "Welche Informationen enthält eine Bezugsquellendatei?",
+              "options": ["Preise und Rabatte", "Lieferbedingungen", "Zahlungsbedingungen", "Privatadresse des Lieferanten"],
+              "correctAnswer": ["Preise und Rabatte", "Lieferbedingungen", "Zahlungsbedingungen"],
+              "hint": "Sie bildet die Grundlage für den Angebotsvergleich.",
+              "explanation": "Sie enthält alle wichtigen Lieferantendaten zur Entscheidungsvorbereitung."
+            },
+            {
+              "id": 11,
+              "type": "single",
+              "question": "Was ist die verbrauchsgesteuerte Bedarfsermittlung?",
+              "options": [
+                "Bedarf wird anhand vergangener Verbrauchswerte ermittelt",
+                "Bedarf wird aus Stücklisten berechnet",
+                "Bedarf wird nach Kundennachfrage berechnet",
+                "Bedarf wird geschätzt"
+              ],
+              "correctAnswer": ["Bedarf wird anhand vergangener Verbrauchswerte ermittelt"],
+              "hint": "Sie nutzt Erfahrungswerte.",
+              "explanation": "Diese Methode basiert auf Verbrauchsstatistiken aus der Vergangenheit."
+            },
+            {
+              "id": 12,
+              "type": "single",
+              "question": "Wann ist die verbrauchsgesteuerte Bedarfsermittlung sinnvoll?",
+              "options": [
+                "Bei kontinuierlichem oder unregelmäßigem Bedarf",
+                "Bei einmaligen Aufträgen",
+                "Nur bei Handelswaren",
+                "Nur bei Massenproduktion"
+              ],
+              "correctAnswer": ["Bei kontinuierlichem oder unregelmäßigem Bedarf"],
+              "hint": "Sie eignet sich bei regelmäßigem Verbrauch.",
+              "explanation": "Wenn Verbrauchswerte vorliegen, kann der Bedarf zuverlässig geschätzt werden."
+            },
+            {
+              "id": 13,
+              "type": "single",
+              "question": "Was ist die bedarfsgesteuerte Bedarfsermittlung?",
+              "options": [
+                "Berechnung auf Basis konkreter Aufträge oder Stücklisten",
+                "Ermittlung anhand von Vergangenheitswerten",
+                "Zufällige Bedarfsermittlung",
+                "Monatliche Bedarfsschätzung"
+              ],
+              "correctAnswer": ["Berechnung auf Basis konkreter Aufträge oder Stücklisten"],
+              "hint": "Sie basiert auf tatsächlichen Kundenaufträgen.",
+              "explanation": "Diese Methode ermittelt exakt den Materialbedarf für bestimmte Produkte."
+            },
+            {
+              "id": 14,
+              "type": "multiple",
+              "question": "Welche Vorteile hat die bedarfsgesteuerte Bedarfsermittlung?",
+              "options": ["Geringe Kapitalbindung", "Minimales Lagerrisiko", "Hohe Lagerkosten", "Lange Lieferzeiten"],
+              "correctAnswer": ["Geringe Kapitalbindung", "Minimales Lagerrisiko"],
+              "hint": "Diese Methode reduziert Lagerkosten.",
+              "explanation": "Es wird nur produziert, wenn tatsächlich Bedarf besteht."
+            },
+            {
+              "id": 15,
+              "type": "single",
+              "question": "Was ist der Zusatzbedarf?",
+              "options": [
+                "Prozentualer Aufschlag für Ausschuss, Verschleiß oder Verschnitt",
+                "Gesamter Produktionsbedarf",
+                "Nettobedarf ohne Lagerbestand",
+                "Überschüssiger Bestand im Lager"
+              ],
+              "correctAnswer": ["Prozentualer Aufschlag für Ausschuss, Verschleiß oder Verschnitt"],
+              "hint": "Er wird zusätzlich zum eigentlichen Bedarf eingeplant.",
+              "explanation": "Der Zusatzbedarf deckt unvorhersehbare Produktionsverluste ab."
+            },
+            {
+              "id": 16,
+              "type": "multiple",
+              "question": "Welche Quellen zählen zu externen Bezugsquellen?",
+              "options": ["Fachmessen", "Industrie- und Handelskammern", "Internet", "Interne Lieferantendatei"],
+              "correctAnswer": ["Fachmessen", "Industrie- und Handelskammern", "Internet"],
+              "hint": "Hier sucht man außerhalb des Unternehmens.",
+              "explanation": "Externe Quellen liefern neue Marktinformationen und Lieferantenkontakte."
+            },
+            {
+              "id": 17,
+              "type": "single",
+              "question": "Was kennzeichnet den Nettobedarf?",
+              "options": [
+                "Er ist der tatsächlich zu beschaffende Bedarf",
+                "Er entspricht dem Bruttobedarf",
+                "Er berücksichtigt keine Lagerbestände",
+                "Er ist immer gleich Null"
+              ],
+              "correctAnswer": ["Er ist der tatsächlich zu beschaffende Bedarf"],
+              "hint": "Er ergibt sich nach Abzug von Lager und offenen Bestellungen.",
+              "explanation": "Nur der Nettobedarf wird tatsächlich bestellt."
+            },
+            {
+              "id": 18,
+              "type": "multiple",
+              "question": "Welche Methoden der Bedarfsermittlung gibt es?",
+              "options": ["Bedarfsgesteuerte", "Verbrauchsgesteuerte", "Schätzgesteuerte", "Zufallsgesteuerte"],
+              "correctAnswer": ["Bedarfsgesteuerte", "Verbrauchsgesteuerte"],
+              "hint": "Beide Methoden ergänzen sich in der Praxis.",
+              "explanation": "Man unterscheidet zwischen vergangenheits- und auftragsbezogener Ermittlung."
+            },
+            {
+              "id": 19,
+              "type": "single",
+              "question": "Wann wird der Nettobedarf bestellt?",
+              "options": [
+                "Wenn der Lagerbestand den Meldebestand erreicht oder unterschreitet",
+                "Am Monatsende",
+                "Nur am Jahresende",
+                "Sobald der Primärbedarf bekannt ist"
+              ],
+              "correctAnswer": ["Wenn der Lagerbestand den Meldebestand erreicht oder unterschreitet"],
+              "hint": "Das Lager löst automatisch eine Bestellung aus.",
+              "explanation": "Der Meldebestand signalisiert den Zeitpunkt der Nachbestellung."
+            },
+            {
+              "id": 20,
+              "type": "multiple",
+              "question": "Welche Vorteile bietet eine aktuelle Bezugsquellendatei im Warenwirtschaftssystem?",
+              "options": [
+                "Schnelle Erstellung von Anfragen",
+                "Effiziente Lieferantenauswahl",
+                "Automatische Rechnungsprüfung",
+                "Reduzierung des Personalbestands"
+              ],
+              "correctAnswer": ["Schnelle Erstellung von Anfragen", "Effiziente Lieferantenauswahl"],
+              "hint": "Sie erleichtert die tägliche Beschaffung.",
+              "explanation": "Aktuelle Bezugsquellen ermöglichen schnellere und fundierte Beschaffungsentscheidungen."
+            }
+          ]
+        },   
+
         "lagerhaltung_moderne_logistik": {
             "title": "Lagerhaltung in der modernen Logistik",
             "available": true,
@@ -640,6 +1331,271 @@
         "correctAnswer": ["Falsch"],
         "hint": "Sie betrachtet nur Zahlen.",
         "explanation": "Die Bezugskalkulation bewertet ausschließlich monetäre Aspekte, nicht qualitative Merkmale."
+      }
+    ]
+  },
+  "bestellueberwachung_und_warenannahme": {
+    "title": "Bestellüberwachung und Warenannahme",
+    "available": true,
+    "presentationScript": {
+      "title": "Tag 4 – Bestellüberwachung und Warenannahme",
+      "description": "Skript zur Überwachung von Bestellungen, rechtlichen Pflichten bei der Warenannahme und nachhaltiger Beschaffung",
+      "pdfUrl": "./scripts/tag4-bestellueberwachung-und-warenannahme.pdf"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "type": "single",
+        "question": "Was ist das Hauptziel der Bestellüberwachung?",
+        "options": [
+          "Termingerechte Lieferung der bestellten Güter",
+          "Erhöhung der Verkaufspreise",
+          "Reduzierung der Mitarbeiterzahl",
+          "Erhöhung der Lagerkosten"
+        ],
+        "correctAnswer": ["Termingerechte Lieferung der bestellten Güter"],
+        "hint": "Zeitgerechte Lieferung steht im Fokus.",
+        "explanation": "Die Bestellüberwachung stellt sicher, dass Material, Menge, Qualität und Termin stimmen."
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Welche Ziele verfolgt die Bestellüberwachung?",
+        "options": [
+          "Sicherstellung der vereinbarten Qualität",
+          "Kontrolle der Liefertermine",
+          "Vermeidung von Produktionsausfällen",
+          "Erhöhung des Personalbedarfs"
+        ],
+        "correctAnswer": [
+          "Sicherstellung der vereinbarten Qualität",
+          "Kontrolle der Liefertermine",
+          "Vermeidung von Produktionsausfällen"
+        ],
+        "hint": "Sie dient der Produktionssicherung.",
+        "explanation": "Die Überwachung von Menge, Qualität und Terminen gewährleistet einen reibungslosen Produktionsablauf."
+      },
+      {
+        "id": 3,
+        "type": "single",
+        "question": "Was bedeutet Rügeobliegenheit nach § 377 HGB?",
+        "options": [
+          "Pflicht zur sofortigen Prüfung und Meldung von Mängeln",
+          "Pflicht zur Zahlung innerhalb von 30 Tagen",
+          "Pflicht zur Rücksendung von Verpackungen",
+          "Pflicht zur Einlagerung der Waren"
+        ],
+        "correctAnswer": ["Pflicht zur sofortigen Prüfung und Meldung von Mängeln"],
+        "hint": "Sie gilt nach der Warenannahme.",
+        "explanation": "Der Käufer muss gelieferte Ware unverzüglich prüfen und Mängel sofort anzeigen."
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "Welche Arten von Mängeln unterscheidet das HGB?",
+        "options": ["Offene Mängel", "Versteckte Mängel", "Arglistig verschwiegene Mängel", "Technische Mängel"],
+        "correctAnswer": ["Offene Mängel", "Versteckte Mängel", "Arglistig verschwiegene Mängel"],
+        "hint": "Sie unterscheiden sich nach Erkennbarkeit.",
+        "explanation": "Offene Mängel sind sofort sichtbar, versteckte erst später, arglistig verschwiegene werden absichtlich vertuscht."
+      },
+      {
+        "id": 5,
+        "type": "single",
+        "question": "Was ist ein offener Mangel?",
+        "options": [
+          "Ein sofort erkennbarer Fehler an der Lieferung",
+          "Ein Mangel, der erst bei der Nutzung auffällt",
+          "Ein absichtlich verschwiegener Mangel",
+          "Ein Mangel ohne rechtliche Folgen"
+        ],
+        "correctAnswer": ["Ein sofort erkennbarer Fehler an der Lieferung"],
+        "hint": "Er ist direkt sichtbar.",
+        "explanation": "Offene Mängel müssen unverzüglich nach Anlieferung gemeldet werden."
+      },
+      {
+        "id": 6,
+        "type": "single",
+        "question": "Wann muss ein versteckter Mangel gerügt werden?",
+        "options": [
+          "Unverzüglich nach seiner Entdeckung",
+          "Innerhalb von 2 Wochen nach Lieferung",
+          "Erst am Jahresende",
+          "Gar nicht"
+        ],
+        "correctAnswer": ["Unverzüglich nach seiner Entdeckung"],
+        "hint": "§ 377 HGB regelt die Frist.",
+        "explanation": "Versteckte Mängel müssen sofort nach Bekanntwerden gemeldet werden."
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Welche Gewährleistungsrechte stehen dem Käufer bei Mängeln zu?",
+        "options": ["Nacherfüllung", "Rücktritt", "Minderung", "Schadensersatz"],
+        "correctAnswer": ["Nacherfüllung", "Rücktritt", "Minderung", "Schadensersatz"],
+        "hint": "Sie bauen hierarchisch aufeinander auf.",
+        "explanation": "Zuerst Nacherfüllung, danach Rücktritt, Minderung oder Schadensersatz."
+      },
+      {
+        "id": 8,
+        "type": "single",
+        "question": "Was bedeutet Nacherfüllung?",
+        "options": [
+          "Reparatur oder Ersatzlieferung einer mangelfreien Ware",
+          "Erstattung des Kaufpreises",
+          "Rücktritt vom Vertrag",
+          "Preiserhöhung wegen Mangel"
+        ],
+        "correctAnswer": ["Reparatur oder Ersatzlieferung einer mangelfreien Ware"],
+        "hint": "Sie ist das erste Käuferrecht.",
+        "explanation": "Nacherfüllung ist das vorrangige Gewährleistungsrecht des Käufers."
+      },
+      {
+        "id": 9,
+        "type": "single",
+        "question": "Was versteht man unter Bestellmengenkontrolle?",
+        "options": [
+          "Abgleich der gelieferten mit den bestellten Mengen",
+          "Überwachung der Lagerkosten",
+          "Planung neuer Bestellverfahren",
+          "Festlegung der Verkaufsmengen"
+        ],
+        "correctAnswer": ["Abgleich der gelieferten mit den bestellten Mengen"],
+        "hint": "Sie prüft Quantität.",
+        "explanation": "Dabei wird kontrolliert, ob die gelieferte Menge der Bestellung entspricht."
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Welche Bestellverfahren werden unterschieden?",
+        "options": ["Bestellpunktverfahren", "Bestellrhythmusverfahren", "Bedarfspunktverfahren", "Just-in-Time-Verfahren"],
+        "correctAnswer": ["Bestellpunktverfahren", "Bestellrhythmusverfahren"],
+        "hint": "Beide gehören zur Bestellmengensteuerung.",
+        "explanation": "Beim Bestellpunktverfahren wird bei Unterschreiten des Meldebestands bestellt, beim Rhythmusverfahren in festen Intervallen."
+      },
+      {
+        "id": 11,
+        "type": "single",
+        "question": "Wann wird beim Bestellpunktverfahren eine Bestellung ausgelöst?",
+        "options": [
+          "Sobald der Meldebestand unterschritten wird",
+          "Immer am Monatsende",
+          "Bei jeder Lieferung",
+          "Nach Jahresabschluss"
+        ],
+        "correctAnswer": ["Sobald der Meldebestand unterschritten wird"],
+        "hint": "Automatische Nachbestellung.",
+        "explanation": "Das System generiert automatisch eine Bestellung, wenn der Meldebestand erreicht ist."
+      },
+      {
+        "id": 12,
+        "type": "single",
+        "question": "Was passiert beim Lieferverzug?",
+        "options": [
+          "Der Lieferant gerät in Verzug und der Käufer kann Maßnahmen ergreifen",
+          "Die Bestellung wird automatisch verlängert",
+          "Der Käufer muss zahlen, obwohl nichts geliefert wurde",
+          "Die Lieferung verliert ihre Gültigkeit"
+        ],
+        "correctAnswer": ["Der Lieferant gerät in Verzug und der Käufer kann Maßnahmen ergreifen"],
+        "hint": "Das Gesetz sieht Rechte des Käufers vor.",
+        "explanation": "Bei Lieferverzug kann der Käufer mahnen, Fristen setzen oder vom Vertrag zurücktreten."
+      },
+      {
+        "id": 13,
+        "type": "multiple",
+        "question": "Welche Schritte erfolgen bei Lieferverzug?",
+        "options": [
+          "Mahnung und Fristsetzung",
+          "Rücktritt oder Schadensersatz",
+          "Deckungskauf",
+          "Preiserhöhung"
+        ],
+        "correctAnswer": ["Mahnung und Fristsetzung", "Rücktritt oder Schadensersatz", "Deckungskauf"],
+        "hint": "Das HGB regelt diese Reihenfolge.",
+        "explanation": "Nach erfolgloser Nachfrist kann der Käufer zurücktreten oder Ersatzbeschaffung durchführen."
+      },
+      {
+        "id": 14,
+        "type": "single",
+        "question": "Was bedeutet Green Procurement?",
+        "options": [
+          "Beschaffung unter ökologischen Gesichtspunkten",
+          "Schnellere Beschaffung aus dem Ausland",
+          "Verzicht auf Lieferantenbewertung",
+          "Einkauf von gebrauchten Gütern"
+        ],
+        "correctAnswer": ["Beschaffung unter ökologischen Gesichtspunkten"],
+        "hint": "Es ist Teil der nachhaltigen Unternehmensstrategie.",
+        "explanation": "Green Procurement integriert Umweltaspekte in Beschaffungsentscheidungen."
+      },
+      {
+        "id": 15,
+        "type": "multiple",
+        "question": "Welche Gesetze regeln ökologische Beschaffung?",
+        "options": ["Kreislaufwirtschaftsgesetz (KrWG)", "Verpackungsgesetz (VerpackG)", "Lieferkettensorgfaltspflichtengesetz (LkSG)", "Gewerbesteuergesetz"],
+        "correctAnswer": ["Kreislaufwirtschaftsgesetz (KrWG)", "Verpackungsgesetz (VerpackG)", "Lieferkettensorgfaltspflichtengesetz (LkSG)"],
+        "hint": "Diese Gesetze beeinflussen nachhaltige Beschaffung.",
+        "explanation": "Sie regeln Abfallhierarchie, Verpackungsverantwortung und soziale Standards in Lieferketten."
+      },
+      {
+        "id": 16,
+        "type": "multiple",
+        "question": "Welche Strategien gehören zur Green Logistics?",
+        "options": ["Local Sourcing", "Optimierte Routenplanung", "Umstieg auf Bahntransporte", "Verstärkte Luftfracht"],
+        "correctAnswer": ["Local Sourcing", "Optimierte Routenplanung", "Umstieg auf Bahntransporte"],
+        "hint": "Ziel ist CO₂-Reduktion.",
+        "explanation": "Regionale Beschaffung und intelligente Transportplanung verringern Umweltbelastungen."
+      },
+      {
+        "id": 17,
+        "type": "single",
+        "question": "Was beschreibt das 3R-Prinzip der Verpackungsoptimierung?",
+        "options": [
+          "Reduce, Reuse, Recycle",
+          "Recycle, Repair, Replace",
+          "Reduce, Renew, Rebuild",
+          "Reuse, Refill, Renew"
+        ],
+        "correctAnswer": ["Reduce, Reuse, Recycle"],
+        "hint": "Es stammt aus der Abfallwirtschaft.",
+        "explanation": "Das 3R-Prinzip steht für Vermeidung, Wiederverwendung und Recycling von Verpackungen."
+      },
+      {
+        "id": 18,
+        "type": "multiple",
+        "question": "Was sind Vorteile von Local Sourcing?",
+        "options": ["Kürzere Transportwege", "Geringere Umweltbelastung", "Bessere Lieferzeitkontrolle", "Höhere Importkosten"],
+        "correctAnswer": ["Kürzere Transportwege", "Geringere Umweltbelastung", "Bessere Lieferzeitkontrolle"],
+        "hint": "Regionale Beschaffung bietet ökologische und logistische Vorteile.",
+        "explanation": "Local Sourcing reduziert Emissionen und stärkt die Versorgungssicherheit."
+      },
+      {
+        "id": 19,
+        "type": "single",
+        "question": "Welche Pflicht hat der Käufer nach § 377 HGB bei Lieferung?",
+        "options": [
+          "Unverzügliche Prüfung und Rüge von Mängeln",
+          "Zahlung des vollen Kaufpreises ohne Prüfung",
+          "Einlagerung für 30 Tage",
+          "Meldung an das Finanzamt"
+        ],
+        "correctAnswer": ["Unverzügliche Prüfung und Rüge von Mängeln"],
+        "hint": "Rügeobliegenheit ist gesetzlich vorgeschrieben.",
+        "explanation": "Unterlässt der Käufer die Rüge, verliert er seine Gewährleistungsrechte."
+      },
+      {
+        "id": 20,
+        "type": "single",
+        "question": "Was bedeutet das Verpackungsgesetz (VerpackG) für Unternehmen?",
+        "options": [
+          "Hersteller sind für Entsorgung und Recycling ihrer Verpackungen verantwortlich",
+          "Kunden müssen Verpackungen selbst entsorgen",
+          "Verpackungen dürfen nicht mehr verwendet werden",
+          "Nur Einwegverpackungen sind erlaubt"
+        ],
+        "correctAnswer": ["Hersteller sind für Entsorgung und Recycling ihrer Verpackungen verantwortlich"],
+        "hint": "Es betrifft die Systembeteiligungspflicht.",
+        "explanation": "Das VerpackG verpflichtet Unternehmen zur Finanzierung des Recyclings über duale Systeme."
       }
     ]
   }

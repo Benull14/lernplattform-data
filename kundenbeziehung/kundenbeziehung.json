@@ -1,0 +1,2272 @@
+{
+  "Kundenbeziehung": {
+    "title": "Kundenbeziehung",
+    "description": "Kundenbeziehung",
+    "chapters": {
+      "die_eigene_rolle_als_dienstleister": {
+        "title": "Die eigene Rolle als Dienstleister im Kundenkontakt",
+        "available": true,
+        "questions": [
+          {
+            "id": 1,
+            "type": "boolean",
+            "question": "Dienstleistungsmentalität bedeutet, die Bedürfnisse der Kunden in den Mittelpunkt des eigenen Handelns zu stellen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Zentraler Gedanke des modernen Büromanagements.",
+            "explanation": "Die Dienstleistungsmentalität zielt darauf ab, kundenorientiert und lösungsorientiert zu handeln."
+          },
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Was beschreibt eine dienstleistungsorientierte Tätigkeit am besten?",
+            "options": [
+              "Nur das ausführen von Anweisungen.",
+              "Proaktives Handeln und Vorausahnen von Bedürfnissen.",
+              "Warten, bis der Kunde sich meldet.",
+              "Fokus auf interne Abläufe ohne Kundenbezug."
+            ],
+            "correctAnswer": [
+              "Proaktives Handeln und Vorausahnen von Bedürfnissen"
+            ],
+            "hint": "Dienstleistungsorientierung geht über reine Verwaltung hinaus.",
+            "explanation": "Eine dienstleistungsorientierte Haltung bedeutet, den Bedarf des Kunden schon zu erkennen, bevor er geäußert wird."
+          },
+          {
+            "id": 3,
+            "type": "boolean",
+            "question": "Im modernen Büromanagement gilt der Mitarbeiter als Visitenkarte des Unternehmens.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Selbstverständnis im Kundenkontakt.",
+            "explanation": "Kaufleute für Büromanagement repräsentieren das Unternehmen gegenüber Kunden."
+          },
+          {
+            "id": 4,
+            "type": "multiple",
+            "question": "Welche Aufgaben haben typischen Servicecharakter im Büromanagement?",
+            "options": [
+              "Kundenanfragen bearbeiten",
+              "Büromaterial beschaffen",
+              "Termine koordinieren",
+              "Kaffeepause planen"
+            ],
+            "correctAnswer": [
+              "Kundenanfragen bearbeiten",
+              "Büromaterial beschaffen",
+              "Termine koordinieren"
+            ],
+            "hint": "Drei typische Aufgaben mit Dienstleistungscharakter.",
+            "explanation": "Diese Tätigkeiten unterstützen den reibungslosen Ablauf und dienen internen oder externen Kunden."
+          },
+          {
+            "id": 5,
+            "type": "single",
+            "question": "Wer zählt zu den internen Kunden?",
+            "options": [
+              "Externe Geschäftspartner",
+              "Kollegen aus anderen Abteilungen",
+              "Privatkunden",
+              "Lieferanten"
+            ],
+            "correctAnswer": [
+              "Kollegen aus anderen Abteilungen"
+            ],
+            "hint": "Beziehungen innerhalb des Unternehmens.",
+            "explanation": "Interne Kunden sind Mitarbeitende oder Abteilungen, die Leistungen voneinander empfangen."
+          },
+          {
+            "id": 6,
+            "type": "boolean",
+            "question": "Externe Kunden sind Personen oder Unternehmen außerhalb der Organisation, die Produkte oder Dienstleistungen beziehen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Abgrenzung interner und externer Kunden.",
+            "explanation": "Externe Kunden bezahlen für die Leistung des Unternehmens."
+          },
+          {
+            "id": 7,
+            "type": "multiple",
+            "question": "Warum ist interne Kundenorientierung wichtig?",
+            "options": [
+              "Für reibungslose Prozesse",
+              "Für besseres Betriebsklima",
+              "Für höhere Effizienz",
+              "Nur für die Buchhaltung relevant"
+            ],
+            "correctAnswer": [
+              "Für reibungslose Prozesse",
+              "Für besseres Betriebsklima",
+              "Für höhere Effizienz"
+            ],
+            "hint": "Sie bildet die Basis für externen Service.",
+            "explanation": "Nur wenn intern gut gearbeitet wird, kann externer Service exzellent sein."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Welcher Aspekt prägt den ersten Eindruck besonders stark?",
+            "options": [
+              "Inhalt der Worte",
+              "Visuelle und emotionale Wahrnehmung",
+              "Geschriebene E-Mails",
+              "Späteres Verhalten"
+            ],
+            "correctAnswer": [
+              "Visuelle und emotionale Wahrnehmung"
+            ],
+            "hint": "Der erste Eindruck entsteht in Sekunden.",
+            "explanation": "Die ersten Sekunden sind visuell und emotional geprägt."
+          },
+          {
+            "id": 9,
+            "type": "boolean",
+            "question": "Ein aufgeräumter und heller Empfangsbereich trägt zum professionellen Eindruck bei.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Äußeres Umfeld zählt zur Visitenkarte.",
+            "explanation": "Sauberkeit und Atmosphäre beeinflussen die Wahrnehmung des Unternehmens."
+          },
+          {
+            "id": 10,
+            "type": "single",
+            "question": "Wie sollte man sich am Telefon melden?",
+            "options": [
+              "Nur mit dem eigenen Namen",
+              "Mit Firmennamen und eigenem Namen",
+              "Mit einer Begrüßungsformel und dann schweigen",
+              "Ohne Namen, um Zeit zu sparen"
+            ],
+            "correctAnswer": [
+              "Mit Firmennamen und eigenem Namen"
+            ],
+            "hint": "Klarheit schafft Vertrauen.",
+            "explanation": "Die Meldung sollte freundlich, deutlich und vollständig sein."
+          },
+          {
+            "id": 11,
+            "type": "boolean",
+            "question": "Ein Lächeln ist am Telefon nicht wahrnehmbar.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Stimme und Haltung hängen zusammen.",
+            "explanation": "Ein Lächeln lässt die Stimme wärmer und freundlicher klingen."
+          },
+          {
+            "id": 12,
+            "type": "multiple",
+            "question": "Welche Elemente gehören zu einer professionellen E-Mail?",
+            "options": [
+              "Klare Betreffzeile",
+              "Korrekte Anrede",
+              "Fehlerfreie Sprache",
+              "Unterschrift mit Kontaktdaten"
+            ],
+            "correctAnswer": [
+              "Klare Betreffzeile",
+              "Korrekte Anrede",
+              "Fehlerfreie Sprache",
+              "Unterschrift mit Kontaktdaten"
+            ],
+            "hint": "Alle vier sind Grundregeln professioneller Korrespondenz.",
+            "explanation": "Diese Elemente bestimmen den ersten schriftlichen Eindruck beim Kunden."
+          },
+          {
+            "id": 13,
+            "type": "boolean",
+            "question": "Empathie bedeutet, sich in die Lage des Kunden hineinversetzen zu können.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Zentrale persönliche Fähigkeit.",
+            "explanation": "Empathie ist eine der wichtigsten Soft Skills im Dienstleistungsbereich."
+          },
+          {
+            "id": 14,
+            "type": "multiple",
+            "question": "Welche Kernkompetenzen zeichnen exzellenten Service aus?",
+            "options": [
+              "Kommunikation",
+              "Vorausplanung",
+              "Zuverlässigkeit",
+              "Sorgfalt"
+            ],
+            "correctAnswer": [
+              "Kommunikation",
+              "Vorausplanung",
+              "Zuverlässigkeit",
+              "Sorgfalt"
+            ],
+            "hint": "Soft Skills und Haltung zählen.",
+            "explanation": "Diese Fähigkeiten sind die Grundlage professionellen Handelns."
+          },
+          {
+            "id": 15,
+            "type": "single",
+            "question": "Was versteht man unter Selbstreflexion im Kundenkontakt?",
+            "options": [
+              "Sich über Kollegen beschweren",
+              "Das eigene Verhalten kritisch hinterfragen",
+              "Kundenrückmeldungen ignorieren",
+              "Nur nach Feierabend reflektieren"
+            ],
+            "correctAnswer": [
+              "Das eigene Verhalten kritisch hinterfragen"
+            ],
+            "hint": "Selbstverbesserung durch Nachdenken.",
+            "explanation": "Selbstreflexion hilft, die Servicequalität kontinuierlich zu verbessern."
+          },
+          {
+            "id": 16,
+            "type": "boolean",
+            "question": "Kundenorientierung ist eine Technik, die man einmal erlernt und dann unverändert anwendet.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Haltung statt Technik.",
+            "explanation": "Kundenorientierung ist eine Einstellung, keine einmalige Methode."
+          },
+          {
+            "id": 17,
+            "type": "multiple",
+            "question": "Welche Fragen helfen bei der Selbstreflexion im Kundenkontakt?",
+            "options": [
+              "War meine Kommunikation klar?",
+              "Habe ich das Anliegen verstanden?",
+              "Hätte ich proaktiver handeln können?",
+              "Habe ich genug Pausen gemacht?"
+            ],
+            "correctAnswer": [
+              "War meine Kommunikation klar?",
+              "Habe ich das Anliegen verstanden?",
+              "Hätte ich proaktiver handeln können?"
+            ],
+            "hint": "Fragen zur eigenen Servicequalität.",
+            "explanation": "Diese Fragen fördern kontinuierliche Verbesserung."
+          },
+          {
+            "id": 18,
+            "type": "boolean",
+            "question": "Eine positive interne Zusammenarbeit trägt zur externen Kundenzufriedenheit bei.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Innen gut, außen besser.",
+            "explanation": "Gute interne Kommunikation stärkt die gesamte Servicequalität."
+          },
+          {
+            "id": 19,
+            "type": "single",
+            "question": "Was ist das Ziel einer dienstleistungsorientierten Haltung?",
+            "options": [
+              "Kundenbedürfnisse zu ignorieren",
+              "Prozesse zu verlangsamen",
+              "Kundenzufriedenheit und Bindung zu stärken",
+              "Nur interne Abläufe zu optimieren"
+            ],
+            "correctAnswer": [
+              "Kundenzufriedenheit und Bindung zu stärken"
+            ],
+            "hint": "Ziel des kundenorientierten Handelns.",
+            "explanation": "Kundenorientierung führt zu stärkerer Bindung und Wettbewerbsvorteilen."
+          },
+          {
+            "id": 20,
+            "type": "multiple",
+            "question": "Welche Folgen hat kontinuierliche Selbstreflexion?",
+            "options": [
+              "Lernfortschritt",
+              "Bessere Kommunikation",
+              "Stetige Verbesserung der Servicequalität",
+              "Stillstand im Arbeitsverhalten"
+            ],
+            "correctAnswer": [
+              "Lernfortschritt",
+              "Bessere Kommunikation",
+              "Stetige Verbesserung der Servicequalität"
+            ],
+            "hint": "Reflexion fördert Entwicklung.",
+            "explanation": "Regelmäßige Selbstreflexion stärkt die Professionalität im Kundenkontakt."
+          }
+        ]
+      },
+      "kundendaten_zusammenstellen": {
+        "title": "Kundendaten zusammenstellen, aufbereiten und auswerten",
+        "available": false,
+        "questions": [
+          {
+            "id": 1,
+            "type": "boolean",
+            "question": "Kundendaten bilden die Grundlage für eine professionelle und personalisierte Kundenbetreuung.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Grundlage für Kundenmanagement.",
+            "explanation": "Je besser man den Kunden kennt, desto gezielter kann man auf seine Bedürfnisse eingehen."
+          },
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Welche Aussage beschreibt Kundenstammdaten am besten?",
+            "options": [
+              "Dynamische Daten, die sich ständig ändern.",
+              "Grundlegende Informationen zur Identifikation des Kunden.",
+              "Interaktionshistorie und Kaufverhalten.",
+              "Marketingdaten zur Werbewirksamkeit."
+            ],
+            "correctAnswer": [
+              "Grundlegende Informationen zur Identifikation des Kunden"
+            ],
+            "hint": "Sie sind meist statisch.",
+            "explanation": "Stammdaten sind Basisinformationen wie Name, Adresse, Telefonnummer und E-Mail."
+          },
+          {
+            "id": 3,
+            "type": "boolean",
+            "question": "Bewegungs- und Interaktionsdaten beschreiben die Entwicklung der Kundenbeziehung über die Zeit.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Sie zeigen, wie aktiv der Kunde ist.",
+            "explanation": "Sie umfassen Kaufhistorie, Beschwerden und E-Mail-Verkehr."
+          },
+          {
+            "id": 4,
+            "type": "multiple",
+            "question": "Welche Beispiele gehören zur manuellen Datenerfassung?",
+            "options": [
+              "Notizen aus Telefonaten",
+              "Visitenkarten von Messen",
+              "Online-Formulare",
+              "Barcode-Scanner"
+            ],
+            "correctAnswer": [
+              "Notizen aus Telefonaten",
+              "Visitenkarten von Messen"
+            ],
+            "hint": "Aktive Eingabe durch Mitarbeitende.",
+            "explanation": "Manuelle Erfassung bedeutet händische Eingabe von Informationen."
+          },
+          {
+            "id": 5,
+            "type": "single",
+            "question": "Welche Methode zählt zur automatisierten Datenerfassung?",
+            "options": [
+              "Telefonnotizen",
+              "Online-Formulare",
+              "Papierfragebogen",
+              "Gesprächsprotokoll"
+            ],
+            "correctAnswer": [
+              "Online-Formulare"
+            ],
+            "hint": "Automatisiert = digital erfasst ohne Zutun.",
+            "explanation": "Digitale Systeme wie Websites oder Scanner erfassen Daten automatisch."
+          },
+          {
+            "id": 6,
+            "type": "boolean",
+            "question": "CRM-Systeme dienen der zentralen Verwaltung von kundenbezogenen Informationen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "CRM steht für Customer Relationship Management.",
+            "explanation": "CRM-Systeme speichern und verknüpfen alle Daten zur Kundenbeziehung."
+          },
+          {
+            "id": 7,
+            "type": "multiple",
+            "question": "Welche Hauptfunktionen gehören zu einem CRM-System?",
+            "options": [
+              "Kontaktdatenverwaltung",
+              "Aktivitätenverfolgung",
+              "Vertriebsunterstützung",
+              "Lohnabrechnung"
+            ],
+            "correctAnswer": [
+              "Kontaktdatenverwaltung",
+              "Aktivitätenverfolgung",
+              "Vertriebsunterstützung"
+            ],
+            "hint": "Drei zentrale Aufgabenbereiche.",
+            "explanation": "CRM-Systeme bündeln Daten für Vertrieb, Service und Kundenkontakt."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Was versteht man unter einer 360-Grad-Sicht auf den Kunden?",
+            "options": [
+              "Eine Kameraansicht im Büro.",
+              "Vollständige und ganzheitliche Darstellung aller Kundendaten.",
+              "Nur Umsatzdaten des Kunden.",
+              "Nur interne Daten aus der Buchhaltung."
+            ],
+            "correctAnswer": [
+              "Vollständige und ganzheitliche Darstellung aller Kundendaten"
+            ],
+            "hint": "Alle Informationen in einem System.",
+            "explanation": "Eine 360-Grad-Sicht zeigt alle relevanten Informationen zu einem Kunden an einem Ort."
+          },
+          {
+            "id": 9,
+            "type": "boolean",
+            "question": "Hohe Datenqualität ist wichtiger als eine große Datenmenge.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Qualität vor Quantität.",
+            "explanation": "Falsche oder veraltete Daten führen zu Fehlentscheidungen und ineffizientem Service."
+          },
+          {
+            "id": 10,
+            "type": "multiple",
+            "question": "Welche Schritte gehören zur Datenaufbereitung?",
+            "options": [
+              "Datenbereinigung",
+              "Deduplizierung",
+              "Standardisierung",
+              "Anreicherung"
+            ],
+            "correctAnswer": [
+              "Datenbereinigung",
+              "Deduplizierung",
+              "Standardisierung",
+              "Anreicherung"
+            ],
+            "hint": "Vier Schritte zur Datenpflege.",
+            "explanation": "Diese Schritte sichern Genauigkeit, Einheitlichkeit und Vollständigkeit der Daten."
+          },
+          {
+            "id": 11,
+            "type": "boolean",
+            "question": "Doppelte Datensätze sollten erhalten bleiben, um Vergleichswerte zu sichern.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Dubletten vermeiden!",
+            "explanation": "Doppelte Einträge führen zu Verwirrung und fehlerhaften Auswertungen."
+          },
+          {
+            "id": 12,
+            "type": "single",
+            "question": "Was beschreibt die Rolle eines Data Stewards am besten?",
+            "options": [
+              "Er pflegt Social-Media-Beiträge.",
+              "Er ist verantwortlich für Datenintegrität und Qualität.",
+              "Er entwickelt neue Produkte.",
+              "Er erstellt Marketingkampagnen."
+            ],
+            "correctAnswer": [
+              "Er ist verantwortlich für Datenintegrität und Qualität"
+            ],
+            "hint": "Verwaltung und Verantwortung für Daten.",
+            "explanation": "Data Stewards sichern die Richtigkeit und Zuverlässigkeit der Kundendaten."
+          },
+          {
+            "id": 13,
+            "type": "boolean",
+            "question": "Die DSGVO erlaubt die Speicherung beliebiger Kundendaten ohne Zweckbindung.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Gesetzlicher Datenschutzrahmen.",
+            "explanation": "Daten dürfen nur für festgelegte und notwendige Zwecke gespeichert werden."
+          },
+          {
+            "id": 14,
+            "type": "multiple",
+            "question": "Welche Grundsätze gehören zur DSGVO?",
+            "options": [
+              "Rechtmäßigkeit und Transparenz",
+              "Zweckbindung",
+              "Datenminimierung",
+              "Integrität und Vertraulichkeit"
+            ],
+            "correctAnswer": [
+              "Rechtmäßigkeit und Transparenz",
+              "Zweckbindung",
+              "Datenminimierung",
+              "Integrität und Vertraulichkeit"
+            ],
+            "hint": "Vier der wichtigsten DSGVO-Prinzipien.",
+            "explanation": "Diese Grundsätze regeln den sicheren und verantwortungsvollen Umgang mit Daten."
+          },
+          {
+            "id": 15,
+            "type": "single",
+            "question": "Was ist laut DSGVO bei personenbezogenen Daten wichtig?",
+            "options": [
+              "Sie dürfen beliebig lange gespeichert werden.",
+              "Sie müssen richtig, aktuell und geschützt sein.",
+              "Sie können an Dritte verkauft werden.",
+              "Sie dürfen offen im Büro liegen."
+            ],
+            "correctAnswer": [
+              "Sie müssen richtig, aktuell und geschützt sein"
+            ],
+            "hint": "Datensicherheit und Aktualität sind entscheidend.",
+            "explanation": "Richtigkeit und Integrität sind zentrale Anforderungen der DSGVO."
+          },
+          {
+            "id": 16,
+            "type": "boolean",
+            "question": "Eine Clean Desk Policy dient dem Schutz personenbezogener Daten.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Teil der praktischen DSGVO-Umsetzung.",
+            "explanation": "Sie verhindert unbefugten Zugriff auf Dokumente im Büro."
+          },
+          {
+            "id": 17,
+            "type": "multiple",
+            "question": "Welche Maßnahmen helfen bei der DSGVO-konformen Arbeit im Büro?",
+            "options": [
+              "Bildschirmsperre aktivieren",
+              "Sichere Passwörter nutzen",
+              "Datenträger vernichten",
+              "Private Cloud-Dienste verwenden"
+            ],
+            "correctAnswer": [
+              "Bildschirmsperre aktivieren",
+              "Sichere Passwörter nutzen",
+              "Datenträger vernichten"
+            ],
+            "hint": "Sicherheitsmaßnahmen im Büroalltag.",
+            "explanation": "Diese Praktiken schützen personenbezogene Daten effektiv."
+          },
+          {
+            "id": 18,
+            "type": "single",
+            "question": "Was ist das Ziel einer ABC-Analyse?",
+            "options": [
+              "Kunden nach ihrer Wichtigkeit zu segmentieren.",
+              "Nur neue Kunden zu erfassen.",
+              "Alte Kundendaten zu löschen.",
+              "Daten zu anonymisieren."
+            ],
+            "correctAnswer": [
+              "Kunden nach ihrer Wichtigkeit zu segmentieren"
+            ],
+            "hint": "Analyse nach Umsatz oder Deckungsbeitrag.",
+            "explanation": "Die ABC-Analyse teilt Kunden in A-, B- und C-Gruppen zur Priorisierung ein."
+          },
+          {
+            "id": 19,
+            "type": "boolean",
+            "question": "A-Kunden generieren den größten Anteil am Umsatz und erfordern besondere Aufmerksamkeit.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Wichtige Kunden mit hohem Potenzial.",
+            "explanation": "Sie sind die wertvollsten Kunden und sollten intensiv betreut werden."
+          },
+          {
+            "id": 20,
+            "type": "multiple",
+            "question": "Welche Vorteile bietet die Datenauswertung im Kundenservice?",
+            "options": [
+              "Erkennen von Kaufmustern",
+              "Personalisierte Angebote",
+              "Vorausschauender Service",
+              "Weniger Kundenzufriedenheit"
+            ],
+            "correctAnswer": [
+              "Erkennen von Kaufmustern",
+              "Personalisierte Angebote",
+              "Vorausschauender Service"
+            ],
+            "hint": "Analyse ermöglicht gezieltes Handeln.",
+            "explanation": "Durch Auswertung lassen sich Trends erkennen und Kunden individuell ansprechen."
+          }
+        ]
+      },
+      "situationsgerecht_auskunft_geben": {
+        "title": "Situationsgerecht und kundenorientiert Auskunft geben und beraten",
+        "available": false,
+        "questions": [
+          {
+            "id": 1,
+            "type": "boolean",
+            "question": "Ein Beratungsgespräch sollte nach einem klaren Phasenmodell aufgebaut sein.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Ein Modell gibt Struktur und Sicherheit.",
+            "explanation": "Das Phasenmodell sorgt für einen roten Faden und ein zielorientiertes Gespräch."
+          },
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Was ist das Ziel der ersten Phase eines Beratungsgesprächs?",
+            "options": [
+              "Sofortige Problemlösung",
+              "Schaffung einer positiven Atmosphäre",
+              "Preisverhandlung",
+              "Vertragsabschluss"
+            ],
+            "correctAnswer": [
+              "Schaffung einer positiven Atmosphäre"
+            ],
+            "hint": "Es geht um Vertrauen und Gesprächsrahmen.",
+            "explanation": "In der Eröffnungsphase wird der Grundstein für eine vertrauensvolle Kommunikation gelegt."
+          },
+          {
+            "id": 3,
+            "type": "multiple",
+            "question": "Welche Techniken gehören zur Gesprächseröffnung?",
+            "options": [
+              "Freundliche Begrüßung",
+              "Smalltalk",
+              "Körperspannung erhöhen",
+              "Zeitrahmen klären"
+            ],
+            "correctAnswer": [
+              "Freundliche Begrüßung",
+              "Smalltalk",
+              "Zeitrahmen klären"
+            ],
+            "hint": "Positive Atmosphäre schaffen.",
+            "explanation": "Diese Elemente fördern Vertrauen und Klarheit über den Gesprächsverlauf."
+          },
+          {
+            "id": 4,
+            "type": "boolean",
+            "question": "Das Anliegen des Kunden sollte erst am Ende des Gesprächs geklärt werden.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Kundenbedürfnisse früh verstehen.",
+            "explanation": "Das Anliegen wird in Phase 2 erfragt, um gezielt helfen zu können."
+          },
+          {
+            "id": 5,
+            "type": "single",
+            "question": "Was ist das Ziel der Phasen 2 und 3 im Beratungsgespräch?",
+            "options": [
+              "Abschluss des Vertrags",
+              "Verstehen des Kundenanliegens",
+              "Überzeugen des Kunden",
+              "Besprechung von Preisen"
+            ],
+            "correctAnswer": [
+              "Verstehen des Kundenanliegens"
+            ],
+            "hint": "Der Bedarf steht im Mittelpunkt.",
+            "explanation": "In diesen Phasen werden Bedürfnisse, Erwartungen und Probleme ermittelt."
+          },
+          {
+            "id": 6,
+            "type": "multiple",
+            "question": "Welche Techniken helfen beim Verstehen des Kundenanliegens?",
+            "options": [
+              "Aktives Zuhören",
+              "Offene Fragen",
+              "Nachfragen",
+              "Ignorieren von Emotionen"
+            ],
+            "correctAnswer": [
+              "Aktives Zuhören",
+              "Offene Fragen",
+              "Nachfragen"
+            ],
+            "hint": "Zuhören und Nachfragen sind Schlüsselkompetenzen.",
+            "explanation": "Sie sichern das Verständnis des Kunden und vermeiden Missverständnisse."
+          },
+          {
+            "id": 7,
+            "type": "boolean",
+            "question": "Die Phasen des Beratungsgesprächs müssen immer strikt in derselben Reihenfolge ablaufen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Flexibilität ist wichtig.",
+            "explanation": "Manchmal muss man zurückspringen, wenn ein Anliegen noch unklar ist."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Wozu dienen geschlossene Fragen im Gespräch?",
+            "options": [
+              "Zur Ermittlung tieferer Bedürfnisse",
+              "Zur Bestätigung und Entscheidung",
+              "Zur Gesprächseinleitung",
+              "Zum Aufbau von Vertrauen"
+            ],
+            "correctAnswer": [
+              "Zur Bestätigung und Entscheidung"
+            ],
+            "hint": "Geschlossene Fragen führen zum Abschluss.",
+            "explanation": "Sie helfen, ein Gespräch zu strukturieren und Entscheidungen herbeizuführen."
+          },
+          {
+            "id": 9,
+            "type": "boolean",
+            "question": "Offene Fragen beginnen typischerweise mit „Was“, „Wie“ oder „Warum“.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Die klassischen W-Fragen.",
+            "explanation": "Offene Fragen fördern das Gespräch und liefern detaillierte Informationen."
+          },
+          {
+            "id": 10,
+            "type": "multiple",
+            "question": "Welche Techniken gehören zum aktiven Zuhören?",
+            "options": [
+              "Paraphrasieren",
+              "Verbalisieren von Emotionen",
+              "Nachfragen",
+              "Widersprechen"
+            ],
+            "correctAnswer": [
+              "Paraphrasieren",
+              "Verbalisieren von Emotionen",
+              "Nachfragen"
+            ],
+            "hint": "Drei Techniken sichern Verständnis.",
+            "explanation": "Sie zeigen Aufmerksamkeit und fördern ein vertrauensvolles Gespräch."
+          },
+          {
+            "id": 11,
+            "type": "single",
+            "question": "Was bedeutet Paraphrasieren?",
+            "options": [
+              "Wiederholen der Worte des Kunden wortwörtlich",
+              "Wiedergabe des Gesagten in eigenen Worten",
+              "Ergänzung der Aussage durch eigene Meinung",
+              "Ignorieren von Details"
+            ],
+            "correctAnswer": [
+              "Wiedergabe des Gesagten in eigenen Worten"
+            ],
+            "hint": "Dient der Verständnisprüfung.",
+            "explanation": "Paraphrasieren zeigt, dass man aktiv zuhört und korrekt verstanden hat."
+          },
+          {
+            "id": 12,
+            "type": "boolean",
+            "question": "Verbalisieren bedeutet, Emotionen des Kunden anzusprechen und zu spiegeln.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Gefühle wahrnehmen und ansprechen.",
+            "explanation": "Es zeigt Empathie und baut eine emotionale Verbindung auf."
+          },
+          {
+            "id": 13,
+            "type": "multiple",
+            "question": "Welche nonverbalen Techniken gehören zum aktiven Zuhören?",
+            "options": [
+              "Blickkontakt halten",
+              "Offene Körperhaltung",
+              "Gelegentliches Nicken",
+              "Hände verschränken"
+            ],
+            "correctAnswer": [
+              "Blickkontakt halten",
+              "Offene Körperhaltung",
+              "Gelegentliches Nicken"
+            ],
+            "hint": "Nonverbale Signale sind entscheidend.",
+            "explanation": "Sie zeigen Interesse, Präsenz und Zustimmung."
+          },
+          {
+            "id": 14,
+            "type": "boolean",
+            "question": "Das Ignorieren der Emotionen des Kunden kann Konflikte vermeiden.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Emotionen müssen erkannt werden.",
+            "explanation": "Verständnis und Empathie sind entscheidend zur Deeskalation."
+          },
+          {
+            "id": 15,
+            "type": "single",
+            "question": "Was ist der erste Schritt zur Deeskalation bei verärgerten Kunden?",
+            "options": [
+              "Sofort technische Lösung präsentieren",
+              "Verständnis zeigen und aktiv zuhören",
+              "Den Kunden unterbrechen",
+              "Das Gespräch beenden"
+            ],
+            "correctAnswer": [
+              "Verständnis zeigen und aktiv zuhören"
+            ],
+            "hint": "Empathie senkt das Stresslevel.",
+            "explanation": "Wenn sich der Kunde verstanden fühlt, lässt die Anspannung meist nach."
+          },
+          {
+            "id": 16,
+            "type": "multiple",
+            "question": "Welche Elemente gehören zu einem professionellen Telefonleitfaden?",
+            "options": [
+              "Vorbereitung",
+              "Anliegen klären",
+              "Information und Beratung",
+              "Gespräch abbrechen"
+            ],
+            "correctAnswer": [
+              "Vorbereitung",
+              "Anliegen klären",
+              "Information und Beratung"
+            ],
+            "hint": "Struktur für professionelle Telefongespräche.",
+            "explanation": "Diese Elemente sichern einen klaren Ablauf und Kundenzufriedenheit."
+          },
+          {
+            "id": 17,
+            "type": "boolean",
+            "question": "Ein Telefonleitfaden sollte wortwörtlich abgelesen werden.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Leitfaden ≠ Skript.",
+            "explanation": "Er ist eine Orientierungshilfe, keine starre Vorlage."
+          },
+          {
+            "id": 18,
+            "type": "single",
+            "question": "Was sollte man tun, wenn man eine Kundenfrage nicht sofort beantworten kann?",
+            "options": [
+              "Verschweigen und hoffen, dass der Kunde es vergisst",
+              "Offen kommunizieren und Rückruf anbieten",
+              "Das Thema wechseln",
+              "Eine Schätzung abgeben"
+            ],
+            "correctAnswer": [
+              "Offen kommunizieren und Rückruf anbieten"
+            ],
+            "hint": "Ehrlichkeit schafft Vertrauen.",
+            "explanation": "Offene Kommunikation signalisiert Kompetenz und Zuverlässigkeit."
+          },
+          {
+            "id": 19,
+            "type": "multiple",
+            "question": "Welche Elemente gehören zur Gesprächsverabschiedung am Telefon?",
+            "options": [
+              "Bedanken für das Gespräch",
+              "Freundlich verabschieden",
+              "Nächste Schritte klären",
+              "Telefon abrupt auflegen"
+            ],
+            "correctAnswer": [
+              "Bedanken für das Gespräch",
+              "Freundlich verabschieden",
+              "Nächste Schritte klären"
+            ],
+            "hint": "Der Abschluss prägt den letzten Eindruck.",
+            "explanation": "Ein positiver Abschluss stärkt die Kundenbindung."
+          },
+          {
+            "id": 20,
+            "type": "boolean",
+            "question": "Ziel aller Gesprächstechniken ist der Aufbau einer vertrauensvollen Kundenbeziehung.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Zentrale Leitidee des Kapitels.",
+            "explanation": "Kundenkommunikation dient nicht nur der Information, sondern vor allem der Beziehungsstärkung."
+          }
+        ]
+      },
+      "ressourcenschonend_kommunizieren": {
+        "title": "Ressourcenschonend und effizient kommunizieren",
+        "available": false,
+        "questions": [
+          {
+            "id": 1,
+            "type": "boolean",
+            "question": "Effiziente Kommunikation spart Zeit, Geld und Ressourcen im Büroalltag.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Kommunikation ist auch eine wirtschaftliche Frage.",
+            "explanation": "Klare und zielgerichtete Kommunikation steigert Wirtschaftlichkeit und Nachhaltigkeit."
+          },
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Was ist kein Ziel effizienter Kommunikation?",
+            "options": [
+              "Zeitersparnis",
+              "Ressourcenschonung",
+              "Komplexität erhöhen",
+              "Wirksamkeit der Botschaft"
+            ],
+            "correctAnswer": [
+              "Komplexität erhöhen"
+            ],
+            "hint": "Effizienz bedeutet Vereinfachung.",
+            "explanation": "Ziel ist Vereinfachung, nicht Verkomplizierung der Kommunikation."
+          },
+          {
+            "id": 3,
+            "type": "boolean",
+            "question": "Adressatengerechte Kommunikation bedeutet, Sprache und Stil an den Empfänger anzupassen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Empfängerorientierung ist der Schlüssel.",
+            "explanation": "Nur durch Anpassung an Vorwissen, Rolle und Interesse des Empfängers wird Kommunikation wirksam."
+          },
+          {
+            "id": 4,
+            "type": "multiple",
+            "question": "Welche Faktoren sollte man beim Formulieren einer Nachricht berücksichtigen?",
+            "options": [
+              "Wer ist der Empfänger?",
+              "Welches Vorwissen hat er?",
+              "Was ist sein Interesse?",
+              "Wie ist seine Stimmung?"
+            ],
+            "correctAnswer": [
+              "Wer ist der Empfänger?",
+              "Welches Vorwissen hat er?",
+              "Was ist sein Interesse?"
+            ],
+            "hint": "Drei zentrale Leitfragen.",
+            "explanation": "Empfänger, Vorwissen und Interesse bestimmen den Kommunikationsstil."
+          },
+          {
+            "id": 5,
+            "type": "boolean",
+            "question": "Interne Kommunikation sollte genauso formell und ausführlich sein wie externe Kommunikation.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Interne und externe Kommunikation unterscheiden sich.",
+            "explanation": "Intern kann direkter kommuniziert werden, extern zählt Höflichkeit und Verständlichkeit."
+          },
+          {
+            "id": 6,
+            "type": "single",
+            "question": "Was ist beim Kommunizieren mit externen Kunden besonders wichtig?",
+            "options": [
+              "Fachjargon verwenden",
+              "Allgemein verständlich sprechen",
+              "Abkürzungen ohne Erklärung nutzen",
+              "Informell schreiben"
+            ],
+            "correctAnswer": [
+              "Allgemein verständlich sprechen"
+            ],
+            "hint": "Kunden sind nicht immer Fachleute.",
+            "explanation": "Externe Kommunikation muss klar, höflich und allgemein verständlich sein."
+          },
+          {
+            "id": 7,
+            "type": "boolean",
+            "question": "Das KISS-Prinzip steht für „Keep It Short and Simple“.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Ein einfaches, aber wirksames Prinzip.",
+            "explanation": "KISS fordert klare, kurze und verständliche Kommunikation."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Welches Ziel gehört nicht zum KISS-Prinzip?",
+            "options": [
+              "Missverständnisse vermeiden",
+              "Zeit sparen",
+              "Komplexität erhöhen",
+              "Wirksamkeit erhöhen"
+            ],
+            "correctAnswer": [
+              "Komplexität erhöhen"
+            ],
+            "hint": "KISS soll vereinfachen.",
+            "explanation": "Das KISS-Prinzip reduziert unnötige Komplexität in Botschaften."
+          },
+          {
+            "id": 9,
+            "type": "multiple",
+            "question": "Wie setzt man das KISS-Prinzip im Büro um?",
+            "options": [
+              "Aussagekräftige Betreffzeilen",
+              "Kurze, klare E-Mails",
+              "Eine Kernaussage pro Folie",
+              "Fachbegriffe ohne Erklärung"
+            ],
+            "correctAnswer": [
+              "Aussagekräftige Betreffzeilen",
+              "Kurze, klare E-Mails",
+              "Eine Kernaussage pro Folie"
+            ],
+            "hint": "Klarheit in allen Kommunikationsformen.",
+            "explanation": "KISS gilt für E-Mails, Anleitungen und Präsentationen."
+          },
+          {
+            "id": 10,
+            "type": "boolean",
+            "question": "Unklare Kommunikation führt zu mehr Rückfragen und damit zu Zeitverlust.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Jede Rückfrage kostet Zeit.",
+            "explanation": "Missverständnisse verursachen Mehrarbeit und Ineffizienz."
+          },
+          {
+            "id": 11,
+            "type": "multiple",
+            "question": "Welche Maßnahmen fördern ressourcenschonende Kommunikation?",
+            "options": [
+              "Klare E-Mails schreiben",
+              "Meetings reduzieren",
+              "Doppelte Nachfragen fördern",
+              "KISS-Prinzip anwenden"
+            ],
+            "correctAnswer": [
+              "Klare E-Mails schreiben",
+              "Meetings reduzieren",
+              "KISS-Prinzip anwenden"
+            ],
+            "hint": "Ziel ist Zeitersparnis und Effizienz.",
+            "explanation": "Weniger, aber klar kommunizieren spart Zeit und Ressourcen."
+          },
+          {
+            "id": 12,
+            "type": "single",
+            "question": "Welche ökologische Maßnahme unterstützt nachhaltige Kommunikation?",
+            "options": [
+              "Dokumente ausdrucken und verteilen",
+              "E-Mails statt Papierdokumente",
+              "Häufige Dienstreisen",
+              "Postversand nutzen"
+            ],
+            "correctAnswer": [
+              "E-Mails statt Papierdokumente"
+            ],
+            "hint": "Digital ist oft nachhaltiger.",
+            "explanation": "Digitale Kommunikation spart Papier, Energie und CO₂."
+          },
+          {
+            "id": 13,
+            "type": "boolean",
+            "question": "Videokonferenzen können eine umweltfreundliche Alternative zu Dienstreisen sein.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "CO₂-Einsparung durch Digitalisierung.",
+            "explanation": "Sie reduzieren Reisezeit, Kosten und Emissionen."
+          },
+          {
+            "id": 14,
+            "type": "multiple",
+            "question": "Welche Kriterien helfen bei der Wahl des passenden Kommunikationskanals?",
+            "options": [
+              "Dringlichkeit",
+              "Komplexität",
+              "Vertraulichkeit",
+              "Tageszeit"
+            ],
+            "correctAnswer": [
+              "Dringlichkeit",
+              "Komplexität",
+              "Vertraulichkeit"
+            ],
+            "hint": "Nicht jede Information braucht denselben Kanal.",
+            "explanation": "Die Auswahl richtet sich nach Situation und Ziel des Austauschs."
+          },
+          {
+            "id": 15,
+            "type": "single",
+            "question": "Welcher Kommunikationskanal ist ideal für dringende Anliegen?",
+            "options": [
+              "E-Mail",
+              "Chat",
+              "Telefon",
+              "Brief"
+            ],
+            "correctAnswer": [
+              "Telefon"
+            ],
+            "hint": "Direkte Klärung möglich.",
+            "explanation": "Das Telefon ermöglicht sofortige Reaktion und Rückfragen."
+          },
+          {
+            "id": 16,
+            "type": "boolean",
+            "question": "Ein Gesprächsprotokoll dient der Dokumentation von Entscheidungen und Aufgaben.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Protokolle sichern Ergebnisse.",
+            "explanation": "Sie halten Vereinbarungen nachvollziehbar fest."
+          },
+          {
+            "id": 17,
+            "type": "multiple",
+            "question": "Welche Elemente gehören in den Protokollkopf?",
+            "options": [
+              "Thema/Titel",
+              "Datum und Ort",
+              "Teilnehmerliste",
+              "Wetterbedingungen"
+            ],
+            "correctAnswer": [
+              "Thema/Titel",
+              "Datum und Ort",
+              "Teilnehmerliste"
+            ],
+            "hint": "Grundinformationen zu Beginn.",
+            "explanation": "Der Kopf schafft Kontext und Nachvollziehbarkeit."
+          },
+          {
+            "id": 18,
+            "type": "single",
+            "question": "Was ist im Hauptteil eines Protokolls besonders wichtig?",
+            "options": [
+              "Alle Gesprächsdetails",
+              "Zusammenfassung der Diskussionen und Beschlüsse",
+              "Stimmung der Teilnehmer",
+              "Begrüßungsworte"
+            ],
+            "correctAnswer": [
+              "Zusammenfassung der Diskussionen und Beschlüsse"
+            ],
+            "hint": "Das Wesentliche zählt.",
+            "explanation": "Der Hauptteil dokumentiert Ergebnisse, nicht Wortprotokolle."
+          },
+          {
+            "id": 19,
+            "type": "boolean",
+            "question": "Ein Protokoll sollte neutral und sachlich formuliert werden.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Objektivität ist Pflicht.",
+            "explanation": "Subjektive Meinungen haben im Protokoll nichts verloren."
+          },
+          {
+            "id": 20,
+            "type": "multiple",
+            "question": "Welche Tipps helfen bei erfolgreicher Protokollführung?",
+            "options": [
+              "Vorbereitung anhand der Tagesordnung",
+              "Während des Meetings aktiv zuhören",
+              "Sofortige Nachbereitung",
+              "Subjektive Kommentare einfügen"
+            ],
+            "correctAnswer": [
+              "Vorbereitung anhand der Tagesordnung",
+              "Während des Meetings aktiv zuhören",
+              "Sofortige Nachbereitung"
+            ],
+            "hint": "Effizienz auch bei der Dokumentation.",
+            "explanation": "Diese Schritte sichern ein vollständiges und nutzbares Protokoll."
+          }
+        ]
+      },
+      "storungen_in_kommunikationsprozessen": {
+        "title": "Störungen in Kommunikationsprozessen erkennen und lösen",
+        "available": false,
+        "questions": [
+          {
+            "id": 1,
+            "type": "boolean",
+            "question": "Kommunikationsstörungen können auch bei bester Absicht entstehen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Selbst gute Kommunikation ist störanfällig.",
+            "explanation": "Missverständnisse entstehen oft durch unterschiedliche Wahrnehmungen oder Ausdrucksweisen."
+          },
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Wann liegt eine Kommunikationsstörung vor?",
+            "options": [
+              "Wenn der Empfänger die Nachricht anders versteht, als sie gemeint war.",
+              "Wenn beide Gesprächspartner dasselbe meinen.",
+              "Wenn nur technische Geräte betroffen sind.",
+              "Wenn keine Rückmeldung erfolgt."
+            ],
+            "correctAnswer": [
+              "Wenn der Empfänger die Nachricht anders versteht, als sie gemeint war."
+            ],
+            "hint": "Fehlinterpretation ist der Kern.",
+            "explanation": "Kommunikationsstörungen entstehen durch Abweichungen zwischen Senderintention und Empfängerinterpretation."
+          },
+          {
+            "id": 3,
+            "type": "multiple",
+            "question": "Welche Ursachen können Kommunikationsstörungen haben?",
+            "options": [
+              "Technische",
+              "Semantische",
+              "Psychologische",
+              "Mathematische"
+            ],
+            "correctAnswer": [
+              "Technische",
+              "Semantische",
+              "Psychologische"
+            ],
+            "hint": "Drei Hauptkategorien.",
+            "explanation": "Technische, sprachliche und psychologische Faktoren beeinflussen das Verständnis."
+          },
+          {
+            "id": 4,
+            "type": "boolean",
+            "question": "Ein schlechtes Telefonnetz ist eine semantische Störung.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Unterscheide technische und sprachliche Ursachen.",
+            "explanation": "Das ist eine technische Störung, da sie die Übertragung betrifft."
+          },
+          {
+            "id": 5,
+            "type": "single",
+            "question": "Welche Ursache gehört zu den psychologischen Störungen?",
+            "options": [
+              "Mangelndes Zuhören",
+              "Doppelte Datensätze",
+              "Fehlerhafte Internetverbindung",
+              "Unklare Satzstruktur"
+            ],
+            "correctAnswer": [
+              "Mangelndes Zuhören"
+            ],
+            "hint": "Psychologische Faktoren liegen im Verhalten.",
+            "explanation": "Psychologische Ursachen hängen mit Wahrnehmung und Aufmerksamkeit zusammen."
+          },
+          {
+            "id": 6,
+            "type": "boolean",
+            "question": "Nonverbale Unstimmigkeiten können eine Kommunikation stören.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Körpersprache kann widersprechen.",
+            "explanation": "Wenn Körpersprache und Worte nicht übereinstimmen, entstehen Missverständnisse."
+          },
+          {
+            "id": 7,
+            "type": "multiple",
+            "question": "Welche Faktoren zählen zu Störungen auf der Beziehungsebene?",
+            "options": [
+              "Antipathie",
+              "Unausgeglichenes Machtverhältnis",
+              "Fachbegriffe",
+              "Unterschiedliche Werte"
+            ],
+            "correctAnswer": [
+              "Antipathie",
+              "Unausgeglichenes Machtverhältnis",
+              "Unterschiedliche Werte"
+            ],
+            "hint": "Beziehungsebene = Emotion und Haltung.",
+            "explanation": "Konflikte und Spannungen beeinflussen die Kommunikation stark."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Wie viel Prozent der Kommunikation spielt sich laut Eisbergmodell auf der Beziehungsebene ab?",
+            "options": [
+              "20%",
+              "50%",
+              "80%",
+              "100%"
+            ],
+            "correctAnswer": [
+              "80%"
+            ],
+            "hint": "Der größere Teil ist unsichtbar.",
+            "explanation": "80 % der Kommunikation verlaufen auf der emotionalen und zwischenmenschlichen Ebene."
+          },
+          {
+            "id": 9,
+            "type": "boolean",
+            "question": "Das Eisbergmodell besagt, dass nur ein kleiner Teil der Kommunikation sichtbar ist.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Nur 20 % sind oberhalb der Wasseroberfläche.",
+            "explanation": "Der Großteil der Botschaft ist unbewusst und emotional geprägt."
+          },
+          {
+            "id": 10,
+            "type": "multiple",
+            "question": "Welche vier Ebenen beschreibt das Vier-Ohren-Modell?",
+            "options": [
+              "Sachinhalt",
+              "Selbstoffenbarung",
+              "Beziehungshinweis",
+              "Appell"
+            ],
+            "correctAnswer": [
+              "Sachinhalt",
+              "Selbstoffenbarung",
+              "Beziehungshinweis",
+              "Appell"
+            ],
+            "hint": "Vier Botschaften in jeder Nachricht.",
+            "explanation": "Jede Aussage enthält gleichzeitig Information, Selbstoffenbarung, Beziehung und Appell."
+          },
+          {
+            "id": 11,
+            "type": "boolean",
+            "question": "Das Vier-Ohren-Modell stammt von Friedemann Schulz von Thun.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Bekanntes Kommunikationsmodell aus Hamburg.",
+            "explanation": "Schulz von Thun entwickelte das Modell zur Analyse von Kommunikationsprozessen."
+          },
+          {
+            "id": 12,
+            "type": "single",
+            "question": "Welche Phase der Konflikteskalation ist laut Glasl noch lösbar durch Moderation?",
+            "options": [
+              "Win-Win",
+              "Win-Lose",
+              "Lose-Lose",
+              "Endphase"
+            ],
+            "correctAnswer": [
+              "Win-Win"
+            ],
+            "hint": "Nur am Anfang ist eine beidseitige Lösung möglich.",
+            "explanation": "In Phase 1 (Stufen 1–3) können beide Seiten noch gewinnen."
+          },
+          {
+            "id": 13,
+            "type": "multiple",
+            "question": "Welche Stufen gehören zur Win-Lose-Phase nach Glasl?",
+            "options": [
+              "Koalitionen",
+              "Gesichtsverlust",
+              "Drohstrategien",
+              "Versöhnung"
+            ],
+            "correctAnswer": [
+              "Koalitionen",
+              "Gesichtsverlust",
+              "Drohstrategien"
+            ],
+            "hint": "Mittlere Eskalationsstufe.",
+            "explanation": "In dieser Phase verliert bereits eine Seite, Mediation ist erforderlich."
+          },
+          {
+            "id": 14,
+            "type": "boolean",
+            "question": "In der Lose-Lose-Phase verlieren beide Parteien im Konflikt.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Endphase des Konflikts.",
+            "explanation": "In Stufen 7–9 zielen beide Seiten auf gegenseitige Zerstörung."
+          },
+          {
+            "id": 15,
+            "type": "multiple",
+            "question": "Welche Grundhaltungen helfen bei der Deeskalation?",
+            "options": [
+              "Ruhe bewahren",
+              "Nicht persönlich nehmen",
+              "Empathie zeigen",
+              "Gegenangriff starten"
+            ],
+            "correctAnswer": [
+              "Ruhe bewahren",
+              "Nicht persönlich nehmen",
+              "Empathie zeigen"
+            ],
+            "hint": "Deeskalation statt Reaktion.",
+            "explanation": "Diese Haltungen fördern Verständnis und Entspannung in Konfliktsituationen."
+          },
+          {
+            "id": 16,
+            "type": "boolean",
+            "question": "Beim Umgang mit Beschwerden sollte man den Kunden häufig unterbrechen, um Zeit zu sparen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Zuhören ist der erste Schritt.",
+            "explanation": "Aktives Zuhören und Verständnis zeigen sind entscheidend für Beschwerdegespräche."
+          },
+          {
+            "id": 17,
+            "type": "single",
+            "question": "Was ist der letzte Schritt im Gesprächsleitfaden für Beschwerden?",
+            "options": [
+              "Sich entschuldigen",
+              "Lösungen anbieten",
+              "Vereinbarungen treffen",
+              "Nachfassen"
+            ],
+            "correctAnswer": [
+              "Nachfassen"
+            ],
+            "hint": "Nach dem Gespräch ist vor dem Service.",
+            "explanation": "Nachfassen signalisiert Wertschätzung und Professionalität."
+          },
+          {
+            "id": 18,
+            "type": "boolean",
+            "question": "Du-Botschaften wirken oft vorwurfsvoll und können Abwehrreaktionen auslösen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Sprache beeinflusst Emotionen.",
+            "explanation": "Sie stellen den Gesprächspartner in die Defensive und verschärfen Konflikte."
+          },
+          {
+            "id": 19,
+            "type": "single",
+            "question": "Was ist der Hauptvorteil von Ich-Botschaften?",
+            "options": [
+              "Sie beschreiben eigene Wahrnehmung und Gefühle.",
+              "Sie lenken von Problemen ab.",
+              "Sie machen den anderen verantwortlich.",
+              "Sie verkürzen Gespräche."
+            ],
+            "correctAnswer": [
+              "Sie beschreiben eigene Wahrnehmung und Gefühle."
+            ],
+            "hint": "Ich statt Du.",
+            "explanation": "Ich-Botschaften sind konstruktiv, da sie ohne Vorwurf kommunizieren."
+          },
+          {
+            "id": 20,
+            "type": "multiple",
+            "question": "Welche Bestandteile gehören zu einer vollständigen Ich-Botschaft?",
+            "options": [
+              "Beobachtung",
+              "Gefühl",
+              "Bedürfnis",
+              "Konkrete Bitte"
+            ],
+            "correctAnswer": [
+              "Beobachtung",
+              "Gefühl",
+              "Bedürfnis",
+              "Konkrete Bitte"
+            ],
+            "hint": "Vier Schritte der Ich-Kommunikation.",
+            "explanation": "Diese Struktur fördert respektvolle und lösungsorientierte Kommunikation."
+          }
+        ]
+      },
+      "informationen_kundengerecht_aufbereiten": {
+        "title": "Informationen kundengerecht aufbereiten",
+        "available": false,
+        "questions": [
+          {
+            "id": 1,
+            "type": "boolean",
+            "question": "Kommunikation scheitert oft, weil die Aufbereitung der Informationen unverständlich ist.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Nicht der Inhalt, sondern die Darstellung ist das Problem.",
+            "explanation": "Viele Texte sind überfrachtet oder unklar strukturiert, wodurch Informationen nicht ankommen."
+          },
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Was ist das Hauptziel kundengerechter Informationsaufbereitung?",
+            "options": [
+              "Inhalte möglichst umfangreich gestalten",
+              "Informationen schnell und einfach verständlich machen",
+              "Fachbegriffe verwenden, um Kompetenz zu zeigen",
+              "Texte mit vielen Details versehen"
+            ],
+            "correctAnswer": [
+              "Informationen schnell und einfach verständlich machen"
+            ],
+            "hint": "Kunden sollen Informationen sofort nutzen können.",
+            "explanation": "Kundengerechte Aufbereitung bedeutet klare, zielgerichtete und leicht erfassbare Inhalte."
+          },
+          {
+            "id": 3,
+            "type": "multiple",
+            "question": "Welche vier Grundsätze sorgen für verständliche Informationsaufbereitung?",
+            "options": [
+              "Perspektivwechsel",
+              "Struktur & roter Faden",
+              "Reduktion aufs Wesentliche",
+              "Einfache Sprache"
+            ],
+            "correctAnswer": [
+              "Perspektivwechsel",
+              "Struktur & roter Faden",
+              "Reduktion aufs Wesentliche",
+              "Einfache Sprache"
+            ],
+            "hint": "Vier Prinzipien der Verständlichkeit.",
+            "explanation": "Diese Grundsätze fördern klare, kundengerechte Kommunikation."
+          },
+          {
+            "id": 4,
+            "type": "boolean",
+            "question": "Der Perspektivwechsel bedeutet, die Informationsdarstellung an das Vorwissen des Kunden anzupassen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Der Kunde bestimmt die Tiefe der Information.",
+            "explanation": "Nur wer die Zielgruppe kennt, kann Inhalte angemessen aufbereiten."
+          },
+          {
+            "id": 5,
+            "type": "single",
+            "question": "Was ist das Ziel einer klaren Struktur und eines roten Fadens?",
+            "options": [
+              "Verwirrung vermeiden und Orientierung geben",
+              "Texte länger gestalten",
+              "Wichtige Punkte verstecken",
+              "Fachsprache betonen"
+            ],
+            "correctAnswer": [
+              "Verwirrung vermeiden und Orientierung geben"
+            ],
+            "hint": "Ein klarer Aufbau unterstützt das Verständnis.",
+            "explanation": "Eine logische Gliederung sorgt für bessere Nachvollziehbarkeit."
+          },
+          {
+            "id": 6,
+            "type": "boolean",
+            "question": "Reduktion aufs Wesentliche bedeutet, so viele Details wie möglich einzubauen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Weniger ist oft mehr.",
+            "explanation": "Nur relevante Informationen sollten enthalten sein, um Überforderung zu vermeiden."
+          },
+          {
+            "id": 7,
+            "type": "single",
+            "question": "Welcher Aspekt ist bei der einfachen Sprache wichtig?",
+            "options": [
+              "Kurze, aktive Sätze",
+              "Lange Schachtelsätze",
+              "Viele Fachbegriffe",
+              "Komplexe Fremdwörter"
+            ],
+            "correctAnswer": [
+              "Kurze, aktive Sätze"
+            ],
+            "hint": "Verständlichkeit steht im Mittelpunkt.",
+            "explanation": "Einfach formulierte Texte sind leichter zu lesen und zu verstehen."
+          },
+          {
+            "id": 8,
+            "type": "boolean",
+            "question": "Ein Angebot ist lediglich eine Preisliste ohne Kundenbezug.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Ein Angebot ist ein Verkaufsdokument.",
+            "explanation": "Ein Angebot soll überzeugen und den Kundennutzen betonen."
+          },
+          {
+            "id": 9,
+            "type": "multiple",
+            "question": "Welche Elemente gehören zu einem kundengerechten Angebot?",
+            "options": [
+              "Persönliches Anschreiben",
+              "Klare Grundstruktur",
+              "Fokus auf Kundennutzen",
+              "Klarer Call-to-Action"
+            ],
+            "correctAnswer": [
+              "Persönliches Anschreiben",
+              "Klare Grundstruktur",
+              "Fokus auf Kundennutzen",
+              "Klarer Call-to-Action"
+            ],
+            "hint": "Das Angebot ist zugleich Verkaufsinstrument.",
+            "explanation": "Diese Elemente fördern Vertrauen und Entscheidung beim Kunden."
+          },
+          {
+            "id": 10,
+            "type": "single",
+            "question": "Was unterscheidet ein gutes von einem schlechten Angebot?",
+            "options": [
+              "Technische Merkmale im Fokus",
+              "Kundennutzen im Fokus",
+              "Viele Abkürzungen",
+              "Komplexe Formulierungen"
+            ],
+            "correctAnswer": [
+              "Kundennutzen im Fokus"
+            ],
+            "hint": "Nutzen statt Technik.",
+            "explanation": "Kunden interessiert, welchen Vorteil sie aus dem Produkt ziehen."
+          },
+          {
+            "id": 11,
+            "type": "boolean",
+            "question": "E-Mails im Kundenkontakt sollten kurz, klar und strukturiert sein.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Effizienz durch Struktur.",
+            "explanation": "Eine klare Struktur hilft dem Empfänger, die Nachricht sofort zu verstehen."
+          },
+          {
+            "id": 12,
+            "type": "multiple",
+            "question": "Welche Merkmale kennzeichnen eine professionelle E-Mail?",
+            "options": [
+              "Aussagekräftiger Betreff",
+              "Klare Einleitung und Absätze",
+              "Professioneller Tonfall",
+              "Emojis und Abkürzungen"
+            ],
+            "correctAnswer": [
+              "Aussagekräftiger Betreff",
+              "Klare Einleitung und Absätze",
+              "Professioneller Tonfall"
+            ],
+            "hint": "Struktur und Professionalität sind entscheidend.",
+            "explanation": "Der Empfänger sollte sofort wissen, worum es geht und wie zu handeln ist."
+          },
+          {
+            "id": 13,
+            "type": "single",
+            "question": "Was ist der Hauptvorteil visueller Darstellungen?",
+            "options": [
+              "Sie sind dekorativ.",
+              "Das Gehirn verarbeitet sie schneller als Text.",
+              "Sie ersetzen den Text vollständig.",
+              "Sie machen Texte länger."
+            ],
+            "correctAnswer": [
+              "Das Gehirn verarbeitet sie schneller als Text"
+            ],
+            "hint": "Bilder erleichtern das Verstehen.",
+            "explanation": "Visuelle Informationen werden 60.000-mal schneller verarbeitet als Text."
+          },
+          {
+            "id": 14,
+            "type": "multiple",
+            "question": "Welche Darstellungsformen eignen sich für Daten und Informationen?",
+            "options": [
+              "Balkendiagramm",
+              "Tortendiagramm",
+              "Liniendiagramm",
+              "Infografik"
+            ],
+            "correctAnswer": [
+              "Balkendiagramm",
+              "Tortendiagramm",
+              "Liniendiagramm",
+              "Infografik"
+            ],
+            "hint": "Je nach Ziel unterschiedliche Formen.",
+            "explanation": "Verschiedene Diagrammtypen eignen sich für Vergleich, Entwicklung und Struktur."
+          },
+          {
+            "id": 15,
+            "type": "boolean",
+            "question": "Bei Visualisierungen gilt: Schönheit ist wichtiger als Verständlichkeit.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Klarheit steht an erster Stelle.",
+            "explanation": "Klarheit vor Ästhetik – die Aussage muss sofort verständlich sein."
+          },
+          {
+            "id": 16,
+            "type": "single",
+            "question": "Womit sollte eine überzeugende Präsentation beginnen?",
+            "options": [
+              "Mit einer Statistik oder Frage, die Interesse weckt",
+              "Mit der Schlussfolgerung",
+              "Mit einer Liste aller Produkte",
+              "Mit Fachjargon"
+            ],
+            "correctAnswer": [
+              "Mit einer Statistik oder Frage, die Interesse weckt"
+            ],
+            "hint": "Das Publikum muss sofort aufmerksam werden.",
+            "explanation": "Ein starker Einstieg schafft Aufmerksamkeit und Orientierung."
+          },
+          {
+            "id": 17,
+            "type": "multiple",
+            "question": "Welche Regeln gelten für das KISS-Prinzip bei Präsentationen?",
+            "options": [
+              "Eine Kernaussage pro Folie",
+              "Stichpunkte statt Textblöcke",
+              "Lesbare Schriftgrößen",
+              "Viele kleine Textelemente"
+            ],
+            "correctAnswer": [
+              "Eine Kernaussage pro Folie",
+              "Stichpunkte statt Textblöcke",
+              "Lesbare Schriftgrößen"
+            ],
+            "hint": "Klarheit und Fokus sichern Wirkung.",
+            "explanation": "Das KISS-Prinzip erleichtert Verständnis und Aufmerksamkeit."
+          },
+          {
+            "id": 18,
+            "type": "boolean",
+            "question": "Ein freier Vortrag wirkt professioneller als das Ablesen von Folien.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Authentizität überzeugt.",
+            "explanation": "Freies Sprechen zeigt Kompetenz und stärkt die Beziehung zum Publikum."
+          },
+          {
+            "id": 19,
+            "type": "single",
+            "question": "Was trägt bei Präsentationen zur Verständlichkeit bei?",
+            "options": [
+              "Schnelles Sprechen",
+              "Langsame, deutliche Artikulation mit Pausen",
+              "Monotone Stimme",
+              "Fachbegriffe in jedem Satz"
+            ],
+            "correctAnswer": [
+              "Langsame, deutliche Artikulation mit Pausen"
+            ],
+            "hint": "Sprechtempo und Pausen erhöhen die Verständlichkeit.",
+            "explanation": "Eine klare Aussprache und bewusstes Tempo fördern das Zuhören."
+          },
+          {
+            "id": 20,
+            "type": "multiple",
+            "question": "Welche Elemente gehören zu professioneller Körpersprache bei Präsentationen?",
+            "options": [
+              "Blickkontakt",
+              "Aufrechte Haltung",
+              "Gestik zur Betonung",
+              "Verschränkte Arme"
+            ],
+            "correctAnswer": [
+              "Blickkontakt",
+              "Aufrechte Haltung",
+              "Gestik zur Betonung"
+            ],
+            "hint": "Körpersprache unterstützt den Inhalt.",
+            "explanation": "Offene, selbstbewusste Körpersprache wirkt überzeugend und verbindlich."
+          }
+        ]
+      },
+      "kundenservice_als_strategischer_erfolgsfaktor": {
+        "title": "Kundenservice als strategischer Erfolgsfaktor",
+        "available": false,
+        "questions": [
+          {
+            "id": 1,
+            "type": "boolean",
+            "question": "Exzellenter Kundenservice ist ein strategischer Erfolgsfaktor und kein Kostenfaktor.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Servicequalität steigert Umsatz und Kundenbindung.",
+            "explanation": "Guter Service führt zu Zufriedenheit, Loyalität und wirtschaftlichem Wachstum."
+          },
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Was ist laut Grundformel die erste Stufe des Serviceerfolgs?",
+            "options": [
+              "Kundenzufriedenheit",
+              "Guter Service",
+              "Kundenloyalität",
+              "Marketing"
+            ],
+            "correctAnswer": [
+              "Guter Service"
+            ],
+            "hint": "Es beginnt mit der Qualität der Betreuung.",
+            "explanation": "Professioneller und empathischer Service ist die Basis für Zufriedenheit und Loyalität."
+          },
+          {
+            "id": 3,
+            "type": "boolean",
+            "question": "Kundenzufriedenheit entsteht, wenn die Leistung die Erwartungen erfüllt oder übertrifft.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Zufriedenheit ist das Ergebnis eines Vergleichsprozesses.",
+            "explanation": "Erwartung und wahrgenommene Leistung werden miteinander verglichen."
+          },
+          {
+            "id": 4,
+            "type": "multiple",
+            "question": "Welche Faktoren beeinflussen Kundenzufriedenheit besonders?",
+            "options": [
+              "Freundlichkeit und Empathie",
+              "Erreichbarkeit und Reaktionszeit",
+              "Schnelligkeit der Problemlösung",
+              "Büroausstattung"
+            ],
+            "correctAnswer": [
+              "Freundlichkeit und Empathie",
+              "Erreichbarkeit und Reaktionszeit",
+              "Schnelligkeit der Problemlösung"
+            ],
+            "hint": "Drei Servicequalitäten entscheiden über Zufriedenheit.",
+            "explanation": "Diese Merkmale prägen das Kundenerlebnis direkt."
+          },
+          {
+            "id": 5,
+            "type": "single",
+            "question": "Was unterscheidet Kundenzufriedenheit von Kundenloyalität?",
+            "options": [
+              "Zufriedenheit ist rational, Loyalität emotional.",
+              "Zufriedenheit ist dauerhaft, Loyalität kurzfristig.",
+              "Beides bedeutet das Gleiche.",
+              "Loyalität hängt nicht vom Service ab."
+            ],
+            "correctAnswer": [
+              "Zufriedenheit ist rational, Loyalität emotional"
+            ],
+            "hint": "Loyalität geht tiefer.",
+            "explanation": "Zufriedenheit kann flüchtig sein, Loyalität entsteht durch emotionale Bindung."
+          },
+          {
+            "id": 6,
+            "type": "boolean",
+            "question": "Kundenzufriedenheit garantiert automatisch Kundenloyalität.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Falsch"
+            ],
+            "hint": "Zufriedenheit allein reicht nicht.",
+            "explanation": "Ein zufriedener Kunde kann trotzdem zur Konkurrenz wechseln."
+          },
+          {
+            "id": 7,
+            "type": "multiple",
+            "question": "Was sind die drei Säulen der Kundenbindung?",
+            "options": [
+              "Konstanz",
+              "Emotionale Verbindung",
+              "Vertrauen",
+              "Preisnachlässe"
+            ],
+            "correctAnswer": [
+              "Konstanz",
+              "Emotionale Verbindung",
+              "Vertrauen"
+            ],
+            "hint": "Bindung entsteht durch Verlässlichkeit und Beziehung.",
+            "explanation": "Diese drei Faktoren bilden das Fundament langfristiger Kundenbeziehungen."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Welche Funktion hat Kundenservice in Krisensituationen?",
+            "options": [
+              "Er verstärkt Konflikte.",
+              "Er hat keine Bedeutung.",
+              "Er dient als Vertrauensanker und Problemlöser.",
+              "Er ersetzt das Produkt."
+            ],
+            "correctAnswer": [
+              "Er dient als Vertrauensanker und Problemlöser"
+            ],
+            "hint": "Kundenservice wirkt stabilisierend.",
+            "explanation": "Ein professioneller Umgang mit Problemen stärkt die Kundenbindung."
+          },
+          {
+            "id": 9,
+            "type": "boolean",
+            "question": "Neukundengewinnung ist teurer als Kundenbindung.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Bestehende Kunden sind wertvoller.",
+            "explanation": "Neukundenakquise kostet 5–10 Mal mehr als Bestandskundenpflege."
+          },
+          {
+            "id": 10,
+            "type": "multiple",
+            "question": "Welche wirtschaftlichen Vorteile bringt Kundenloyalität?",
+            "options": [
+              "Höhere Preisbereitschaft",
+              "Mehr Cross-Selling",
+              "Kürzere Kundenkontakte",
+              "Höhere Effizienz"
+            ],
+            "correctAnswer": [
+              "Höhere Preisbereitschaft",
+              "Mehr Cross-Selling",
+              "Höhere Effizienz"
+            ],
+            "hint": "Loyalität steigert Umsatz und Wirtschaftlichkeit.",
+            "explanation": "Loyale Kunden kaufen mehr, häufiger und zu besseren Konditionen."
+          },
+          {
+            "id": 11,
+            "type": "boolean",
+            "question": "Der Customer Lifetime Value (CLV) beschreibt den Gesamtumsatz eines Kunden über die gesamte Geschäftsbeziehung.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "CLV misst langfristigen Kundenwert.",
+            "explanation": "Er zeigt, wie wertvoll ein Kunde über seine gesamte Lebenszeit für das Unternehmen ist."
+          },
+          {
+            "id": 12,
+            "type": "single",
+            "question": "Welche Methode hilft, den CLV zu maximieren?",
+            "options": [
+              "Exzellenter Kundenservice",
+              "Preiserhöhungen",
+              "Werbekampagnen",
+              "Kostensenkung"
+            ],
+            "correctAnswer": [
+              "Exzellenter Kundenservice"
+            ],
+            "hint": "Service steigert Wiederkäufe.",
+            "explanation": "Guter Service erhöht die Loyalität und damit den langfristigen Umsatz."
+          },
+          {
+            "id": 13,
+            "type": "multiple",
+            "question": "Wie kann Kundenzufriedenheit gemessen werden?",
+            "options": [
+              "Direktes Feedback",
+              "Kurze Umfragen",
+              "Online-Bewertungen",
+              "Stichproben ohne Rückmeldung"
+            ],
+            "correctAnswer": [
+              "Direktes Feedback",
+              "Kurze Umfragen",
+              "Online-Bewertungen"
+            ],
+            "hint": "Messung erfolgt systematisch.",
+            "explanation": "Nur gemessene Zufriedenheit kann gezielt verbessert werden."
+          },
+          {
+            "id": 14,
+            "type": "boolean",
+            "question": "Der CSAT misst die Zufriedenheit mit einer konkreten Interaktion.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "CSAT steht für Customer Satisfaction Score.",
+            "explanation": "Er erfasst die Zufriedenheit auf einer Skala von 1 bis 5."
+          },
+          {
+            "id": 15,
+            "type": "single",
+            "question": "Was misst der Net Promoter Score (NPS)?",
+            "options": [
+              "Die Qualität des Produkts",
+              "Die Mitarbeiterzufriedenheit",
+              "Die Weiterempfehlungsbereitschaft von Kunden",
+              "Den monatlichen Umsatz"
+            ],
+            "correctAnswer": [
+              "Die Weiterempfehlungsbereitschaft von Kunden"
+            ],
+            "hint": "NPS bewertet Loyalität.",
+            "explanation": "Er zeigt, ob Kunden bereit sind, das Unternehmen aktiv zu empfehlen."
+          },
+          {
+            "id": 16,
+            "type": "multiple",
+            "question": "Welche Kundengruppen werden beim NPS unterschieden?",
+            "options": [
+              "Promotoren",
+              "Passive",
+              "Detraktoren",
+              "Interessenten"
+            ],
+            "correctAnswer": [
+              "Promotoren",
+              "Passive",
+              "Detraktoren"
+            ],
+            "hint": "Drei Hauptgruppen.",
+            "explanation": "Sie spiegeln die unterschiedlichen Loyalitätsgrade wider."
+          },
+          {
+            "id": 17,
+            "type": "boolean",
+            "question": "Ein Anstieg der Kundenzufriedenheit um 10 % kann zu einem Umsatzwachstum von 12 % führen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Servicequalität wirkt sich direkt auf Umsatz aus.",
+            "explanation": "Bessere Zufriedenheit erhöht Wiederkäufe und Kaufbeträge."
+          },
+          {
+            "id": 18,
+            "type": "single",
+            "question": "Was zeigt die ROI-Gleichung des Kundenservice?",
+            "options": [
+              "Das Verhältnis zwischen Serviceinvestition und Gewinn",
+              "Die Höhe der Mitarbeitergehälter",
+              "Den monatlichen Stromverbrauch",
+              "Die Zahl der Beschwerden"
+            ],
+            "correctAnswer": [
+              "Das Verhältnis zwischen Serviceinvestition und Gewinn"
+            ],
+            "hint": "ROI misst den wirtschaftlichen Erfolg einer Investition.",
+            "explanation": "Der Return on Investment zeigt, wie stark sich Servicequalität finanziell lohnt."
+          },
+          {
+            "id": 19,
+            "type": "boolean",
+            "question": "Eine Steigerung der Kundenbindungsrate um 5 % kann den Gewinn um bis zu 95 % erhöhen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Kleine Änderungen, große Wirkung.",
+            "explanation": "Kundenbindung hat einen enormen Einfluss auf Profitabilität."
+          },
+          {
+            "id": 20,
+            "type": "multiple",
+            "question": "Wie trägt jeder Mitarbeiter im Büromanagement zum Unternehmenserfolg bei?",
+            "options": [
+              "Durch jeden einzelnen Kundenkontakt",
+              "Durch Aufbau von Vertrauen",
+              "Durch langfristige Kundenpflege",
+              "Durch reine Verwaltungstätigkeiten ohne Kundenkontakt"
+            ],
+            "correctAnswer": [
+              "Durch jeden einzelnen Kundenkontakt",
+              "Durch Aufbau von Vertrauen",
+              "Durch langfristige Kundenpflege"
+            ],
+            "hint": "Service ist Teamarbeit.",
+            "explanation": "Jede Interaktion beeinflusst den Markenwert und den wirtschaftlichen Erfolg."
+          }
+        ]
+      }
+    }
+  }
+}

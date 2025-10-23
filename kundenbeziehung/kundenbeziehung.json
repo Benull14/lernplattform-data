@@ -26,10 +26,10 @@
             "type": "single",
             "question": "Was beschreibt eine dienstleistungsorientierte Tätigkeit am besten?",
             "options": [
-              "Nur das ausführen von Anweisungen.",
-              "Proaktives Handeln und Vorausahnen von Bedürfnissen.",
-              "Warten, bis der Kunde sich meldet.",
-              "Fokus auf interne Abläufe ohne Kundenbezug."
+              "Nur das ausführen von Anweisungen",
+              "Proaktives Handeln und Vorausahnen von Bedürfnissen",
+              "Warten, bis der Kunde sich meldet",
+              "Fokus auf interne Abläufe ohne Kundenbezug"
             ],
             "correctAnswer": [
               "Proaktives Handeln und Vorausahnen von Bedürfnissen"

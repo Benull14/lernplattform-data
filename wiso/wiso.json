@@ -1,821 +1,967 @@
 {
-    "WISO": {
-      "title": "Wirtschafts- und Sozialkunde",
-      "description": "Wirtschafts- und Sozialkunde",
-      "chapters": {
-            "wirtschafts_und_sozialkunde_abschlusspruefung_winter_2021_22": {
-              "title": "Wirtschafts- und Sozialkunde - Abschlussprüfung Winter 2021/22",
-              "available": true,
-              "questions": [
-                {
-                  "id": 1,
-                  "type": "single",
-                  "question": "Wie lange muss die Probezeit in einem Ausbildungsverhältnis mindestens dauern und wie lange darf sie höchstens dauern?",
-                  "options": [
-                    "Mindestens 1 Monat, höchstens 4 Monate",
-                    "Mindestens 2 Monate, höchstens 6 Monate",
-                    "Mindestens 3 Monate, höchstens 12 Monate",
-                    "Mindestens 4 Wochen, höchstens 3 Monate"
-                  ],
-                  "correctAnswer": ["Mindestens 1 Monat, höchstens 4 Monate"],
-                  "hint": "Berufsbildungsgesetz (BBiG).",
-                  "explanation": "Nach § 20 BBiG beträgt die Probezeit mindestens einen und höchstens vier Monate."
-                },
-                {
-                  "id": 2,
-                  "type": "single",
-                  "question": "Welchem Zweck dient das Führen eines Ausbildungsnachweises (Berichtshefts)?",
-                  "options": [
-                    "Zur Dokumentation der vermittelten Ausbildungsinhalte",
-                    "Zur Kontrolle durch die Gewerkschaft",
-                    "Als Grundlage für die Abschlussprüfung",
-                    "Zur Erfassung der Berufsschulnoten"
-                  ],
-                  "correctAnswer": ["Zur Dokumentation der vermittelten Ausbildungsinhalte"],
-                  "hint": "Pflichtnachweis im Ausbildungsverhältnis.",
-                  "explanation": "Das Berichtsheft dokumentiert die vermittelten Inhalte und dient als Nachweis für die IHK-Prüfung."
-                },
-                {
-                  "id": 3,
-                  "type": "multiple",
-                  "question": "Welche Beispiele gehören zu verhaltensbedingten Kündigungsgründen?",
-                  "options": [
-                    "Wiederholte Nichtbeachtung betrieblicher Regeln",
-                    "Negative Auswirkungen einer Krankheit",
-                    "Kritische wirtschaftliche Lage des Unternehmens",
-                    "Mehrfache Verspätungen trotz Abmahnung"
-                  ],
-                  "correctAnswer": [
-                    "Wiederholte Nichtbeachtung betrieblicher Regeln",
-                    "Mehrfache Verspätungen trotz Abmahnung"
-                  ],
-                  "hint": "Verhaltensbedingte Gründe sind steuerbar.",
-                  "explanation": "Verhaltensbedingte Kündigungen beruhen auf schuldhaftem Fehlverhalten des Arbeitnehmers."
-                },
-                {
-                  "id": 4,
-                  "type": "single",
-                  "question": "Welche Aussage zu Betriebsvereinbarungen ist richtig?",
-                  "options": [
-                    "Sie ist ein Vertrag zwischen Arbeitgeber und Betriebsrat und gilt für alle betroffenen Beschäftigten.",
-                    "Sie gilt nur für Gewerkschaftsmitglieder.",
-                    "Sie ersetzt den Tarifvertrag vollständig.",
-                    "Sie ist eine Empfehlung ohne rechtliche Bindung."
-                  ],
-                  "correctAnswer": [
-                    "Sie ist ein Vertrag zwischen Arbeitgeber und Betriebsrat und gilt für alle betroffenen Beschäftigten."
-                  ],
-                  "hint": "Betriebsverfassungsgesetz (BetrVG).",
-                  "explanation": "Eine Betriebsvereinbarung wird zwischen Arbeitgeber und Betriebsrat geschlossen und ist verbindlich für alle betroffenen Arbeitnehmer."
-                },
-                {
-                  "id": 5,
-                  "type": "boolean",
-                  "question": "Schwangere Arbeitnehmerinnen besitzen während der Schwangerschaft und nach der Entbindung einen besonderen Kündigungsschutz.",
-                  "options": ["Wahr", "Falsch"],
-                  "correctAnswer": ["Wahr"],
-                  "hint": "Mutterschutzgesetz (MuSchG).",
-                  "explanation": "Nach § 17 MuSchG ist die Kündigung während der Schwangerschaft und bis vier Monate nach der Entbindung unzulässig."
-                },
-                {
-                  "id": 6,
-                  "type": "boolean",
-                  "question": "Allgemeinverbindlich erklärte Tarifverträge gelten für alle Arbeitnehmer einer Branche, auch wenn sie keiner Gewerkschaft angehören.",
-                  "options": ["Wahr", "Falsch"],
-                  "correctAnswer": ["Wahr"],
-                  "hint": "§ 5 Tarifvertragsgesetz.",
-                  "explanation": "Allgemeinverbindliche Tarifverträge gelten für alle Beschäftigten einer Branche, unabhängig von der Mitgliedschaft in einer Gewerkschaft."
-                },
-                {
-                  "id": 7,
-                  "type": "single",
-                  "question": "Welcher Schritt steht am Anfang bei der Aushandlung eines neuen Tarifvertrags?",
-                  "options": [
-                    "Tarifverhandlungen",
-                    "Schlichtungsverfahren",
-                    "Spruch des Schlichters",
-                    "Abschluss des Tarifvertrags"
-                  ],
-                  "correctAnswer": ["Tarifverhandlungen"],
-                  "hint": "Ablauf der Tarifverhandlungen.",
-                  "explanation": "Zunächst beginnen die Tarifverhandlungen zwischen Arbeitgeberverband und Gewerkschaft."
-                },
-                {
-                  "id": 8,
-                  "type": "single",
-                  "question": "Warum ist eine private Altersvorsorge für Beschäftigte sinnvoll?",
-                  "options": [
-                    "Weil die gesetzliche Rentenversicherung voraussichtlich nicht ausreichen wird.",
-                    "Weil der Staat keine Renten mehr zahlt.",
-                    "Weil das Rentenniveau stetig steigt.",
-                    "Weil nur Selbstständige davon profitieren."
-                  ],
-                  "correctAnswer": [
-                    "Weil die gesetzliche Rentenversicherung voraussichtlich nicht ausreichen wird."
-                  ],
-                  "hint": "Demografischer Wandel.",
-                  "explanation": "Sinkende Geburtenraten und steigende Lebenserwartung führen zu einer Rentenlücke."
-                },
-                {
-                  "id": 9,
-                  "type": "multiple",
-                  "question": "Welche Anlageformen werden im Rahmen der vermögenswirksamen Leistungen (VL) gefördert?",
-                  "options": [
-                    "Bausparvertrag",
-                    "VL-Sparplan der Bank",
-                    "Aktien einzelner Unternehmen",
-                    "Sterbegeldversicherung"
-                  ],
-                  "correctAnswer": ["Bausparvertrag", "VL-Sparplan der Bank"],
-                  "hint": "Gesetzliche Förderfähigkeit.",
-                  "explanation": "Nur bestimmte Sparformen wie Bausparen oder Fondsparpläne sind förderfähig."
-                },
-                {
-                  "id": 10,
-                  "type": "single",
-                  "question": "Was wird in einer Ausbildungsordnung geregelt?",
-                  "options": [
-                    "Kenntnisse, Fertigkeiten und Fähigkeiten, die während der Ausbildung vermittelt werden müssen",
-                    "Die Höhe der Ausbildungsvergütung",
-                    "Die Anzahl der Urlaubstage",
-                    "Der Berufsschulunterricht"
-                  ],
-                  "correctAnswer": [
-                    "Kenntnisse, Fertigkeiten und Fähigkeiten, die während der Ausbildung vermittelt werden müssen"
-                  ],
-                  "hint": "§ 5 BBiG.",
-                  "explanation": "Die Ausbildungsordnung legt fest, welche Inhalte während der Ausbildung vermittelt werden."
-                },
-                {
-                  "id": 11,
-                  "type": "single",
-                  "question": "Welche Lohnsteuerklasse gilt für eine ledige, kinderlose Person?",
-                  "options": [
-                    "Lohnsteuerklasse 1",
-                    "Lohnsteuerklasse 2",
-                    "Lohnsteuerklasse 3",
-                    "Lohnsteuerklasse 4"
-                  ],
-                  "correctAnswer": ["Lohnsteuerklasse 1"],
-                  "hint": "Steuerrechtliche Grundregeln.",
-                  "explanation": "Ledige, kinderlose Arbeitnehmer gehören in die Steuerklasse I."
-                },
-                {
-                  "id": 12,
-                  "type": "single",
-                  "question": "Wie hoch ist das gesetzliche Mindeststammkapital einer GmbH?",
-                  "options": ["25.000 €", "50.000 €", "10.000 €", "5.000 €"],
-                  "correctAnswer": ["25.000 €"],
-                  "hint": "§ 5 GmbHG.",
-                  "explanation": "Das Stammkapital einer GmbH beträgt mindestens 25.000 Euro."
-                },
-                {
-                  "id": 13,
-                  "type": "single",
-                  "question": "Welche Aussage beschreibt die Matrixorganisation am besten?",
-                  "options": [
-                    "Hoher Kommunikationsbedarf und Teamfähigkeit notwendig",
-                    "Klare hierarchische Weisungslinie",
-                    "Starke Zentralisierung der Entscheidungen",
-                    "Trennung nach Produkten"
-                  ],
-                  "correctAnswer": ["Hoher Kommunikationsbedarf und Teamfähigkeit notwendig"],
-                  "hint": "Organisationsstruktur mit Mehrfachunterstellung.",
-                  "explanation": "In der Matrixorganisation gibt es mehrere Vorgesetzte, daher ist Kommunikation besonders wichtig."
-                },
-                {
-                  "id": 14,
-                  "type": "single",
-                  "question": "Welche Verpflichtung hat ein Ausbildungsbetrieb gegenüber der Industrie- und Handelskammer (IHK)?",
-                  "options": [
-                    "Eine Verkürzung der Ausbildung muss genehmigt werden.",
-                    "Fehlzeiten müssen täglich gemeldet werden.",
-                    "Prüfungstermine dürfen selbst festgelegt werden.",
-                    "Auszubildende können eigenständig geprüft werden."
-                  ],
-                  "correctAnswer": ["Eine Verkürzung der Ausbildung muss genehmigt werden."],
-                  "hint": "IHK-Zuständigkeit.",
-                  "explanation": "Verkürzungen oder Verlängerungen der Ausbildung müssen von der IHK genehmigt werden."
-                },
-                {
-                  "id": 15,
-                  "type": "boolean",
-                  "question": "Arbeitnehmerinnen und Arbeitnehmer dürfen ab Vollendung des 18. Lebensjahres an der Betriebsratswahl teilnehmen.",
-                  "options": ["Wahr", "Falsch"],
-                  "correctAnswer": ["Wahr"],
-                  "hint": "§ 7 BetrVG.",
-                  "explanation": "Wahlberechtigt sind alle Arbeitnehmer über 18 Jahre."
-                },
-                {
-                  "id": 16,
-                  "type": "single",
-                  "question": "In welchem Fall besteht ein Mitbestimmungsrecht des Betriebsrats?",
-                  "options": [
-                    "Bei Anordnung von Mehrarbeit",
-                    "Bei der Einstellung des Geschäftsführers",
-                    "Bei der gesetzlichen Lohnerhöhung",
-                    "Bei einer Kündigung in der Probezeit"
-                  ],
-                  "correctAnswer": ["Bei Anordnung von Mehrarbeit"],
-                  "hint": "§ 87 BetrVG.",
-                  "explanation": "Der Betriebsrat hat Mitbestimmungsrecht bei der Gestaltung der Arbeitszeit."
-                },
-                {
-                  "id": 17,
-                  "type": "single",
-                  "question": "Wer ist für die Unterweisung neuer Mitarbeiter nach der Unfallverhütungsvorschrift verantwortlich?",
-                  "options": [
-                    "Der Arbeitgeber bzw. die direkten Vorgesetzten",
-                    "Die Fachkraft für Arbeitssicherheit",
-                    "Der Betriebsrat",
-                    "Kollegen"
-                  ],
-                  "correctAnswer": ["Der Arbeitgeber bzw. die direkten Vorgesetzten"],
-                  "hint": "DGUV Vorschrift 1.",
-                  "explanation": "Die Verantwortung für Arbeitsschutz-Unterweisungen liegt beim Arbeitgeber."
-                },
-                {
-                  "id": 18,
-                  "type": "multiple",
-                  "question": "Welches Gesetz regelt die tägliche Arbeitszeit und welches den Urlaubsanspruch?",
-                  "options": [
-                    "Arbeitszeitgesetz – Arbeitszeit",
-                    "Bundesurlaubsgesetz – Urlaub",
-                    "Elternzeitgesetz – Urlaub",
-                    "Entgeltfortzahlungsgesetz – Arbeitszeit"
-                  ],
-                  "correctAnswer": [
-                    "Arbeitszeitgesetz – Arbeitszeit",
-                    "Bundesurlaubsgesetz – Urlaub"
-                  ],
-                  "hint": "Grundlagen des Arbeitsrechts.",
-                  "explanation": "Das Arbeitszeitgesetz legt Arbeitszeiten fest, das Bundesurlaubsgesetz regelt den Urlaubsanspruch."
-                },
-                {
-                  "id": 19,
-                  "type": "single",
-                  "question": "Welche Maßnahme trägt nicht zum Umweltschutz bei?",
-                  "options": [
-                    "Verwendung von Hochglanzkatalogen",
-                    "Nachfüllbare Schreibgeräte",
-                    "Vermeidung von Plastikverpackungen",
-                    "Sammelbestellungen zur Reduktion von Transportwegen"
-                  ],
-                  "correctAnswer": ["Verwendung von Hochglanzkatalogen"],
-                  "hint": "Papierverbrauch.",
-                  "explanation": "Hochglanzkataloge erhöhen den Ressourcenverbrauch und sind umweltschädlicher."
-                },
-                {
-                  "id": 20,
-                  "type": "single",
-                  "question": "Was kennzeichnet Produkte mit dem Umweltzeichen 'Blauer Engel'?",
-                  "options": [
-                    "Umweltschonende Herstellung",
-                    "Garantierte Langlebigkeit",
-                    "Sicherheitsgeprüft",
-                    "Recyclingfähig zu 100 %"
-                  ],
-                  "correctAnswer": ["Umweltschonende Herstellung"],
-                  "hint": "Umweltzeichen.",
-                  "explanation": "Das Siegel 'Blauer Engel' zeichnet Produkte aus, die besonders umweltfreundlich produziert wurden."
-                },
-                {
-                  "id": 21,
-                  "type": "single",
-                  "question": "Wie reagiert man bei Brandwunden richtig?",
-                  "options": [
-                    "Mit keimfreien Verbandpäckchen abdecken",
-                    "Mit Öl oder Salbe bestreichen",
-                    "Brandblasen öffnen",
-                    "Mit heißem Wasser behandeln"
-                  ],
-                  "correctAnswer": ["Mit keimfreien Verbandpäckchen abdecken"],
-                  "hint": "Erste Hilfe.",
-                  "explanation": "Brandwunden werden steril abgedeckt, aber nicht mit Flüssigkeiten oder Salben behandelt."
-                },
-                {
-                  "id": 22,
-                  "type": "multiple",
-                  "question": "Welche Formulierungen in einer Stellenanzeige verstoßen gegen das Allgemeine Gleichbehandlungsgesetz (AGG)?",
-                  "options": [
-                    "Jung",
-                    "Angenehmes äußeres Erscheinungsbild",
-                    "Attraktives Gehalt",
-                    "Weiterbildungsmöglichkeiten"
-                  ],
-                  "correctAnswer": ["Jung", "Angenehmes äußeres Erscheinungsbild"],
-                  "hint": "AGG – Diskriminierungsverbot.",
-                  "explanation": "Anforderungen nach Alter oder Aussehen sind diskriminierend und unzulässig."
-                },
-                {
-                  "id": 23,
-                  "type": "single",
-                  "question": "Wer besitzt bei einem im Auftrag entwickelten Programm die Verwertungsrechte?",
-                  "options": [
-                    "Der Arbeitgeber, wenn nichts anderes vereinbart ist",
-                    "Der Programmierer selbst",
-                    "Die Handelskammer",
-                    "Der Staat"
-                  ],
-                  "correctAnswer": ["Der Arbeitgeber, wenn nichts anderes vereinbart ist"],
-                  "hint": "Urheberrecht im Arbeitsverhältnis.",
-                  "explanation": "Das Urheberrecht bleibt beim Entwickler, die Verwertungsrechte liegen beim Arbeitgeber."
-                },
-                {
-                  "id": 24,
-                  "type": "single",
-                  "question": "Welchem Zweck dient der Europass?",
-                  "options": [
-                    "Zur europaweiten Darstellung von Qualifikationen",
-                    "Als Ersatz für den Reisepass",
-                    "Zur Gründung von Unternehmen",
-                    "Für kostenlose Reisen in der EU"
-                  ],
-                  "correctAnswer": ["Zur europaweiten Darstellung von Qualifikationen"],
-                  "hint": "Europäische Mobilität.",
-                  "explanation": "Der Europass ermöglicht es, Qualifikationen europaweit transparent darzustellen."
-                },
-                {
-                  "id": 25,
-                  "type": "boolean",
-                  "question": "Phishing-Mails enthalten häufig Links, über die Zugangsdaten abgefragt werden.",
-                  "options": ["Wahr", "Falsch"],
-                  "correctAnswer": ["Wahr"],
-                  "hint": "Cybersecurity-Grundwissen.",
-                  "explanation": "Phishing-Mails imitieren echte Nachrichten, um an persönliche Daten zu gelangen."
-                },
-                {
-                  "id": 26,
-                  "type": "single",
-                  "question": "Wie reagiert man richtig auf eine verdächtige Phishing-Mail?",
-                  "options": [
-                    "Nicht öffnen, löschen und IT-Abteilung informieren",
-                    "Link anklicken und Daten eingeben",
-                    "An Bekannte weiterleiten",
-                    "Ausdrucken und archivieren"
-                  ],
-                  "correctAnswer": ["Nicht öffnen, löschen und IT-Abteilung informieren"],
-                  "hint": "IT-Sicherheitsverhalten.",
-                  "explanation": "Verdächtige E-Mails sollten sofort gelöscht und gemeldet werden."
-                },
-                {
-                  "id": 27,
-                  "type": "boolean",
-                  "question": "Auch bei bekannten Webseiten sollten grundlegende Sicherheitsmaßnahmen eingehalten werden.",
-                  "options": ["Wahr", "Falsch"],
-                  "correctAnswer": ["Wahr"],
-                  "hint": "Websicherheit.",
-                  "explanation": "Selbst vertrauenswürdige Seiten können kompromittiert werden."
-                },
-                {
-                  "id": 28,
-                  "type": "single",
-                  "question": "Wie kann ein öffentliches WLAN sicher genutzt werden?",
-                  "options": [
-                    "Durch Nutzung einer VPN-Verbindung",
-                    "Ohne Schutz, wenn die Seite bekannt ist",
-                    "Durch Eingabe der E-Mail-Adresse beim Login",
-                    "Mit eingeschaltetem Bluetooth"
-                  ],
-                  "correctAnswer": ["Durch Nutzung einer VPN-Verbindung"],
-                  "hint": "Verschlüsselung der Verbindung.",
-                  "explanation": "VPN schützt Daten vor unbefugtem Mitlesen in offenen Netzwerken."
-                },
-                {
-                  "id": 29,
-                  "type": "single",
-                  "question": "Welche Eigenschaft von Daten wird durch Kontrollsummen überprüft?",
-                  "options": ["Integrität", "Verfügbarkeit", "Vertraulichkeit", "Authentizität"],
-                  "correctAnswer": ["Integrität"],
-                  "hint": "Fehlererkennung.",
-                  "explanation": "Kontrollsummen dienen der Überprüfung, ob Daten unverändert übertragen wurden."
-                },
-                {
-                  "id": 30,
-                  "type": "single",
-                  "question": "Zu welchem Bereich gehören Verstöße wie Bestechung oder Vorteilsnahme?",
-                  "options": ["Compliance", "Datenschutz", "Disruption", "Incidence"],
-                  "correctAnswer": ["Compliance"],
-                  "hint": "Unternehmensethik.",
-                  "explanation": "Compliance bezeichnet die Einhaltung gesetzlicher und ethischer Vorschriften im Unternehmen."
-                }
-              ]
-            },
-        "wirtschafts_und_sozialkunde_abschlusspruefung_sommer_2022": {
-        "title": "Wirtschafts- und Sozialkunde - Abschlussprüfung Sommer 2022",
-        "available": true,
-        "questions": [
-        {
-            "id": 1,
-            "type": "single",
-            "question": "Welche Aussage über einen Einzelarbeitsvertrag ist richtig?",
-            "options": [
-            "Er ist auch gültig, wenn das Entgelt über dem Tarifvertrag liegt.",
-            "Er darf nur mit Zustimmung der Gewerkschaft geschlossen werden.",
-            "Er darf höchstens zwei Jahre dauern.",
-            "Er ist ohne Urlaubsregelung ungültig."
-            ],
-            "correctAnswer": ["Er ist auch gültig, wenn das Entgelt über dem Tarifvertrag liegt."],
-            "hint": "Tarifverträge setzen Mindeststandards.",
-            "explanation": "Ein Arbeitsvertrag bleibt gültig, wenn er bessere Bedingungen als der Tarifvertrag vorsieht."
-        },
-        {
-            "id": 2,
-            "type": "multiple",
-            "question": "Welche Aussagen zur Probezeit sind richtig?",
-            "options": [
-            "Sie kann entfallen.",
-            "Sie muss mindestens einen Monat dauern.",
-            "Sie darf bis zu sechs Monate betragen.",
-            "Sie muss drei Monate dauern.",
-            "Sie darf höchstens zwei Jahre dauern."
-            ],
-            "correctAnswer": ["Sie kann entfallen.", "Sie darf bis zu sechs Monate betragen."],
-            "hint": "§ 622 BGB und § 20 BBiG.",
-            "explanation": "Die Probezeit ist nicht zwingend, darf aber höchstens sechs Monate dauern."
-        },
-        {
-            "id": 3,
-            "type": "single",
-            "question": "Ab welcher Uhrzeit dürfen Jugendliche nach dem Jugendarbeitsschutzgesetz frühestens beschäftigt werden?",
-            "options": ["Ab 6:00 Uhr", "Ab 7:00 Uhr", "Ab 8:00 Uhr", "Ab 5:30 Uhr"],
-            "correctAnswer": ["Ab 6:00 Uhr"],
-            "hint": "§ 14 JArbSchG.",
-            "explanation": "Jugendliche dürfen grundsätzlich nicht vor 6 Uhr beschäftigt werden."
-        },
-        {
-            "id": 4,
-            "type": "boolean",
-            "question": "Jugendliche dürfen nach dem Jugendarbeitsschutzgesetz nur an fünf Tagen in der Woche beschäftigt werden.",
-            "options": ["Wahr", "Falsch"],
-            "correctAnswer": ["Wahr"],
-            "hint": "§ 15 JArbSchG.",
-            "explanation": "Jugendliche haben Anspruch auf zwei zusammenhängende Ruhetage pro Woche."
-        },
-        {
-            "id": 5,
-            "type": "single",
-            "question": "Wie viele Urlaubstage stehen einem minderjährigen Auszubildenden im Kalenderjahr mindestens zu?",
-            "options": ["30 Tage", "27 Tage", "25 Tage", "24 Tage"],
-            "correctAnswer": ["25 Tage"],
-            "hint": "§ 19 JArbSchG.",
-            "explanation": "Die Urlaubsdauer richtet sich nach dem Alter des Jugendlichen zu Beginn des Kalenderjahres."
-        },
-        {
-            "id": 6,
-            "type": "single",
-            "question": "Welche Voraussetzung muss ein Ausbilder erfüllen?",
-            "options": [
-            "Er muss persönlich und fachlich geeignet sein.",
-            "Er muss Mitglied einer Gewerkschaft sein.",
-            "Er muss im Prüfungsausschuss sein.",
-            "Er muss Mitglied der Geschäftsleitung sein."
-            ],
-            "correctAnswer": ["Er muss persönlich und fachlich geeignet sein."],
-            "hint": "AEVO.",
-            "explanation": "Die Ausbilder-Eignungsverordnung schreibt persönliche und fachliche Eignung vor."
-        },
-        {
-            "id": 7,
-            "type": "single",
-            "question": "Wie wirkt sich eine Kündigung ohne vorherige Anhörung des Betriebsrats aus?",
-            "options": [
-            "Sie ist unwirksam, da die Anhörung zwingend vorgeschrieben ist.",
-            "Sie ist wirksam, da keine Anhörung notwendig ist.",
-            "Sie wird durch eine nachträgliche Anhörung gültig.",
-            "Sie ist wirksam, wenn das Arbeitsgericht zustimmt."
-            ],
-            "correctAnswer": ["Sie ist unwirksam, da die Anhörung zwingend vorgeschrieben ist."],
-            "hint": "§ 102 BetrVG.",
-            "explanation": "Eine Kündigung ohne Anhörung des Betriebsrats ist gesetzlich unwirksam."
-        },
-        {
-            "id": 8,
-            "type": "single",
-            "question": "Welche Voraussetzung gilt für die Kündigung durch minderjährige Auszubildende?",
-            "options": [
-            "Die Zustimmung der Erziehungsberechtigten ist erforderlich.",
-            "Die Kündigung muss mündlich erfolgen.",
-            "Die Kündigung darf nur während der Probezeit erfolgen.",
-            "Ein Kündigungsgrund ist zwingend erforderlich."
-            ],
-            "correctAnswer": ["Die Zustimmung der Erziehungsberechtigten ist erforderlich."],
-            "hint": "BGB § 107.",
-            "explanation": "Minderjährige benötigen für rechtlich wirksame Erklärungen die Zustimmung ihrer gesetzlichen Vertreter."
-        },
-        {
-            "id": 9,
-            "type": "single",
-            "question": "Welche Formulierung macht ein Zeugnis zu einem qualifizierten Zeugnis?",
-            "options": [
-            "Er/Sie erledigte die übertragenen Aufgaben stets zu unserer vollsten Zufriedenheit.",
-            "Er/Sie wurde im Zeitraum ... beschäftigt.",
-            "Geboren am ... wohnhaft in ...",
-            "Wir wünschen für die Zukunft alles Gute."
-            ],
-            "correctAnswer": ["Er/Sie erledigte die übertragenen Aufgaben stets zu unserer vollsten Zufriedenheit."],
-            "hint": "Qualifiziertes Zeugnis enthält Leistungsbewertung.",
-            "explanation": "Nur qualifizierte Zeugnisse enthalten Beurteilungen zu Leistung und Verhalten."
-        },
-        {
-            "id": 10,
-            "type": "single",
-            "question": "Bei welcher Angelegenheit hat der Betriebsrat ein Mitbestimmungsrecht?",
-            "options": [
-            "Bei der Aufstellung des Urlaubsplans",
-            "Bei der Bestellung des Geschäftsführers",
-            "Bei der Änderung des Firmenlogos",
-            "Bei der Festlegung von Preisen"
-            ],
-            "correctAnswer": ["Bei der Aufstellung des Urlaubsplans"],
-            "hint": "§ 87 BetrVG.",
-            "explanation": "Der Betriebsrat hat Mitbestimmungsrecht bei sozialen Angelegenheiten, z. B. Arbeitszeit und Urlaub."
-        },
-        {
-            "id": 11,
-            "type": "boolean",
-            "question": "Auszubildende unter 25 Jahren sind in der JAV wahlberechtigt und wählbar.",
-            "options": ["Wahr", "Falsch"],
-            "correctAnswer": ["Wahr"],
-            "hint": "§ 60 BetrVG.",
-            "explanation": "Die Jugend- und Auszubildendenvertretung wird von Arbeitnehmern unter 25 gewählt."
-        },
-        {
-            "id": 12,
-            "type": "single",
-            "question": "Was bedeutet die absolute Friedenspflicht im Tarifrecht?",
-            "options": [
-            "Verbot von Streiks während eines gültigen Tarifvertrags",
-            "Verpflichtung zum Dialog mit dem Arbeitgeber",
-            "Einhaltung von Kündigungsschutzregeln",
-            "Regelung des Betriebsratswahlrechts"
-            ],
-            "correctAnswer": ["Verbot von Streiks während eines gültigen Tarifvertrags"],
-            "hint": "§ 74 BetrVG.",
-            "explanation": "Während der Laufzeit eines Tarifvertrags sind Arbeitskämpfe unzulässig."
-        },
-        {
-            "id": 13,
-            "type": "multiple",
-            "question": "Welche Aussagen zu Tarifverträgen sind richtig?",
-            "options": [
-            "Sie kommen durch freie Vereinbarung der Tarifpartner zustande.",
-            "Sie schließen günstigere Betriebsvereinbarungen nicht aus.",
-            "Sie gelten nur für Gewerkschaftsmitglieder.",
-            "Sie müssen staatlich genehmigt werden."
-            ],
-            "correctAnswer": ["Sie kommen durch freie Vereinbarung der Tarifpartner zustande.", "Sie schließen günstigere Betriebsvereinbarungen nicht aus."],
-            "hint": "Tarifautonomie.",
-            "explanation": "Tarifverträge werden frei vereinbart; günstigere Regelungen sind erlaubt."
-        },
-        {
-            "id": 14,
-            "type": "single",
-            "question": "Was wird im Mantel- oder Rahmentarifvertrag geregelt?",
-            "options": [
-            "Definition der Vergütungsgruppen",
-            "Betriebsurlaub",
-            "Sonderzahlungen",
-            "Höchstlöhne"
-            ],
-            "correctAnswer": ["Definition der Vergütungsgruppen"],
-            "hint": "Langfristige Regelungen.",
-            "explanation": "Rahmentarifverträge regeln allgemeine Arbeitsbedingungen, z. B. Einstufungen oder Arbeitszeiten."
-        },
-        {
-            "id": 15,
-            "type": "multiple",
-            "question": "Welche Versicherungen gehören nicht zu den Beiträgen des Arbeitnehmers in der Sozialversicherung?",
-            "options": [
-            "Lebensversicherung",
-            "Unfallversicherung",
-            "Krankenversicherung",
-            "Rentenversicherung"
-            ],
-            "correctAnswer": ["Lebensversicherung", "Unfallversicherung"],
-            "hint": "Fünf Zweige der Sozialversicherung.",
-            "explanation": "Die Unfallversicherung wird ausschließlich vom Arbeitgeber getragen; Lebensversicherungen sind privat."
-        },
-        {
-            "id": 16,
-            "type": "single",
-            "question": "Welche Aussage beschreibt den Zweck des Europass am besten?",
-            "options": [
-            "Er stellt Qualifikationen europaweit verständlich dar.",
-            "Er ersetzt den Reisepass.",
-            "Er ist kostenpflichtig.",
-            "Er ist verpflichtend für Auslandsaufenthalte."
-            ],
-            "correctAnswer": ["Er stellt Qualifikationen europaweit verständlich dar."],
-            "hint": "Europäische Mobilität.",
-            "explanation": "Der Europass dient der europaweiten Vergleichbarkeit von Qualifikationen."
-        },
-        {
-            "id": 17,
-            "type": "multiple",
-            "question": "Welche Tätigkeiten gehören zu den drei Wirtschaftssektoren?",
-            "options": [
-            "Primär: Rohstoffgewinnung",
-            "Sekundär: Produktion",
-            "Tertiär: Dienstleistungen"
-            ],
-            "correctAnswer": ["Primär: Rohstoffgewinnung", "Sekundär: Produktion", "Tertiär: Dienstleistungen"],
-            "hint": "Drei-Sektoren-Modell.",
-            "explanation": "Primär: Bergbau, Sekundär: Industrie, Tertiär: Handel oder Beratung."
-        },
-        {
-            "id": 18,
-            "type": "single",
-            "question": "Welche Aussage zur GmbH ist richtig?",
-            "options": [
-            "Die Gewinnverteilung erfolgt nach Geschäftsanteilen.",
-            "Alle Gesellschafter führen die Geschäfte.",
-            "Sie ist eine Personengesellschaft.",
-            "Ihre Anteile werden an der Börse gehandelt."
-            ],
-            "correctAnswer": ["Die Gewinnverteilung erfolgt nach Geschäftsanteilen"],
-            "hint": "Gesetzliche Regelung im GmbHG.",
-            "explanation": "Die Gewinnverteilung erfolgt nach den Anteilen der Gesellschafter."
-        },
-        {
-            "id": 19,
-            "type": "single",
-            "question": "Welche Kennzahl zeigt, welcher Auftrag am wirtschaftlichsten ist?",
-            "options": [
-            "Auftrag mit der höchsten Gewinnquote",
-            "Auftrag mit dem höchsten Ertrag",
-            "Auftrag mit den geringsten Kosten",
-            "Auftrag mit der längsten Laufzeit"
-            ],
-            "correctAnswer": ["Auftrag mit der höchsten Gewinnquote"],
-            "hint": "Wirtschaftlichkeit = Ertrag/Aufwand.",
-            "explanation": "Je höher der Ertrag im Verhältnis zum Aufwand, desto wirtschaftlicher der Auftrag."
-        },
-        {
-            "id": 20,
-            "type": "single",
-            "question": "Wenn ein Unternehmen ein anderes übernimmt, dieses aber rechtlich selbstständig bleibt, liegt welche Form des Zusammenschlusses vor?",
-            "options": ["Konzern", "Fusion", "Kartell", "Arbeitsgemeinschaft"],
-            "correctAnswer": ["Konzern"],
-            "hint": "Einheitliche Leitung bei rechtlicher Selbstständigkeit.",
-            "explanation": "Beim Konzern sind Unternehmen rechtlich selbstständig, aber wirtschaftlich verbunden."
-        },
-        {
-            "id": 21,
-            "type": "single",
-            "question": "Welches Leitungssystem kombiniert fachliche und projektbezogene Zuständigkeiten?",
-            "options": ["Matrixsystem", "Einliniensystem", "Mehrliniensystem", "Stabliniensystem"],
-            "correctAnswer": ["Matrixsystem"],
-            "hint": "Mehrfachunterstellung.",
-            "explanation": "Das Matrixsystem kombiniert funktionale und projektorientierte Führung."
-        },
-        {
-            "id": 22,
-            "type": "single",
-            "question": "Welche Auswirkung hat die weltweite Arbeitsteilung?",
-            "options": [
-            "Zunahme des internationalen Warenverkehrs",
-            "Gleiche soziale Standards weltweit",
-            "Weniger Spezialisierung der Länder",
-            "Rückgang des Handels"
-            ],
-            "correctAnswer": ["Zunahme des internationalen Warenverkehrs"],
-            "hint": "Globalisierung.",
-            "explanation": "Arbeitsteilung führt zu Spezialisierung und erhöhtem Warenverkehr."
-        },
-        {
-            "id": 23,
-            "type": "multiple",
-            "question": "Welche Bedeutungen haben typische Sicherheitskennzeichen?",
-            "options": [
-            "Warnung vor Feuergefahr",
-            "Nicht berühren – elektrische Spannung",
-            "Rettungsweg nach rechts",
-            "Brandmelder betätigen"
-            ],
-            "correctAnswer": ["Warnung vor Feuergefahr", "Nicht berühren – elektrische Spannung", "Rettungsweg nach rechts", "Brandmelder betätigen"],
-            "hint": "Sicherheitskennzeichen nach ISO.",
-            "explanation": "Jedes Symbol kennzeichnet spezifische Gefahren oder Hinweise."
-        },
-        {
-            "id": 24,
-            "type": "single",
-            "question": "Wie müssen Unfallverhütungsvorschriften im Betrieb zugänglich gemacht werden?",
-            "options": [
-            "Gut sichtbar aushängen",
-            "Im Intranet speichern",
-            "Nur bei Einstellung erläutern",
-            "An die Mitarbeiter verschicken"
-            ],
-            "correctAnswer": ["Gut sichtbar aushängen"],
-            "hint": "Pflicht des Arbeitgebers.",
-            "explanation": "Gesetzlich ist vorgeschrieben, dass die Vorschriften ausgehängt werden."
-        },
-        {
-            "id": 25,
-            "type": "single",
-            "question": "Welches Verhalten beim Löschen eines Brandes ist falsch?",
-            "options": [
-            "Immer in Windrichtung löschen",
-            "Von unten nach oben löschen",
-            "Mehrere Löscher gleichzeitig verwenden",
-            "Brandstelle beobachten"
-            ],
-            "correctAnswer": ["Immer in Windrichtung löschen"],
-            "hint": "Löschen immer gegen den Wind.",
-            "explanation": "Beim Löschen sollte man immer gegen die Windrichtung arbeiten."
-        },
-        {
-            "id": 26,
-            "type": "single",
-            "question": "Was ist der erste Schritt bei der Bedienung eines Feuerlöschers?",
-            "options": [
-            "Zum Feuerlöschgerät laufen",
-            "Sicherung ziehen",
-            "Schlauch auf das Feuer richten",
-            "Betätigungshebel drücken"
-            ],
-            "correctAnswer": ["Zum Feuerlöschgerät laufen"],
-            "hint": "Reihenfolge beachten.",
-            "explanation": "Zuerst wird der Feuerlöscher geholt, dann entsichert, gezielt und ausgelöst."
-        },
-        {
-            "id": 27,
-            "type": "single",
-            "question": "Was bedeutet das Verursacherprinzip im Umweltschutz?",
-            "options": [
-            "Die Verursacher tragen die Kosten der Umweltschäden.",
-            "Die Kosten werden gleichmäßig verteilt.",
-            "Die Verpackungskosten trägt der Verbraucher.",
-            "Die Abfallentsorgung hat Vorrang vor Abfallvermeidung."
-            ],
-            "correctAnswer": ["Die Verursacher tragen die Kosten der Umweltschäden."],
-            "hint": "Grundsatz des Umweltrechts.",
-            "explanation": "Wer Umweltschäden verursacht, trägt auch die Kosten ihrer Beseitigung."
-        },
-        {
-            "id": 28,
-            "type": "single",
-            "question": "Welche Handlung stellt Recycling im Betrieb dar?",
-            "options": [
-            "Trennung und Rückführung von Verpackungen in das Duale System",
-            "Einsatz von Recyclingpapier",
-            "Einsparung von Wasser",
-            "Verwendung biologischer Lebensmittel"
-            ],
-            "correctAnswer": ["Trennung und Rückführung von Verpackungen in das Duale System"],
-            "hint": "Wiederverwertung von Materialien.",
-            "explanation": "Recycling bedeutet, Materialien erneut dem Produktionsprozess zuzuführen."
-        },
-        {
-            "id": 29,
-            "type": "single",
-            "question": "Welcher Aspekt wird in der Charta der Vielfalt nicht berücksichtigt?",
-            "options": [
-            "Ausbildungsstand",
-            "Alter",
-            "Religion",
-            "Nationale Herkunft",
-            "Sexuelle Orientierung"
-            ],
-            "correctAnswer": ["Ausbildungsstand"],
-            "hint": "Fokus auf Diskriminierungskriterien.",
-            "explanation": "Der Ausbildungsstand ist kein offizielles Kriterium der Charta der Vielfalt."
-        },
-        {
-            "id": 30,
-            "type": "single",
-            "question": "Welches Ziel verfolgt Diversity Management?",
-            "options": [
-            "Die Vielfalt im Unternehmen als Stärke zu nutzen",
-            "Personalkosten zu senken",
-            "Vorurteile für Marketingzwecke zu verwenden",
-            "Homogene Teams zu schaffen"
-            ],
-            "correctAnswer": ["Die Vielfalt im Unternehmen als Stärke zu nutzen"],
-            "hint": "Wertschätzung von Vielfalt.",
-            "explanation": "Diversity Management nutzt die unterschiedlichen Perspektiven der Mitarbeitenden als Potenzial."
-        }
-        ]
-    },
-    "wirtschafts_und_sozialkunde_abschlusspruefung_winter_2022_23": {
-        "title": "Wirtschafts- und Sozialkunde - Abschlussprüfung Winter 2022/23",
+  "WISO": {
+    "title": "Wirtschafts- und Sozialkunde",
+    "description": "Wirtschafts- und Sozialkunde",
+    "chapters": {
+      "wirtschafts_und_sozialkunde_abschlusspruefung_winter_2021_22": {
+        "title": "Wirtschafts- und Sozialkunde - Abschlussprüfung Winter 2021/22",
         "available": true,
         "questions": [
           {
             "id": 1,
             "type": "single",
-            "question": "Welche Voraussetzung muss ein Mitarbeiter erfüllen, um als Ausbilder tätig sein zu dürfen?",
+            "question": "Wie lange muss die Probezeit in einem Ausbildungsverhältnis mindestens dauern und wie lange darf sie höchstens dauern?",
             "options": [
-              "Er muss fachlich und persönlich geeignet sein.",
-              "Er muss eine eigene Firma besitzen.",
-              "Er muss Mitglied der IHK sein.",
-              "Er muss mindestens 10 Jahre Berufserfahrung haben."
+              "Mindestens 1 Monat, höchstens 4 Monate",
+              "Mindestens 2 Monate, höchstens 6 Monate",
+              "Mindestens 3 Monate, höchstens 12 Monate",
+              "Mindestens 4 Wochen, höchstens 3 Monate"
             ],
-            "correctAnswer": ["Er muss fachlich und persönlich geeignet sein."],
-            "hint": "AEVO (Ausbildereignungsverordnung).",
-            "explanation": "Nur fachlich und persönlich geeignete Personen dürfen Auszubildende anleiten."
+            "correctAnswer": [
+              "Mindestens 1 Monat, höchstens 4 Monate"
+            ],
+            "hint": "Berufsbildungsgesetz (BBiG).",
+            "explanation": "Nach § 20 BBiG beträgt die Probezeit mindestens einen und höchstens vier Monate."
           },
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Welchem Zweck dient das Führen eines Ausbildungsnachweises (Berichtshefts)?",
+            "options": [
+              "Zur Dokumentation der vermittelten Ausbildungsinhalte",
+              "Zur Kontrolle durch die Gewerkschaft",
+              "Als Grundlage für die Abschlussprüfung",
+              "Zur Erfassung der Berufsschulnoten"
+            ],
+            "correctAnswer": [
+              "Zur Dokumentation der vermittelten Ausbildungsinhalte"
+            ],
+            "hint": "Pflichtnachweis im Ausbildungsverhältnis.",
+            "explanation": "Das Berichtsheft dokumentiert die vermittelten Inhalte und dient als Nachweis für die IHK-Prüfung."
+          },
+          {
+            "id": 3,
+            "type": "multiple",
+            "question": "Welche Beispiele gehören zu verhaltensbedingten Kündigungsgründen?",
+            "options": [
+              "Wiederholte Nichtbeachtung betrieblicher Regeln",
+              "Negative Auswirkungen einer Krankheit",
+              "Kritische wirtschaftliche Lage des Unternehmens",
+              "Mehrfache Verspätungen trotz Abmahnung"
+            ],
+            "correctAnswer": [
+              "Wiederholte Nichtbeachtung betrieblicher Regeln",
+              "Mehrfache Verspätungen trotz Abmahnung"
+            ],
+            "hint": "Verhaltensbedingte Gründe sind steuerbar.",
+            "explanation": "Verhaltensbedingte Kündigungen beruhen auf schuldhaftem Fehlverhalten des Arbeitnehmers."
+          },
+          {
+            "id": 4,
+            "type": "single",
+            "question": "Welche Aussage zu Betriebsvereinbarungen ist richtig?",
+            "options": [
+              "Sie ist ein Vertrag zwischen Arbeitgeber und Betriebsrat und gilt für alle betroffenen Beschäftigten.",
+              "Sie gilt nur für Gewerkschaftsmitglieder.",
+              "Sie ersetzt den Tarifvertrag vollständig.",
+              "Sie ist eine Empfehlung ohne rechtliche Bindung."
+            ],
+            "correctAnswer": [
+              "Sie ist ein Vertrag zwischen Arbeitgeber und Betriebsrat und gilt für alle betroffenen Beschäftigten."
+            ],
+            "hint": "Betriebsverfassungsgesetz (BetrVG).",
+            "explanation": "Eine Betriebsvereinbarung wird zwischen Arbeitgeber und Betriebsrat geschlossen und ist verbindlich für alle betroffenen Arbeitnehmer."
+          },
+          {
+            "id": 5,
+            "type": "boolean",
+            "question": "Schwangere Arbeitnehmerinnen besitzen während der Schwangerschaft und nach der Entbindung einen besonderen Kündigungsschutz.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Mutterschutzgesetz (MuSchG).",
+            "explanation": "Nach § 17 MuSchG ist die Kündigung während der Schwangerschaft und bis vier Monate nach der Entbindung unzulässig."
+          },
+          {
+            "id": 6,
+            "type": "boolean",
+            "question": "Allgemeinverbindlich erklärte Tarifverträge gelten für alle Arbeitnehmer einer Branche, auch wenn sie keiner Gewerkschaft angehören.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "§ 5 Tarifvertragsgesetz.",
+            "explanation": "Allgemeinverbindliche Tarifverträge gelten für alle Beschäftigten einer Branche, unabhängig von der Mitgliedschaft in einer Gewerkschaft."
+          },
+          {
+            "id": 7,
+            "type": "single",
+            "question": "Welcher Schritt steht am Anfang bei der Aushandlung eines neuen Tarifvertrags?",
+            "options": [
+              "Tarifverhandlungen",
+              "Schlichtungsverfahren",
+              "Spruch des Schlichters",
+              "Abschluss des Tarifvertrags"
+            ],
+            "correctAnswer": [
+              "Tarifverhandlungen"
+            ],
+            "hint": "Ablauf der Tarifverhandlungen.",
+            "explanation": "Zunächst beginnen die Tarifverhandlungen zwischen Arbeitgeberverband und Gewerkschaft."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Warum ist eine private Altersvorsorge für Beschäftigte sinnvoll?",
+            "options": [
+              "Weil die gesetzliche Rentenversicherung voraussichtlich nicht ausreichen wird.",
+              "Weil der Staat keine Renten mehr zahlt.",
+              "Weil das Rentenniveau stetig steigt.",
+              "Weil nur Selbstständige davon profitieren."
+            ],
+            "correctAnswer": [
+              "Weil die gesetzliche Rentenversicherung voraussichtlich nicht ausreichen wird."
+            ],
+            "hint": "Demografischer Wandel.",
+            "explanation": "Sinkende Geburtenraten und steigende Lebenserwartung führen zu einer Rentenlücke."
+          },
+          {
+            "id": 9,
+            "type": "multiple",
+            "question": "Welche Anlageformen werden im Rahmen der vermögenswirksamen Leistungen (VL) gefördert?",
+            "options": [
+              "Bausparvertrag",
+              "VL-Sparplan der Bank",
+              "Aktien einzelner Unternehmen",
+              "Sterbegeldversicherung"
+            ],
+            "correctAnswer": [
+              "Bausparvertrag",
+              "VL-Sparplan der Bank"
+            ],
+            "hint": "Gesetzliche Förderfähigkeit.",
+            "explanation": "Nur bestimmte Sparformen wie Bausparen oder Fondsparpläne sind förderfähig."
+          },
+          {
+            "id": 10,
+            "type": "single",
+            "question": "Was wird in einer Ausbildungsordnung geregelt?",
+            "options": [
+              "Kenntnisse, Fertigkeiten und Fähigkeiten, die während der Ausbildung vermittelt werden müssen",
+              "Die Höhe der Ausbildungsvergütung",
+              "Die Anzahl der Urlaubstage",
+              "Der Berufsschulunterricht"
+            ],
+            "correctAnswer": [
+              "Kenntnisse, Fertigkeiten und Fähigkeiten, die während der Ausbildung vermittelt werden müssen"
+            ],
+            "hint": "§ 5 BBiG.",
+            "explanation": "Die Ausbildungsordnung legt fest, welche Inhalte während der Ausbildung vermittelt werden."
+          },
+          {
+            "id": 11,
+            "type": "single",
+            "question": "Welche Lohnsteuerklasse gilt für eine ledige, kinderlose Person?",
+            "options": [
+              "Lohnsteuerklasse 1",
+              "Lohnsteuerklasse 2",
+              "Lohnsteuerklasse 3",
+              "Lohnsteuerklasse 4"
+            ],
+            "correctAnswer": [
+              "Lohnsteuerklasse 1"
+            ],
+            "hint": "Steuerrechtliche Grundregeln.",
+            "explanation": "Ledige, kinderlose Arbeitnehmer gehören in die Steuerklasse I."
+          },
+          {
+            "id": 12,
+            "type": "single",
+            "question": "Wie hoch ist das gesetzliche Mindeststammkapital einer GmbH?",
+            "options": [
+              "25.000 €",
+              "50.000 €",
+              "10.000 €",
+              "5.000 €"
+            ],
+            "correctAnswer": [
+              "25.000 €"
+            ],
+            "hint": "§ 5 GmbHG.",
+            "explanation": "Das Stammkapital einer GmbH beträgt mindestens 25.000 Euro."
+          },
+          {
+            "id": 13,
+            "type": "single",
+            "question": "Welche Aussage beschreibt die Matrixorganisation am besten?",
+            "options": [
+              "Hoher Kommunikationsbedarf und Teamfähigkeit notwendig",
+              "Klare hierarchische Weisungslinie",
+              "Starke Zentralisierung der Entscheidungen",
+              "Trennung nach Produkten"
+            ],
+            "correctAnswer": [
+              "Hoher Kommunikationsbedarf und Teamfähigkeit notwendig"
+            ],
+            "hint": "Organisationsstruktur mit Mehrfachunterstellung.",
+            "explanation": "In der Matrixorganisation gibt es mehrere Vorgesetzte, daher ist Kommunikation besonders wichtig."
+          },
+          {
+            "id": 14,
+            "type": "single",
+            "question": "Welche Verpflichtung hat ein Ausbildungsbetrieb gegenüber der Industrie- und Handelskammer (IHK)?",
+            "options": [
+              "Eine Verkürzung der Ausbildung muss genehmigt werden.",
+              "Fehlzeiten müssen täglich gemeldet werden.",
+              "Prüfungstermine dürfen selbst festgelegt werden.",
+              "Auszubildende können eigenständig geprüft werden."
+            ],
+            "correctAnswer": [
+              "Eine Verkürzung der Ausbildung muss genehmigt werden."
+            ],
+            "hint": "IHK-Zuständigkeit.",
+            "explanation": "Verkürzungen oder Verlängerungen der Ausbildung müssen von der IHK genehmigt werden."
+          },
+          {
+            "id": 15,
+            "type": "boolean",
+            "question": "Arbeitnehmerinnen und Arbeitnehmer dürfen ab Vollendung des 18. Lebensjahres an der Betriebsratswahl teilnehmen.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "§ 7 BetrVG.",
+            "explanation": "Wahlberechtigt sind alle Arbeitnehmer über 18 Jahre."
+          },
+          {
+            "id": 16,
+            "type": "single",
+            "question": "In welchem Fall besteht ein Mitbestimmungsrecht des Betriebsrats?",
+            "options": [
+              "Bei Anordnung von Mehrarbeit",
+              "Bei der Einstellung des Geschäftsführers",
+              "Bei der gesetzlichen Lohnerhöhung",
+              "Bei einer Kündigung in der Probezeit"
+            ],
+            "correctAnswer": [
+              "Bei Anordnung von Mehrarbeit"
+            ],
+            "hint": "§ 87 BetrVG.",
+            "explanation": "Der Betriebsrat hat Mitbestimmungsrecht bei der Gestaltung der Arbeitszeit."
+          },
+          {
+            "id": 17,
+            "type": "single",
+            "question": "Wer ist für die Unterweisung neuer Mitarbeiter nach der Unfallverhütungsvorschrift verantwortlich?",
+            "options": [
+              "Der Arbeitgeber bzw. die direkten Vorgesetzten",
+              "Die Fachkraft für Arbeitssicherheit",
+              "Der Betriebsrat",
+              "Kollegen"
+            ],
+            "correctAnswer": [
+              "Der Arbeitgeber bzw. die direkten Vorgesetzten"
+            ],
+            "hint": "DGUV Vorschrift 1.",
+            "explanation": "Die Verantwortung für Arbeitsschutz-Unterweisungen liegt beim Arbeitgeber."
+          },
+          {
+            "id": 18,
+            "type": "multiple",
+            "question": "Welches Gesetz regelt die tägliche Arbeitszeit und welches den Urlaubsanspruch?",
+            "options": [
+              "Arbeitszeitgesetz – Arbeitszeit",
+              "Bundesurlaubsgesetz – Urlaub",
+              "Elternzeitgesetz – Urlaub",
+              "Entgeltfortzahlungsgesetz – Arbeitszeit"
+            ],
+            "correctAnswer": [
+              "Arbeitszeitgesetz – Arbeitszeit",
+              "Bundesurlaubsgesetz – Urlaub"
+            ],
+            "hint": "Grundlagen des Arbeitsrechts.",
+            "explanation": "Das Arbeitszeitgesetz legt Arbeitszeiten fest, das Bundesurlaubsgesetz regelt den Urlaubsanspruch."
+          },
+          {
+            "id": 19,
+            "type": "single",
+            "question": "Welche Maßnahme trägt nicht zum Umweltschutz bei?",
+            "options": [
+              "Verwendung von Hochglanzkatalogen",
+              "Nachfüllbare Schreibgeräte",
+              "Vermeidung von Plastikverpackungen",
+              "Sammelbestellungen zur Reduktion von Transportwegen"
+            ],
+            "correctAnswer": [
+              "Verwendung von Hochglanzkatalogen"
+            ],
+            "hint": "Papierverbrauch.",
+            "explanation": "Hochglanzkataloge erhöhen den Ressourcenverbrauch und sind umweltschädlicher."
+          },
+          {
+            "id": 20,
+            "type": "single",
+            "question": "Was kennzeichnet Produkte mit dem Umweltzeichen 'Blauer Engel'?",
+            "options": [
+              "Umweltschonende Herstellung",
+              "Garantierte Langlebigkeit",
+              "Sicherheitsgeprüft",
+              "Recyclingfähig zu 100 %"
+            ],
+            "correctAnswer": [
+              "Umweltschonende Herstellung"
+            ],
+            "hint": "Umweltzeichen.",
+            "explanation": "Das Siegel 'Blauer Engel' zeichnet Produkte aus, die besonders umweltfreundlich produziert wurden."
+          },
+          {
+            "id": 21,
+            "type": "single",
+            "question": "Wie reagiert man bei Brandwunden richtig?",
+            "options": [
+              "Mit keimfreien Verbandpäckchen abdecken",
+              "Mit Öl oder Salbe bestreichen",
+              "Brandblasen öffnen",
+              "Mit heißem Wasser behandeln"
+            ],
+            "correctAnswer": [
+              "Mit keimfreien Verbandpäckchen abdecken"
+            ],
+            "hint": "Erste Hilfe.",
+            "explanation": "Brandwunden werden steril abgedeckt, aber nicht mit Flüssigkeiten oder Salben behandelt."
+          },
+          {
+            "id": 22,
+            "type": "multiple",
+            "question": "Welche Formulierungen in einer Stellenanzeige verstoßen gegen das Allgemeine Gleichbehandlungsgesetz (AGG)?",
+            "options": [
+              "Jung",
+              "Angenehmes äußeres Erscheinungsbild",
+              "Attraktives Gehalt",
+              "Weiterbildungsmöglichkeiten"
+            ],
+            "correctAnswer": [
+              "Jung",
+              "Angenehmes äußeres Erscheinungsbild"
+            ],
+            "hint": "AGG – Diskriminierungsverbot.",
+            "explanation": "Anforderungen nach Alter oder Aussehen sind diskriminierend und unzulässig."
+          },
+          {
+            "id": 23,
+            "type": "single",
+            "question": "Wer besitzt bei einem im Auftrag entwickelten Programm die Verwertungsrechte?",
+            "options": [
+              "Der Arbeitgeber, wenn nichts anderes vereinbart ist",
+              "Der Programmierer selbst",
+              "Die Handelskammer",
+              "Der Staat"
+            ],
+            "correctAnswer": [
+              "Der Arbeitgeber, wenn nichts anderes vereinbart ist"
+            ],
+            "hint": "Urheberrecht im Arbeitsverhältnis.",
+            "explanation": "Das Urheberrecht bleibt beim Entwickler, die Verwertungsrechte liegen beim Arbeitgeber."
+          },
+          {
+            "id": 25,
+            "type": "boolean",
+            "question": "Phishing-Mails enthalten häufig Links, über die Zugangsdaten abgefragt werden.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Cybersecurity-Grundwissen.",
+            "explanation": "Phishing-Mails imitieren echte Nachrichten, um an persönliche Daten zu gelangen."
+          },
+          {
+            "id": 26,
+            "type": "single",
+            "question": "Wie reagiert man richtig auf eine verdächtige Phishing-Mail?",
+            "options": [
+              "Nicht öffnen, löschen und IT-Abteilung informieren",
+              "Link anklicken und Daten eingeben",
+              "An Bekannte weiterleiten",
+              "Ausdrucken und archivieren"
+            ],
+            "correctAnswer": [
+              "Nicht öffnen, löschen und IT-Abteilung informieren"
+            ],
+            "hint": "IT-Sicherheitsverhalten.",
+            "explanation": "Verdächtige E-Mails sollten sofort gelöscht und gemeldet werden."
+          },
+          {
+            "id": 27,
+            "type": "boolean",
+            "question": "Auch bei bekannten Webseiten sollten grundlegende Sicherheitsmaßnahmen eingehalten werden.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "Websicherheit.",
+            "explanation": "Selbst vertrauenswürdige Seiten können kompromittiert werden."
+          },
+          {
+            "id": 28,
+            "type": "single",
+            "question": "Wie kann ein öffentliches WLAN sicher genutzt werden?",
+            "options": [
+              "Durch Nutzung einer VPN-Verbindung",
+              "Ohne Schutz, wenn die Seite bekannt ist",
+              "Durch Eingabe der E-Mail-Adresse beim Login",
+              "Mit eingeschaltetem Bluetooth"
+            ],
+            "correctAnswer": [
+              "Durch Nutzung einer VPN-Verbindung"
+            ],
+            "hint": "Verschlüsselung der Verbindung.",
+            "explanation": "VPN schützt Daten vor unbefugtem Mitlesen in offenen Netzwerken."
+          },
+          {
+            "id": 29,
+            "type": "single",
+            "question": "Welche Eigenschaft von Daten wird durch Kontrollsummen überprüft?",
+            "options": [
+              "Integrität",
+              "Verfügbarkeit",
+              "Vertraulichkeit",
+              "Authentizität"
+            ],
+            "correctAnswer": [
+              "Integrität"
+            ],
+            "hint": "Fehlererkennung.",
+            "explanation": "Kontrollsummen dienen der Überprüfung, ob Daten unverändert übertragen wurden."
+          },
+          {
+            "id": 30,
+            "type": "single",
+            "question": "Zu welchem Bereich gehören Verstöße wie Bestechung oder Vorteilsnahme?",
+            "options": [
+              "Compliance",
+              "Datenschutz",
+              "Disruption",
+              "Incidence"
+            ],
+            "correctAnswer": [
+              "Compliance"
+            ],
+            "hint": "Unternehmensethik.",
+            "explanation": "Compliance bezeichnet die Einhaltung gesetzlicher und ethischer Vorschriften im Unternehmen."
+          }
+        ]
+      },
+      "wirtschafts_und_sozialkunde_abschlusspruefung_sommer_2022": {
+        "title": "Wirtschafts- und Sozialkunde - Abschlussprüfung Sommer 2022",
+        "available": true,
+        "questions": [
+          {
+            "id": 1,
+            "type": "single",
+            "question": "Welche Aussage über einen Einzelarbeitsvertrag ist richtig?",
+            "options": [
+              "Er ist auch gültig, wenn das Entgelt über dem Tarifvertrag liegt.",
+              "Er darf nur mit Zustimmung der Gewerkschaft geschlossen werden.",
+              "Er darf höchstens zwei Jahre dauern.",
+              "Er ist ohne Urlaubsregelung ungültig."
+            ],
+            "correctAnswer": [
+              "Er ist auch gültig, wenn das Entgelt über dem Tarifvertrag liegt."
+            ],
+            "hint": "Tarifverträge setzen Mindeststandards.",
+            "explanation": "Ein Arbeitsvertrag bleibt gültig, wenn er bessere Bedingungen als der Tarifvertrag vorsieht."
+          },
+          {
+            "id": 2,
+            "type": "multiple",
+            "question": "Welche Aussagen zur Probezeit sind richtig?",
+            "options": [
+              "Sie kann entfallen.",
+              "Sie muss mindestens einen Monat dauern.",
+              "Sie darf bis zu sechs Monate betragen.",
+              "Sie muss drei Monate dauern.",
+              "Sie darf höchstens zwei Jahre dauern."
+            ],
+            "correctAnswer": [
+              "Sie kann entfallen.",
+              "Sie darf bis zu sechs Monate betragen."
+            ],
+            "hint": "§ 622 BGB und § 20 BBiG.",
+            "explanation": "Die Probezeit ist nicht zwingend, darf aber höchstens sechs Monate dauern."
+          },
+          {
+            "id": 3,
+            "type": "single",
+            "question": "Ab welcher Uhrzeit dürfen Jugendliche nach dem Jugendarbeitsschutzgesetz frühestens beschäftigt werden?",
+            "options": [
+              "Ab 6:00 Uhr",
+              "Ab 7:00 Uhr",
+              "Ab 8:00 Uhr",
+              "Ab 5:30 Uhr"
+            ],
+            "correctAnswer": [
+              "Ab 6:00 Uhr"
+            ],
+            "hint": "§ 14 JArbSchG.",
+            "explanation": "Jugendliche dürfen grundsätzlich nicht vor 6 Uhr beschäftigt werden."
+          },
+          {
+            "id": 4,
+            "type": "boolean",
+            "question": "Jugendliche dürfen nach dem Jugendarbeitsschutzgesetz nur an fünf Tagen in der Woche beschäftigt werden.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "§ 15 JArbSchG.",
+            "explanation": "Jugendliche haben Anspruch auf zwei zusammenhängende Ruhetage pro Woche."
+          },
+          {
+            "id": 5,
+            "type": "single",
+            "question": "Wie viele Urlaubstage stehen einem minderjährigen Auszubildenden im Kalenderjahr mindestens zu?",
+            "options": [
+              "30 Tage",
+              "27 Tage",
+              "25 Tage",
+              "24 Tage"
+            ],
+            "correctAnswer": [
+              "25 Tage"
+            ],
+            "hint": "§ 19 JArbSchG.",
+            "explanation": "Die Urlaubsdauer richtet sich nach dem Alter des Jugendlichen zu Beginn des Kalenderjahres."
+          },
+          {
+            "id": 6,
+            "type": "single",
+            "question": "Welche Voraussetzung muss ein Ausbilder erfüllen?",
+            "options": [
+              "Er muss persönlich und fachlich geeignet sein.",
+              "Er muss Mitglied einer Gewerkschaft sein.",
+              "Er muss im Prüfungsausschuss sein.",
+              "Er muss Mitglied der Geschäftsleitung sein."
+            ],
+            "correctAnswer": [
+              "Er muss persönlich und fachlich geeignet sein."
+            ],
+            "hint": "AEVO.",
+            "explanation": "Die Ausbilder-Eignungsverordnung schreibt persönliche und fachliche Eignung vor."
+          },
+          {
+            "id": 7,
+            "type": "single",
+            "question": "Wie wirkt sich eine Kündigung ohne vorherige Anhörung des Betriebsrats aus?",
+            "options": [
+              "Sie ist unwirksam, da die Anhörung zwingend vorgeschrieben ist.",
+              "Sie ist wirksam, da keine Anhörung notwendig ist.",
+              "Sie wird durch eine nachträgliche Anhörung gültig.",
+              "Sie ist wirksam, wenn das Arbeitsgericht zustimmt."
+            ],
+            "correctAnswer": [
+              "Sie ist unwirksam, da die Anhörung zwingend vorgeschrieben ist."
+            ],
+            "hint": "§ 102 BetrVG.",
+            "explanation": "Eine Kündigung ohne Anhörung des Betriebsrats ist gesetzlich unwirksam."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Welche Voraussetzung gilt für die Kündigung durch minderjährige Auszubildende?",
+            "options": [
+              "Die Zustimmung der Erziehungsberechtigten ist erforderlich.",
+              "Die Kündigung muss mündlich erfolgen.",
+              "Die Kündigung darf nur während der Probezeit erfolgen.",
+              "Ein Kündigungsgrund ist zwingend erforderlich."
+            ],
+            "correctAnswer": [
+              "Die Zustimmung der Erziehungsberechtigten ist erforderlich."
+            ],
+            "hint": "BGB § 107.",
+            "explanation": "Minderjährige benötigen für rechtlich wirksame Erklärungen die Zustimmung ihrer gesetzlichen Vertreter."
+          },
+          {
+            "id": 9,
+            "type": "single",
+            "question": "Welche Formulierung macht ein Zeugnis zu einem qualifizierten Zeugnis?",
+            "options": [
+              "Er/Sie erledigte die übertragenen Aufgaben stets zu unserer vollsten Zufriedenheit.",
+              "Er/Sie wurde im Zeitraum ... beschäftigt.",
+              "Geboren am ... wohnhaft in ...",
+              "Wir wünschen für die Zukunft alles Gute."
+            ],
+            "correctAnswer": [
+              "Er/Sie erledigte die übertragenen Aufgaben stets zu unserer vollsten Zufriedenheit."
+            ],
+            "hint": "Qualifiziertes Zeugnis enthält Leistungsbewertung.",
+            "explanation": "Nur qualifizierte Zeugnisse enthalten Beurteilungen zu Leistung und Verhalten."
+          },
+          {
+            "id": 10,
+            "type": "single",
+            "question": "Bei welcher Angelegenheit hat der Betriebsrat ein Mitbestimmungsrecht?",
+            "options": [
+              "Bei der Aufstellung des Urlaubsplans",
+              "Bei der Bestellung des Geschäftsführers",
+              "Bei der Änderung des Firmenlogos",
+              "Bei der Festlegung von Preisen"
+            ],
+            "correctAnswer": [
+              "Bei der Aufstellung des Urlaubsplans"
+            ],
+            "hint": "§ 87 BetrVG.",
+            "explanation": "Der Betriebsrat hat Mitbestimmungsrecht bei sozialen Angelegenheiten, z. B. Arbeitszeit und Urlaub."
+          },
+          {
+            "id": 11,
+            "type": "boolean",
+            "question": "Auszubildende unter 25 Jahren sind in der JAV wahlberechtigt und wählbar.",
+            "options": [
+              "Wahr",
+              "Falsch"
+            ],
+            "correctAnswer": [
+              "Wahr"
+            ],
+            "hint": "§ 60 BetrVG.",
+            "explanation": "Die Jugend- und Auszubildendenvertretung wird von Arbeitnehmern unter 25 gewählt."
+          },
+          {
+            "id": 12,
+            "type": "single",
+            "question": "Was bedeutet die absolute Friedenspflicht im Tarifrecht?",
+            "options": [
+              "Verbot von Streiks während eines gültigen Tarifvertrags",
+              "Verpflichtung zum Dialog mit dem Arbeitgeber",
+              "Einhaltung von Kündigungsschutzregeln",
+              "Regelung des Betriebsratswahlrechts"
+            ],
+            "correctAnswer": [
+              "Verbot von Streiks während eines gültigen Tarifvertrags"
+            ],
+            "hint": "§ 74 BetrVG.",
+            "explanation": "Während der Laufzeit eines Tarifvertrags sind Arbeitskämpfe unzulässig."
+          },
+          {
+            "id": 13,
+            "type": "multiple",
+            "question": "Welche Aussagen zu Tarifverträgen sind richtig?",
+            "options": [
+              "Sie kommen durch freie Vereinbarung der Tarifpartner zustande.",
+              "Sie schließen günstigere Betriebsvereinbarungen nicht aus.",
+              "Sie gelten nur für Gewerkschaftsmitglieder.",
+              "Sie müssen staatlich genehmigt werden."
+            ],
+            "correctAnswer": [
+              "Sie kommen durch freie Vereinbarung der Tarifpartner zustande.",
+              "Sie schließen günstigere Betriebsvereinbarungen nicht aus."
+            ],
+            "hint": "Tarifautonomie.",
+            "explanation": "Tarifverträge werden frei vereinbart; günstigere Regelungen sind erlaubt."
+          },
+          {
+            "id": 14,
+            "type": "single",
+            "question": "Was wird im Mantel- oder Rahmentarifvertrag geregelt?",
+            "options": [
+              "Definition der Vergütungsgruppen",
+              "Betriebsurlaub",
+              "Sonderzahlungen",
+              "Höchstlöhne"
+            ],
+            "correctAnswer": [
+              "Definition der Vergütungsgruppen"
+            ],
+            "hint": "Langfristige Regelungen.",
+            "explanation": "Rahmentarifverträge regeln allgemeine Arbeitsbedingungen, z. B. Einstufungen oder Arbeitszeiten."
+          },
+          {
+            "id": 15,
+            "type": "multiple",
+            "question": "Welche Versicherungen gehören nicht zu den Beiträgen des Arbeitnehmers in der Sozialversicherung?",
+            "options": [
+              "Lebensversicherung",
+              "Unfallversicherung",
+              "Krankenversicherung",
+              "Rentenversicherung"
+            ],
+            "correctAnswer": [
+              "Lebensversicherung",
+              "Unfallversicherung"
+            ],
+            "hint": "Fünf Zweige der Sozialversicherung.",
+            "explanation": "Die Unfallversicherung wird ausschließlich vom Arbeitgeber getragen; Lebensversicherungen sind privat."
+          },
+          {
+            "id": 16,
+            "type": "single",
+            "question": "Welche Aussage beschreibt den Zweck des Europass am besten?",
+            "options": [
+              "Er stellt Qualifikationen europaweit verständlich dar.",
+              "Er ersetzt den Reisepass.",
+              "Er ist kostenpflichtig.",
+              "Er ist verpflichtend für Auslandsaufenthalte."
+            ],
+            "correctAnswer": [
+              "Er stellt Qualifikationen europaweit verständlich dar."
+            ],
+            "hint": "Europäische Mobilität.",
+            "explanation": "Der Europass dient der europaweiten Vergleichbarkeit von Qualifikationen."
+          },
+          {
+            "id": 17,
+            "type": "multiple",
+            "question": "Welche Tätigkeiten gehören zu den drei Wirtschaftssektoren?",
+            "options": [
+              "Primär: Rohstoffgewinnung",
+              "Sekundär: Produktion",
+              "Tertiär: Dienstleistungen"
+            ],
+            "correctAnswer": [
+              "Primär: Rohstoffgewinnung",
+              "Sekundär: Produktion",
+              "Tertiär: Dienstleistungen"
+            ],
+            "hint": "Drei-Sektoren-Modell.",
+            "explanation": "Primär: Bergbau, Sekundär: Industrie, Tertiär: Handel oder Beratung."
+          },
+          {
+            "id": 18,
+            "type": "single",
+            "question": "Welche Aussage zur GmbH ist richtig?",
+            "options": [
+              "Die Gewinnverteilung erfolgt nach Geschäftsanteilen.",
+              "Alle Gesellschafter führen die Geschäfte.",
+              "Sie ist eine Personengesellschaft.",
+              "Ihre Anteile werden an der Börse gehandelt."
+            ],
+            "correctAnswer": [
+              "Die Gewinnverteilung erfolgt nach Geschäftsanteilen"
+            ],
+            "hint": "Gesetzliche Regelung im GmbHG.",
+            "explanation": "Die Gewinnverteilung erfolgt nach den Anteilen der Gesellschafter."
+          },
+          {
+            "id": 19,
+            "type": "single",
+            "question": "Welche Kennzahl zeigt, welcher Auftrag am wirtschaftlichsten ist?",
+            "options": [
+              "Auftrag mit der höchsten Gewinnquote",
+              "Auftrag mit dem höchsten Ertrag",
+              "Auftrag mit den geringsten Kosten",
+              "Auftrag mit der längsten Laufzeit"
+            ],
+            "correctAnswer": [
+              "Auftrag mit der höchsten Gewinnquote"
+            ],
+            "hint": "Wirtschaftlichkeit = Ertrag/Aufwand.",
+            "explanation": "Je höher der Ertrag im Verhältnis zum Aufwand, desto wirtschaftlicher der Auftrag."
+          },
+          {
+            "id": 20,
+            "type": "single",
+            "question": "Wenn ein Unternehmen ein anderes übernimmt, dieses aber rechtlich selbstständig bleibt, liegt welche Form des Zusammenschlusses vor?",
+            "options": [
+              "Konzern",
+              "Fusion",
+              "Kartell",
+              "Arbeitsgemeinschaft"
+            ],
+            "correctAnswer": [
+              "Konzern"
+            ],
+            "hint": "Einheitliche Leitung bei rechtlicher Selbstständigkeit.",
+            "explanation": "Beim Konzern sind Unternehmen rechtlich selbstständig, aber wirtschaftlich verbunden."
+          },
+          {
+            "id": 21,
+            "type": "single",
+            "question": "Welches Leitungssystem kombiniert fachliche und projektbezogene Zuständigkeiten?",
+            "options": [
+              "Matrixsystem",
+              "Einliniensystem",
+              "Mehrliniensystem",
+              "Stabliniensystem"
+            ],
+            "correctAnswer": [
+              "Matrixsystem"
+            ],
+            "hint": "Mehrfachunterstellung.",
+            "explanation": "Das Matrixsystem kombiniert funktionale und projektorientierte Führung."
+          },
+          {
+            "id": 22,
+            "type": "single",
+            "question": "Welche Auswirkung hat die weltweite Arbeitsteilung?",
+            "options": [
+              "Zunahme des internationalen Warenverkehrs",
+              "Gleiche soziale Standards weltweit",
+              "Weniger Spezialisierung der Länder",
+              "Rückgang des Handels"
+            ],
+            "correctAnswer": [
+              "Zunahme des internationalen Warenverkehrs"
+            ],
+            "hint": "Globalisierung.",
+            "explanation": "Arbeitsteilung führt zu Spezialisierung und erhöhtem Warenverkehr."
+          },
+          {
+            "id": 23,
+            "type": "multiple",
+            "question": "Welche Bedeutungen haben typische Sicherheitskennzeichen?",
+            "options": [
+              "Warnung vor Feuergefahr",
+              "Nicht berühren – elektrische Spannung",
+              "Rettungsweg nach rechts",
+              "Brandmelder betätigen"
+            ],
+            "correctAnswer": [
+              "Warnung vor Feuergefahr",
+              "Nicht berühren – elektrische Spannung",
+              "Rettungsweg nach rechts",
+              "Brandmelder betätigen"
+            ],
+            "hint": "Sicherheitskennzeichen nach ISO.",
+            "explanation": "Jedes Symbol kennzeichnet spezifische Gefahren oder Hinweise."
+          },
+          {
+            "id": 24,
+            "type": "single",
+            "question": "Wie müssen Unfallverhütungsvorschriften im Betrieb zugänglich gemacht werden?",
+            "options": [
+              "Gut sichtbar aushängen",
+              "Im Intranet speichern",
+              "Nur bei Einstellung erläutern",
+              "An die Mitarbeiter verschicken"
+            ],
+            "correctAnswer": [
+              "Gut sichtbar aushängen"
+            ],
+            "hint": "Pflicht des Arbeitgebers.",
+            "explanation": "Gesetzlich ist vorgeschrieben, dass die Vorschriften ausgehängt werden."
+          },
+          {
+            "id": 25,
+            "type": "single",
+            "question": "Welches Verhalten beim Löschen eines Brandes ist falsch?",
+            "options": [
+              "Immer gegen die Windrichtung löschen",
+              "Von unten nach oben löschen",
+              "Mehrere Löscher gleichzeitig verwenden",
+              "Brandstelle beobachten"
+            ],
+            "correctAnswer": [
+              "Immer gegen die Windrichtung löschen"
+            ],
+            "hint": "Man löscht immer mit dem Wind (in Windrichtung).",
+            "explanation": "Man muss immer mit der Windrichtung (den Wind im Rücken) löschen. Löscht man gegen den Wind, treiben Rauch, Hitze und das Löschmittel auf einen selbst zu, was den Löscherfolg verhindert und sehr gefährlich ist."
+          },
+          {
+            "id": 26,
+            "type": "single",
+            "question": "Was ist der erste Schritt bei der Bedienung eines Feuerlöschers?",
+            "options": [
+              "Zum Feuerlöschgerät laufen",
+              "Sicherung ziehen",
+              "Schlauch auf das Feuer richten",
+              "Betätigungshebel drücken"
+            ],
+            "correctAnswer": [
+              "Zum Feuerlöschgerät laufen"
+            ],
+            "hint": "Reihenfolge beachten.",
+            "explanation": "Zuerst wird der Feuerlöscher geholt, dann entsichert, gezielt und ausgelöst."
+          },
+          {
+            "id": 27,
+            "type": "single",
+            "question": "Was bedeutet das Verursacherprinzip im Umweltschutz?",
+            "options": [
+              "Die Verursacher tragen die Kosten der Umweltschäden.",
+              "Die Kosten werden gleichmäßig verteilt.",
+              "Die Verpackungskosten trägt der Verbraucher.",
+              "Die Abfallentsorgung hat Vorrang vor Abfallvermeidung."
+            ],
+            "correctAnswer": [
+              "Die Verursacher tragen die Kosten der Umweltschäden."
+            ],
+            "hint": "Grundsatz des Umweltrechts.",
+            "explanation": "Wer Umweltschäden verursacht, trägt auch die Kosten ihrer Beseitigung."
+          },
+          {
+            "id": 28,
+            "type": "single",
+            "question": "Welche Handlung stellt Recycling im Betrieb dar?",
+            "options": [
+              "Trennung und Rückführung von Verpackungen in das Duale System",
+              "Einsatz von Recyclingpapier",
+              "Einsparung von Wasser",
+              "Verwendung biologischer Lebensmittel"
+            ],
+            "correctAnswer": [
+              "Trennung und Rückführung von Verpackungen in das Duale System"
+            ],
+            "hint": "Wiederverwertung von Materialien.",
+            "explanation": "Recycling bedeutet, Materialien erneut dem Produktionsprozess zuzuführen."
+          },
+          {
+            "id": 29,
+            "type": "single",
+            "question": "Welcher Aspekt wird in der Charta der Vielfalt nicht berücksichtigt?",
+            "options": [
+              "Ausbildungsstand",
+              "Alter",
+              "Religion",
+              "Nationale Herkunft",
+              "Sexuelle Orientierung"
+            ],
+            "correctAnswer": [
+              "Ausbildungsstand"
+            ],
+            "hint": "Fokus auf Diskriminierungskriterien.",
+            "explanation": "Der Ausbildungsstand ist kein offizielles Kriterium der Charta der Vielfalt."
+          },
+          {
+            "id": 30,
+            "type": "single",
+            "question": "Welches Ziel verfolgt Diversity Management?",
+            "options": [
+              "Die Vielfalt im Unternehmen als Stärke zu nutzen",
+              "Personalkosten zu senken",
+              "Vorurteile für Marketingzwecke zu verwenden",
+              "Homogene Teams zu schaffen"
+            ],
+            "correctAnswer": [
+              "Die Vielfalt im Unternehmen als Stärke zu nutzen"
+            ],
+            "hint": "Wertschätzung von Vielfalt.",
+            "explanation": "Diversity Management nutzt die unterschiedlichen Perspektiven der Mitarbeitenden als Potenzial."
+          }
+        ]
+      },
+      "wirtschafts_und_sozialkunde_abschlusspruefung_winter_2022_23": {
+        "title": "Wirtschafts- und Sozialkunde - Abschlussprüfung Winter 2022/23",
+        "available": true,
+        "questions": [
           {
             "id": 2,
             "type": "single",
@@ -826,7 +972,9 @@
               "Sie ist eine Körperschaft des öffentlichen Rechts.",
               "Sie ist ein Verein."
             ],
-            "correctAnswer": ["Sie ist eine Kapitalgesellschaft."],
+            "correctAnswer": [
+              "Sie ist eine Kapitalgesellschaft."
+            ],
             "hint": "§ 13 GmbHG.",
             "explanation": "Die GmbH ist eine Kapitalgesellschaft mit eigener Rechtspersönlichkeit."
           },
@@ -840,7 +988,9 @@
               "Gesamtkapital / Gewinn × 100",
               "Umsatz / Eigenkapital × 100"
             ],
-            "correctAnswer": ["Gewinn / Eigenkapital × 100"],
+            "correctAnswer": [
+              "Gewinn / Eigenkapital × 100"
+            ],
             "hint": "Kennzahlenrechnung.",
             "explanation": "Die Eigenkapitalrentabilität zeigt die Verzinsung des eingesetzten Eigenkapitals."
           },
@@ -854,7 +1004,9 @@
               "Sie dürfen nur mit sachlichem Grund geschlossen werden.",
               "Sie dürfen nie länger als zwei Monate dauern."
             ],
-            "correctAnswer": ["Sie müssen schriftlich vereinbart werden."],
+            "correctAnswer": [
+              "Sie müssen schriftlich vereinbart werden."
+            ],
             "hint": "§ 14 Teilzeit- und Befristungsgesetz (TzBfG).",
             "explanation": "Eine Befristung ist nur wirksam, wenn sie schriftlich erfolgt."
           },
@@ -868,7 +1020,9 @@
               "Beschäftigungspflicht",
               "Unterhaltspflicht"
             ],
-            "correctAnswer": ["Verschwiegenheitspflicht"],
+            "correctAnswer": [
+              "Verschwiegenheitspflicht"
+            ],
             "hint": "Arbeitsvertragliche Nebenpflicht.",
             "explanation": "Arbeitnehmer müssen Betriebs- und Geschäftsgeheimnisse wahren."
           },
@@ -882,7 +1036,9 @@
               "Der Einsatzbetrieb zahlt direkt den Lohn.",
               "Zeitarbeit ist nur unbefristet erlaubt."
             ],
-            "correctAnswer": ["Die Entlohnung erfolgt durch das verleihende Unternehmen."],
+            "correctAnswer": [
+              "Die Entlohnung erfolgt durch das verleihende Unternehmen."
+            ],
             "hint": "Arbeitnehmerüberlassungsgesetz (AÜG).",
             "explanation": "Der Verleiher ist Arbeitgeber und zahlt Gehalt und Sozialabgaben."
           },
@@ -896,7 +1052,9 @@
               "Tarifverträge",
               "Mitbestimmungsgesetz"
             ],
-            "correctAnswer": ["Urlaubsregelungen nach dem Bundesurlaubsgesetz"],
+            "correctAnswer": [
+              "Urlaubsregelungen nach dem Bundesurlaubsgesetz"
+            ],
             "hint": "Individuelle Arbeitnehmerrechte.",
             "explanation": "Das Individualarbeitsrecht regelt Rechte und Pflichten einzelner Arbeitnehmer."
           },
@@ -910,7 +1068,9 @@
               "Sofort bei Arbeitsbeginn",
               "Nach der Probezeit"
             ],
-            "correctAnswer": ["Nach sechs Monaten Betriebszugehörigkeit"],
+            "correctAnswer": [
+              "Nach sechs Monaten Betriebszugehörigkeit"
+            ],
             "hint": "§ 4 BUrlG.",
             "explanation": "Nach sechs Monaten besteht der volle gesetzliche Urlaubsanspruch."
           },
@@ -924,26 +1084,11 @@
               "Mutterschutz nur für Teilzeitkräfte",
               "Kein Anspruch auf Mutterschaftsgeld"
             ],
-            "correctAnswer": ["Kündigungsschutz während der Schwangerschaft und vier Monate nach der Entbindung"],
+            "correctAnswer": [
+              "Kündigungsschutz während der Schwangerschaft und vier Monate nach der Entbindung"
+            ],
             "hint": "§ 17 MuSchG.",
             "explanation": "Während Schwangerschaft und vier Monate danach besteht Kündigungsschutz."
-          },
-          {
-            "id": 10,
-            "type": "multiple",
-            "question": "Welche Beispiele gehören zu verhaltensbedingten Kündigungen?",
-            "options": [
-              "Wiederholte Verstöße gegen Arbeitsregeln",
-              "Langandauernde Krankheit",
-              "Wirtschaftlicher Auftragsmangel",
-              "Mehrfache Unpünktlichkeit trotz Abmahnung"
-            ],
-            "correctAnswer": [
-              "Wiederholte Verstöße gegen Arbeitsregeln",
-              "Mehrfache Unpünktlichkeit trotz Abmahnung"
-            ],
-            "hint": "Kündigungsgründe unterscheiden.",
-            "explanation": "Verhaltensbedingte Kündigungen erfolgen bei steuerbarem Fehlverhalten."
           },
           {
             "id": 11,
@@ -955,7 +1100,9 @@
               "Er bemühte sich, die Arbeiten zu unserer Zufriedenheit zu erledigen.",
               "Er erledigte die Arbeiten im Großen und Ganzen zu unserer Zufriedenheit."
             ],
-            "correctAnswer": ["Er erledigte die Arbeiten stets zu unserer vollsten Zufriedenheit."],
+            "correctAnswer": [
+              "Er erledigte die Arbeiten stets zu unserer vollsten Zufriedenheit."
+            ],
             "hint": "Zeugnissprache beachten.",
             "explanation": "„Stets zu unserer vollsten Zufriedenheit“ steht für die Note „sehr gut“."
           },
@@ -969,7 +1116,9 @@
               "Von der Anzahl der Azubis",
               "Von der Zahl der Abteilungen"
             ],
-            "correctAnswer": ["Von der Anzahl der wahlberechtigten Arbeitnehmer"],
+            "correctAnswer": [
+              "Von der Anzahl der wahlberechtigten Arbeitnehmer"
+            ],
             "hint": "§ 9 BetrVG.",
             "explanation": "Die Größe des Betriebsrats richtet sich nach der Anzahl der Wahlberechtigten."
           },
@@ -983,7 +1132,9 @@
               "Bei der Einstellung der Geschäftsleitung",
               "Beim Umweltschutzkonzept"
             ],
-            "correctAnswer": ["Bei der Festlegung der Betriebsferien"],
+            "correctAnswer": [
+              "Bei der Festlegung der Betriebsferien"
+            ],
             "hint": "§ 87 BetrVG.",
             "explanation": "Bei sozialen Angelegenheiten wie Urlaubsregelungen hat der Betriebsrat Mitbestimmung."
           },
@@ -997,7 +1148,10 @@
               "Die JAV agiert eigenständig gegenüber der Geschäftsleitung.",
               "Nur Auszubildende unter 18 Jahren dürfen wählen."
             ],
-            "correctAnswer": ["Es muss ein Betriebsrat bestehen.", "Mindestens 5 jugendliche oder auszubildende Beschäftigte müssen vorhanden sein."],
+            "correctAnswer": [
+              "Es muss ein Betriebsrat bestehen.",
+              "Mindestens 5 jugendliche oder auszubildende Beschäftigte müssen vorhanden sein."
+            ],
             "hint": "§ 60 BetrVG.",
             "explanation": "Eine JAV kann nur in Betrieben mit Betriebsrat gewählt werden."
           },
@@ -1011,7 +1165,9 @@
               "IHK und Handwerkskammern",
               "Arbeitgeberverbände und Gewerkschaften"
             ],
-            "correctAnswer": ["Arbeitsagenturen und Rentenversicherungsträger"],
+            "correctAnswer": [
+              "Arbeitsagenturen und Rentenversicherungsträger"
+            ],
             "hint": "SGB III.",
             "explanation": "Diese Institutionen fördern Weiterbildung zur Wiedereingliederung in den Arbeitsmarkt."
           },
@@ -1025,7 +1181,9 @@
               "Nur Arbeitgeber zahlen Beiträge.",
               "Selbstständige sind immer beitragsfrei."
             ],
-            "correctAnswer": ["Arbeitnehmer und Arbeitgeber tragen die Beiträge gemeinsam."],
+            "correctAnswer": [
+              "Arbeitnehmer und Arbeitgeber tragen die Beiträge gemeinsam."
+            ],
             "hint": "Solidarprinzip.",
             "explanation": "Beide Seiten finanzieren die gesetzliche Sozialversicherung gemeinsam."
           },
@@ -1039,7 +1197,9 @@
               "Überwachung von Arbeitszeiten",
               "Erhebung von Sozialversicherungsbeiträgen"
             ],
-            "correctAnswer": ["Beratung und Weiterbildung für Unternehmen"],
+            "correctAnswer": [
+              "Beratung und Weiterbildung für Unternehmen"
+            ],
             "hint": "Selbstverwaltung der Wirtschaft.",
             "explanation": "Die IHK unterstützt Betriebe und überwacht die Berufsausbildung."
           },
@@ -1053,7 +1213,9 @@
               "Der Arbeitgeberverband",
               "Das Arbeitsgericht"
             ],
-            "correctAnswer": ["Die Berufsgenossenschaften"],
+            "correctAnswer": [
+              "Die Berufsgenossenschaften"
+            ],
             "hint": "Sozialgesetzbuch VII.",
             "explanation": "Die Berufsgenossenschaften sind Träger der gesetzlichen Unfallversicherung."
           },
@@ -1067,7 +1229,9 @@
               "Unabhängig vom bisherigen Einkommen",
               "Nur für Bedürftige ohne Ersparnisse"
             ],
-            "correctAnswer": ["Auf Basis des Bruttoentgelts der letzten zwölf Monate"],
+            "correctAnswer": [
+              "Auf Basis des Bruttoentgelts der letzten zwölf Monate"
+            ],
             "hint": "SGB III.",
             "explanation": "Das Arbeitslosengeld I berechnet sich aus dem Durchschnittsbrutto der letzten 12 Monate."
           },
@@ -1081,7 +1245,9 @@
               "Sie deckt ausschließlich ambulante Pflege ab.",
               "Rentner sind nicht versichert."
             ],
-            "correctAnswer": ["Kinderlose über 23 zahlen einen höheren Beitrag."],
+            "correctAnswer": [
+              "Kinderlose über 23 zahlen einen höheren Beitrag."
+            ],
             "hint": "§ 55 SGB XI.",
             "explanation": "Kinderlose zahlen seit 2005 einen Beitragszuschlag."
           },
@@ -1095,7 +1261,9 @@
               "An die Gewerbeaufsicht",
               "An die Haftpflichtversicherung"
             ],
-            "correctAnswer": ["An die Berufsgenossenschaft"],
+            "correctAnswer": [
+              "An die Berufsgenossenschaft"
+            ],
             "hint": "DGUV Vorschrift 1.",
             "explanation": "Unfälle müssen der zuständigen Berufsgenossenschaft gemeldet werden."
           },
@@ -1109,7 +1277,10 @@
               "Die Zahl der tödlichen Arbeitsunfälle ist gestiegen.",
               "Die Gesamtzahl der tödlichen Unfälle hat abgenommen."
             ],
-            "correctAnswer": ["Die Zahl der meldepflichtigen Arbeitsunfälle hat zugenommen.", "Die Gesamtzahl der tödlichen Unfälle hat abgenommen."],
+            "correctAnswer": [
+              "Die Zahl der meldepflichtigen Arbeitsunfälle hat zugenommen.",
+              "Die Gesamtzahl der tödlichen Unfälle hat abgenommen."
+            ],
             "hint": "Unfallstatistiken vergleichen.",
             "explanation": "Solche Statistiken zeigen Trends zu Häufigkeit und Schwere von Unfällen."
           },
@@ -1123,7 +1294,9 @@
               "Keine finanziellen Risiken",
               "Geringe Fachkenntnisse reichen aus"
             ],
-            "correctAnswer": ["Kenntnisse über Markt und Kundenwünsche"],
+            "correctAnswer": [
+              "Kenntnisse über Markt und Kundenwünsche"
+            ],
             "hint": "Wirtschaftliche Grundlagen.",
             "explanation": "Marktkenntnis und Kundenorientierung sind entscheidend für den Unternehmenserfolg."
           },
@@ -1137,7 +1310,9 @@
               "Er benötigt keine Krankenversicherung.",
               "Er darf keine Kredite aufnehmen."
             ],
-            "correctAnswer": ["Die Eintragung ins Handelsregister hat deklaratorische Wirkung."],
+            "correctAnswer": [
+              "Die Eintragung ins Handelsregister hat deklaratorische Wirkung."
+            ],
             "hint": "HGB § 1.",
             "explanation": "Der Ist-Kaufmann betreibt ein Handelsgewerbe kraft Gesetzes; die Eintragung ist deklaratorisch."
           },
@@ -1151,7 +1326,9 @@
               "Feuermelder betätigen",
               "Mitarbeitende warnen"
             ],
-            "correctAnswer": ["Ein Fenster öffnen, damit Rauch abzieht"],
+            "correctAnswer": [
+              "Ein Fenster öffnen, damit Rauch abzieht"
+            ],
             "hint": "Brandverhalten.",
             "explanation": "Ein offenes Fenster kann den Brand durch Luftzufuhr verstärken."
           },
@@ -1186,7 +1363,9 @@
               "Pausenraum",
               "Rettungswagenzone"
             ],
-            "correctAnswer": ["Sammelpunkt im Gefahrenfall"],
+            "correctAnswer": [
+              "Sammelpunkt im Gefahrenfall"
+            ],
             "hint": "Flucht- und Rettungspläne.",
             "explanation": "Dieses Zeichen weist auf den Sammelpunkt bei Evakuierungen hin."
           },
@@ -1200,7 +1379,9 @@
               "Sie sind mobil und reisebereit.",
               "Sie arbeiten gerne im Team."
             ],
-            "correctAnswer": ["Sie passen in unser junges dynamisches Team, wenn Sie deutscher Herkunft sind."],
+            "correctAnswer": [
+              "Sie passen in unser junges dynamisches Team, wenn Sie deutscher Herkunft sind."
+            ],
             "hint": "AGG § 1.",
             "explanation": "Diskriminierung nach Herkunft oder Alter ist unzulässig."
           },
@@ -1214,7 +1395,9 @@
               "Transparente Arbeitsweise",
               "Anpassungsfähigkeit bei Änderungen"
             ],
-            "correctAnswer": ["Die Lösung wird vom Vorgesetzten vorgegeben."],
+            "correctAnswer": [
+              "Die Lösung wird vom Vorgesetzten vorgegeben."
+            ],
             "hint": "Prinzip der Eigenverantwortung.",
             "explanation": "Agile Methoden basieren auf Selbstorganisation, nicht auf hierarchischer Steuerung."
           },
@@ -1228,13 +1411,1130 @@
               "Erschwerte Teamkommunikation",
               "Geringe Transparenz"
             ],
-            "correctAnswer": ["Schnelle Anpassung an Kundenwünsche"],
+            "correctAnswer": [
+              "Schnelle Anpassung an Kundenwünsche"
+            ],
             "hint": "Kundenorientierung.",
             "explanation": "Agile Teams reagieren flexibel auf sich ändernde Anforderungen."
           }
         ]
-      }
-        
+      },
+      "wirtschafts_und_sozialkunde_abschlusspruefung_sommer_2023": {
+        "title": "Wirtschafts- und Sozialkunde - Grundlagen der Wirtschaft, Arbeitsrecht, Wirtschaftspolitik und Recht",
+        "available": true,
+        "questions": [
+          {
+            "id": 1,
+            "type": "single",
+            "question": "Welche Aussage zur Kommanditgesellschaft (KG) ist richtig?",
+            "options": [
+              "Kommanditisten haften maximal in Höhe ihrer Einlage.",
+              "Alle Gesellschafter haften unbeschränkt mit ihrem Privatvermögen.",
+              "Komplementäre haften nicht für Verluste der KG.",
+              "Kommanditisten sind zur Geschäftsführung verpflichtet."
+            ],
+            "correctAnswer": [
+              "Kommanditisten haften maximal in Höhe ihrer Einlage."
+            ],
+            "hint": "§ 161 HGB.",
+            "explanation": "Kommanditisten haften nur mit der im Handelsregister eingetragenen Einlage."
+          },
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Welcher Faktor spielt bei der Standortwahl eines Unternehmens in der Regel keine Rolle?",
+            "options": [
+              "Anzahl und Größe der Konkurrenzbetriebe",
+              "Verkehrsanbindung für Kunden und Lieferanten",
+              "Behördliche Auflagen, z. B. Bau- und Umweltvorschriften",
+              "Aktuelle Umsatzsteuersätze"
+            ],
+            "correctAnswer": [
+              "Aktuelle Umsatzsteuersätze"
+            ],
+            "hint": "Standortfaktoren.",
+            "explanation": "Die Umsatzsteuer ist bundesweit einheitlich und kein Standortkriterium."
+          },
+          {
+            "id": 3,
+            "type": "single",
+            "question": "Welche Aussage zur Haftung einer GmbH ist richtig?",
+            "options": [
+              "Die GmbH haftet mit ihrem Gesellschaftsvermögen.",
+              "Die Gesellschafter haften zusätzlich mit ihrem Privatvermögen.",
+              "Die Haftung ist auf 25.000 € begrenzt.",
+              "Die GmbH haftet nur bei grober Fahrlässigkeit."
+            ],
+            "correctAnswer": [
+              "Die GmbH haftet mit ihrem Gesellschaftsvermögen."
+            ],
+            "hint": "§ 13 GmbHG.",
+            "explanation": "Die GmbH ist eine juristische Person und haftet mit ihrem Vermögen."
+          },
+          {
+            "id": 5,
+            "type": "single",
+            "question": "Welche Aussage beschreibt Unternehmen des tertiären Sektors?",
+            "options": [
+              "Sie bieten Dienstleistungen an.",
+              "Sie gewinnen Rohstoffe.",
+              "Sie produzieren Güter.",
+              "Sie verarbeiten Rohstoffe zu Zwischenprodukten."
+            ],
+            "correctAnswer": [
+              "Sie bieten Dienstleistungen an."
+            ],
+            "hint": "Wirtschaftssektoren.",
+            "explanation": "Der tertiäre Sektor umfasst alle Dienstleistungsunternehmen."
+          },
+          {
+            "id": 6,
+            "type": "single",
+            "question": "Welches Ziel verfolgt ein erwerbswirtschaftliches Unternehmen vorrangig?",
+            "options": [
+              "Gewinnmaximierung",
+              "Kundenzufriedenheit",
+              "Kostenmaximierung",
+              "Versorgung der Bevölkerung"
+            ],
+            "correctAnswer": [
+              "Gewinnmaximierung"
+            ],
+            "hint": "Unternehmensziele.",
+            "explanation": "Das Hauptziel privatwirtschaftlicher Unternehmen ist die Gewinnmaximierung."
+          },
+          {
+            "id": 7,
+            "type": "single",
+            "question": "Zu welchem Wirtschaftssektor gehört die Tätigkeit eines Fachinformatikers?",
+            "options": [
+              "Primärer Sektor",
+              "Sekundärer Sektor",
+              "Tertiärer Sektor",
+              "Quartärer Sektor"
+            ],
+            "correctAnswer": [
+              "Tertiärer Sektor"
+            ],
+            "hint": "Drei-Sektoren-Modell.",
+            "explanation": "Fachinformatiker erbringen Dienstleistungen und gehören zum tertiären Sektor."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Welche Frage ist im Bewerbungsgespräch zulässig?",
+            "options": [
+              "Was möchten Sie bei uns verdienen?",
+              "Sind Sie schwanger?",
+              "Welche Krankheiten hatten Sie bisher?",
+              "Sind Sie Mitglied einer Partei?"
+            ],
+            "correctAnswer": [
+              "Was möchten Sie bei uns verdienen?"
+            ],
+            "hint": "Zulässige Fragen im Vorstellungsgespräch.",
+            "explanation": "Nur arbeitsrelevante Fragen sind erlaubt, z. B. zu Gehalt oder Qualifikation."
+          },
+          {
+            "id": 9,
+            "type": "single",
+            "question": "Welche Unterlage muss ein minderjähriger Auszubildender vor Beginn der Ausbildung vorlegen?",
+            "options": [
+              "Nachweis über die ärztliche Erstuntersuchung",
+              "Geburtsurkunde",
+              "Letztes Schulzeugnis",
+              "Personalausweiskopie"
+            ],
+            "correctAnswer": [
+              "Nachweis über die ärztliche Erstuntersuchung"
+            ],
+            "hint": "§ 32 Jugendarbeitsschutzgesetz.",
+            "explanation": "Minderjährige dürfen nur mit Nachweis der Erstuntersuchung beschäftigt werden."
+          },
+          {
+            "id": 10,
+            "type": "single",
+            "question": "In welchem Gesetz ist die Dauer der Probezeit für Auszubildende geregelt?",
+            "options": [
+              "Berufsbildungsgesetz (BBiG)",
+              "Arbeitszeitgesetz",
+              "Jugendarbeitsschutzgesetz",
+              "Tarifvertragsgesetz"
+            ],
+            "correctAnswer": [
+              "Berufsbildungsgesetz (BBiG)"
+            ],
+            "hint": "§ 20 BBiG.",
+            "explanation": "Das BBiG legt die Probezeit auf mindestens 1 und höchstens 4 Monate fest."
+          },
+          {
+            "id": 11,
+            "type": "single",
+            "question": "Welche Maßnahme gilt als Umschulung?",
+            "options": [
+              "Eine Friseurin absolviert wegen Allergie eine Ausbildung zur Kauffrau für IT-System-Management.",
+              "Ein Fachinformatiker besucht ein Seminar zu IT-Sicherheit.",
+              "Ein Auszubildender wechselt den Betrieb.",
+              "Eine IT-Kauffrau erwirbt die Ausbildereignung."
+            ],
+            "correctAnswer": [
+              "Eine Friseurin absolviert wegen Allergie eine Ausbildung zur Kauffrau für IT-System-Management."
+            ],
+            "hint": "Definition Umschulung.",
+            "explanation": "Umschulungen dienen dem Erwerb eines neuen Berufs, wenn der alte nicht mehr ausgeübt werden kann."
+          },
+          {
+            "id": 13,
+            "type": "single",
+            "question": "Wer zahlt die Beiträge zur Arbeitslosenversicherung?",
+            "options": [
+              "Arbeitgeber und Arbeitnehmer zu gleichen Teilen",
+              "Nur der Arbeitnehmer",
+              "Nur der Arbeitgeber",
+              "Der Staat vollständig"
+            ],
+            "correctAnswer": [
+              "Arbeitgeber und Arbeitnehmer zu gleichen Teilen"
+            ],
+            "hint": "Solidarprinzip.",
+            "explanation": "Beide Parteien zahlen je 1,3 % des Bruttolohns (Stand 2024)."
+          },
+          {
+            "id": 14,
+            "type": "multiple",
+            "question": "Welche Aussagen zur Versicherungspflichtgrenze in der GKV sind richtig?",
+            "options": [
+              "Über der Grenze gezahltes Einkommen ist beitragsfrei.",
+              "Personen über der Grenze können freiwillig in der GKV bleiben.",
+              "Der Wechsel in die PKV ist Pflicht.",
+              "Die Grenze legt fest, ab wann keine Krankenversicherung nötig ist."
+            ],
+            "correctAnswer": [
+              "Über der Grenze gezahltes Einkommen ist beitragsfrei.",
+              "Personen über der Grenze können freiwillig in der GKV bleiben."
+            ],
+            "hint": "GKV – Versicherungspflichtgrenze.",
+            "explanation": "Über der Grenze besteht Wahlrecht zwischen gesetzlicher und privater Versicherung."
+          },
+          {
+            "id": 15,
+            "type": "single",
+            "question": "In welchem Gesetz sind Betriebsversammlungen geregelt?",
+            "options": [
+              "Betriebsverfassungsgesetz",
+              "Berufsbildungsgesetz",
+              "Arbeitsschutzgesetz",
+              "Bürgerliches Gesetzbuch"
+            ],
+            "correctAnswer": [
+              "Betriebsverfassungsgesetz"
+            ],
+            "hint": "§ 42 BetrVG.",
+            "explanation": "Das BetrVG regelt Rechte und Aufgaben von Betriebsräten und Betriebsversammlungen."
+          },
+          {
+            "id": 16,
+            "type": "single",
+            "question": "Wie wird die Teilnahme an einer Betriebsversammlung während der Arbeitszeit behandelt?",
+            "options": [
+              "Sie gilt als Arbeitszeit und wird vergütet.",
+              "Sie ist unbezahlte Freizeit.",
+              "Sie muss nachgeholt werden.",
+              "Sie darf nur nach 6 Monaten Betriebszugehörigkeit erfolgen."
+            ],
+            "correctAnswer": [
+              "Sie gilt als Arbeitszeit und wird vergütet."
+            ],
+            "hint": "§ 44 BetrVG.",
+            "explanation": "Die Teilnahme zählt zur bezahlten Arbeitszeit."
+          },
+          {
+            "id": 17,
+            "type": "single",
+            "question": "Wann hat der Betriebsrat ein Mitbestimmungsrecht?",
+            "options": [
+              "Bei Änderungen der täglichen Arbeitszeit",
+              "Bei der Einstellung der Geschäftsführung",
+              "Bei der Wahl des Aufsichtsrats",
+              "Bei der Steuererklärung des Unternehmens"
+            ],
+            "correctAnswer": [
+              "Bei Änderungen der täglichen Arbeitszeit"
+            ],
+            "hint": "§ 87 BetrVG.",
+            "explanation": "Der Betriebsrat bestimmt mit bei Fragen der Arbeitszeitgestaltung."
+          },
+          {
+            "id": 18,
+            "type": "single",
+            "question": "Welche gesetzliche Kündigungsfrist gilt für Arbeitnehmer nach § 622 BGB?",
+            "options": [
+              "Vier Wochen zum 15. oder Ende des Monats",
+              "Zwei Wochen jederzeit",
+              "Ein Monat zum Quartalsende",
+              "Vier Wochen zum Monatsanfang"
+            ],
+            "correctAnswer": [
+              "Vier Wochen zum 15. oder Ende des Monats"
+            ],
+            "hint": "Gesetzliche Kündigungsfristen.",
+            "explanation": "§ 622 Abs. 1 BGB legt die Frist auf 4 Wochen zum 15. oder Monatsende fest."
+          },
+          {
+            "id": 19,
+            "type": "single",
+            "question": "Wie lange kann ein Arbeitnehmer nach Erhalt einer Kündigung Klage beim Arbeitsgericht einreichen?",
+            "options": [
+              "Innerhalb von drei Wochen",
+              "Innerhalb von einer Woche",
+              "Innerhalb von einem Monat",
+              "Innerhalb von sechs Wochen"
+            ],
+            "correctAnswer": [
+              "Innerhalb von drei Wochen"
+            ],
+            "hint": "§ 4 KSchG.",
+            "explanation": "Die Klagefrist gegen eine Kündigung beträgt drei Wochen ab Zugang."
+          },
+          {
+            "id": 20,
+            "type": "single",
+            "question": "An welches Gericht muss sich ein Arbeitnehmer bei Streit um das Arbeitszeugnis wenden?",
+            "options": [
+              "Arbeitsgericht",
+              "Amtsgericht",
+              "Verwaltungsgericht",
+              "Sozialgericht"
+            ],
+            "correctAnswer": [
+              "Arbeitsgericht"
+            ],
+            "hint": "Arbeitsgerichtsbarkeit.",
+            "explanation": "Das Arbeitsgericht ist für individuelle Streitigkeiten aus Arbeitsverhältnissen zuständig."
+          },
+          {
+            "id": 21,
+            "type": "single",
+            "question": "Welche Aussage beschreibt das Realeinkommen?",
+            "options": [
+              "Es berücksichtigt Preissteigerungen und Kaufkraftveränderungen.",
+              "Es ist das Einkommen vor Abzug von Steuern.",
+              "Es ist das Einkommen nach Abzug von Steuern.",
+              "Es entspricht immer dem Bruttoeinkommen."
+            ],
+            "correctAnswer": [
+              "Es berücksichtigt Preissteigerungen und Kaufkraftveränderungen."
+            ],
+            "hint": "Volkswirtschaftliche Kennzahl.",
+            "explanation": "Das Realeinkommen misst die tatsächliche Kaufkraft des Einkommens."
+          },
+          {
+            "id": 22,
+            "type": "single",
+            "question": "Welches Merkmal weist auf eine Rezession hin?",
+            "options": [
+              "Sinkende Nachfrage nach Konsumgütern",
+              "Steigende Investitionen",
+              "Zunehmende Beschäftigung",
+              "Höhere Löhne"
+            ],
+            "correctAnswer": [
+              "Sinkende Nachfrage nach Konsumgütern"
+            ],
+            "hint": "Konjunkturphasen.",
+            "explanation": "In der Rezession sinken Nachfrage, Produktion und Beschäftigung."
+          },
+          {
+            "id": 23,
+            "type": "single",
+            "question": "Welche Maßnahme unterstützt den Umweltschutz am meisten?",
+            "options": [
+              "Vermeidung unnötiger Verpackungen",
+              "Papierverpackung für alle Produkte",
+              "Verwendung recycelter Plastikverpackungen",
+              "Verbesserte Verpackungsqualität"
+            ],
+            "correctAnswer": [
+              "Vermeidung unnötiger Verpackungen"
+            ],
+            "hint": "Abfallhierarchie.",
+            "explanation": "Vermeidung steht in der Umweltpolitik an oberster Stelle vor Recycling."
+          },
+          {
+            "id": 24,
+            "type": "single",
+            "question": "Wie trägt die Verwendung von Recyclingpapier zum Umweltschutz bei?",
+            "options": [
+              "Sie spart Rohstoffe bei der Papierherstellung.",
+              "Sie erhöht die Papierqualität.",
+              "Sie reduziert den Papierverbrauch.",
+              "Sie senkt die Energiekosten des Unternehmens."
+            ],
+            "correctAnswer": [
+              "Sie spart Rohstoffe bei der Papierherstellung"
+            ],
+            "hint": "Ressourcenschonung.",
+            "explanation": "Recyclingpapier spart Holz, Wasser und Energie."
+          },
+          {
+            "id": 25,
+            "type": "single",
+            "question": "Welche Aussage beschreibt das Allgemeine Gleichbehandlungsgesetz (AGG)?",
+            "options": [
+              "Stellen müssen geschlechtsneutral ausgeschrieben werden.",
+              "Es gilt nicht für Auszubildende.",
+              "Es betrifft nur öffentliche Arbeitgeber.",
+              "Es erlaubt Ungleichbehandlung bei Beförderungen."
+            ],
+            "correctAnswer": [
+              "Stellen müssen geschlechtsneutral ausgeschrieben werden."
+            ],
+            "hint": "AGG § 11.",
+            "explanation": "Das AGG schützt vor Diskriminierung bei Stellenausschreibungen und im Berufsleben."
+          },
+          {
+            "id": 26,
+            "type": "single",
+            "question": "In welchem Fall wurde das Prinzip der Chancengleichheit im Unternehmen eingehalten?",
+            "options": [
+              "Ein Bewerber wurde abgelehnt, weil ihm die Qualifikation fehlte.",
+              "Eine Person wurde wegen Religion bevorzugt.",
+              "Eine Mitarbeiterin wurde wegen Hautfarbe bevorzugt.",
+              "Ein Bewerber wurde abgelehnt, weil er homosexuell ist."
+            ],
+            "correctAnswer": [
+              "Ein Bewerber wurde abgelehnt, weil ihm die Qualifikation fehlte."
+            ],
+            "hint": "Chancengleichheit nach AGG.",
+            "explanation": "Ablehnung aus sachlichen Gründen (Qualifikation) ist zulässig."
+          }
+        ]
+      },
+      "wirtschafts_und_sozialkunde_abschlusspruefung_winter_2023_24": {
+        "title": "Wirtschafts- und Sozialkunde - Abschlussprüfung Winter 2023/24",
+        "available": true,
+        "presentationScript": {
+          "title": "Prüfung Wirtschafts- und Sozialkunde – Winter 2023/24",
+          "description": "Fragenkatalog zu Grundlagen der Wirtschaft, Arbeitsrecht, Wirtschaftspolitik und Recht.",
+          "pdfUrl": "./scripts/ws-pruefung-2023-24.pdf"
+        },
+        "questions": [
+          {
+            "id": 1,
+            "type": "single",
+            "question": "Welche Aussage zum Handelsregister ist richtig?",
+            "options": [
+              "In Abteilung A werden Personengesellschaften, in Abteilung B Kapitalgesellschaften geführt.",
+              "In Abteilung A werden Großunternehmen, in Abteilung B alle anderen geführt.",
+              "Das Handelsregister wird von der IHK verwaltet.",
+              "Kleinunternehmen können sich wahlweise in Abteilung A oder B eintragen lassen."
+            ],
+            "correctAnswer": [
+              "In Abteilung A werden Personengesellschaften, in Abteilung B Kapitalgesellschaften geführt."
+            ],
+            "hint": "§ 8 HGB.",
+            "explanation": "Das Handelsregister besteht aus zwei Abteilungen: A für Personengesellschaften, B für Kapitalgesellschaften."
+          },
+          {
+            "id": 3,
+            "type": "single",
+            "question": "Welche Rechtsform ist bei Haftungsbeschränkung und geringem Kapitalbedarf geeignet?",
+            "options": [
+              "GmbH",
+              "AG",
+              "KG",
+              "eG",
+              "GbR"
+            ],
+            "correctAnswer": [
+              "GmbH"
+            ],
+            "hint": "Kapitalgesellschaft mit Haftungsbeschränkung.",
+            "explanation": "Die GmbH verbindet Haftungsbeschränkung mit überschaubarem Gründungskapital."
+          },
+          {
+            "id": 4,
+            "type": "single",
+            "question": "Welche Aussage zur GmbH ist richtig?",
+            "options": [
+              "Das Stammkapital muss mindestens 25.000 EUR betragen.",
+              "GmbH-Anteile werden an der Börse gehandelt.",
+              "Alle Gesellschafter sind automatisch Geschäftsführer.",
+              "Die Gesellschafter haften mit Privatvermögen."
+            ],
+            "correctAnswer": [
+              "Das Stammkapital muss mindestens 25.000 EUR betragen."
+            ],
+            "hint": "§ 5 GmbHG.",
+            "explanation": "Das gesetzliche Mindeststammkapital beträgt 25.000 Euro."
+          },
+          {
+            "id": 6,
+            "type": "single",
+            "question": "Welche Aussage zum Businessplan ist richtig?",
+            "options": [
+              "Im Businessplan werden strategische Ziele des Unternehmens festgelegt.",
+              "Er wird von der IHK erstellt.",
+              "Er wird im Handelsregister hinterlegt.",
+              "Er ist nur bei Kapitalgesellschaften Pflicht."
+            ],
+            "correctAnswer": [
+              "Im Businessplan werden strategische Ziele des Unternehmens festgelegt."
+            ],
+            "hint": "Gründungsplanung.",
+            "explanation": "Der Businessplan beschreibt Konzept, Ziele, Finanzierung und Strategie eines Unternehmens."
+          },
+          {
+            "id": 7,
+            "type": "multiple",
+            "question": "Bringe die Schritte bei einer Einstellung in die richtige Reihenfolge.",
+            "options": [
+              "Digitale Bewerbung",
+              "Vorstellungsgespräch",
+              "Abschluss des Arbeitsvertrags",
+              "Erster Arbeitstag",
+              "Ende der Probezeit",
+              "Erste Gehaltszahlung"
+            ],
+            "correctAnswer": [
+              "Digitale Bewerbung",
+              "Vorstellungsgespräch",
+              "Abschluss des Arbeitsvertrags",
+              "Erster Arbeitstag",
+              "Ende der Probezeit",
+              "Erste Gehaltszahlung"
+            ],
+            "hint": "Ablauf eines Einstellungsverfahrens.",
+            "explanation": "Der Prozess beginnt mit der Bewerbung und endet nach der Probezeit."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Welche Frage ist im Bewerbungsgespräch unzulässig?",
+            "options": [
+              "Nach Gewerkschaftsmitgliedschaft",
+              "Nach Zusatzqualifikationen",
+              "Nach Schulbildung",
+              "Nach Gehaltsvorstellung"
+            ],
+            "correctAnswer": [
+              "Nach Gewerkschaftsmitgliedschaft"
+            ],
+            "hint": "Diskriminierungsverbot.",
+            "explanation": "Fragen zur Gewerkschaftszugehörigkeit verletzen das Persönlichkeitsrecht."
+          },
+          {
+            "id": 9,
+            "type": "multiple",
+            "question": "Welche Unterlagen muss ein Arbeitnehmer beim Arbeitgeber einreichen?",
+            "options": [
+              "Steuerliche Identifikationsnummer",
+              "Urlaubsbescheinigung des Vorarbeitgebers",
+              "Kopie der Geburtsurkunde",
+              "Nachweis privater Unfallversicherung"
+            ],
+            "correctAnswer": [
+              "Steuerliche Identifikationsnummer",
+              "Urlaubsbescheinigung des Vorarbeitgebers"
+            ],
+            "hint": "Einstellungsunterlagen.",
+            "explanation": "Die Steuer-ID und die Urlaubsbescheinigung sind für Abrechnung und Urlaubsanspruch erforderlich."
+          },
+          {
+            "id": 10,
+            "type": "single",
+            "question": "An welche Einrichtung kann sich eine Sicherheitsbeauftragte bei Fragen zur Unfallverhütung wenden?",
+            "options": [
+              "Berufsgenossenschaft",
+              "Gewerbeaufsichtsbehörde",
+              "IHK",
+              "Fachverband"
+            ],
+            "correctAnswer": [
+              "Berufsgenossenschaft"
+            ],
+            "hint": "Arbeitsschutzorganisation.",
+            "explanation": "Die Berufsgenossenschaft ist zuständig für Unfallverhütung und Arbeitssicherheit."
+          },
+          {
+            "id": 11,
+            "type": "single",
+            "question": "Wann ist eine Arbeitnehmerin bei einer Betriebsratswahl wählbar?",
+            "options": [
+              "Wenn sie seit mindestens 6 Monaten im Betrieb ist.",
+              "Wenn sie volljährig ist.",
+              "Sofort bei Eintritt in den Betrieb.",
+              "Nur als Gewerkschaftsmitglied."
+            ],
+            "correctAnswer": [
+              "Wenn sie seit mindestens 6 Monaten im Betrieb ist."
+            ],
+            "hint": "§ 8 BetrVG.",
+            "explanation": "Wählbar sind Beschäftigte mit mindestens 6 Monaten Betriebszugehörigkeit."
+          },
+          {
+            "id": 12,
+            "type": "single",
+            "question": "Welche Aussage zur Betriebsratswahl ist richtig?",
+            "options": [
+              "Ein Betriebsrat wird alle vier Jahre gewählt.",
+              "Er muss zur Hälfte aus Frauen bestehen.",
+              "Er darf nur aus Gewerkschaftsmitgliedern bestehen.",
+              "Er ist nur in Kapitalgesellschaften vorgeschrieben."
+            ],
+            "correctAnswer": [
+              "Ein Betriebsrat wird alle vier Jahre gewählt."
+            ],
+            "hint": "§ 13 BetrVG.",
+            "explanation": "Betriebsratswahlen finden alle vier Jahre zwischen März und Mai statt."
+          },
+          {
+            "id": 13,
+            "type": "multiple",
+            "question": "Bei welchen Themen hat der Betriebsrat ein Mitbestimmungsrecht?",
+            "options": [
+              "Festlegung von Beginn und Ende der Arbeitszeit",
+              "Einführung von Überwachungskameras",
+              "Planung des Personalbedarfs",
+              "Errichtung neuer Gebäude"
+            ],
+            "correctAnswer": [
+              "Festlegung von Beginn und Ende der Arbeitszeit",
+              "Einführung von Überwachungskameras"
+            ],
+            "hint": "§ 87 BetrVG.",
+            "explanation": "Bei sozialen Angelegenheiten hat der Betriebsrat volles Mitbestimmungsrecht."
+          },
+          {
+            "id": 14,
+            "type": "single",
+            "question": "Welche Handlung rechtfertigt eine außerordentliche Kündigung?",
+            "options": [
+              "Diebstahl von Firmeneigentum",
+              "Unverschuldete Krankheit",
+              "Arbeitsmangel",
+              "Einmalige Verspätung"
+            ],
+            "correctAnswer": [
+              "Diebstahl von Firmeneigentum"
+            ],
+            "hint": "§ 626 BGB.",
+            "explanation": "Ein Diebstahl zerstört das Vertrauensverhältnis und berechtigt zur fristlosen Kündigung."
+          },
+          {
+            "id": 15,
+            "type": "multiple",
+            "question": "Ordne die Kündigungsarten den passenden Beispielen zu.",
+            "options": [
+              "Verhaltensbedingt – Geheimnisverrat an Konkurrenz",
+              "Betriebsbedingt – Abteilungsschließung",
+              "Personenbedingt – mangelnde Leistungsfähigkeit trotz Schulung"
+            ],
+            "correctAnswer": [
+              "Verhaltensbedingt – Geheimnisverrat an Konkurrenz",
+              "Betriebsbedingt – Abteilungsschließung",
+              "Personenbedingt – mangelnde Leistungsfähigkeit trotz Schulung"
+            ],
+            "hint": "Arten der Kündigung.",
+            "explanation": "Kündigungsgründe unterscheiden sich nach Ursache (Verhalten, Person, Betrieb)."
+          },
+          {
+            "id": 16,
+            "type": "single",
+            "question": "Wer genießt keinen besonderen Kündigungsschutz?",
+            "options": [
+              "Leitende Angestellte",
+              "Betriebsratsmitglieder",
+              "Schwerbehinderte",
+              "Werdende Mütter"
+            ],
+            "correctAnswer": [
+              "Leitende Angestellte"
+            ],
+            "hint": "KSchG, MuSchG, SGB IX.",
+            "explanation": "Leitende Angestellte sind vom besonderen Kündigungsschutz ausgenommen."
+          },
+          {
+            "id": 18,
+            "type": "multiple",
+            "question": "Wer schließt Tarifverträge ab?",
+            "options": [
+              "Arbeitgeberverbände",
+              "Gewerkschaften",
+              "IHK",
+              "Bundesagentur für Arbeit"
+            ],
+            "correctAnswer": [
+              "Arbeitgeberverbände",
+              "Gewerkschaften"
+            ],
+            "hint": "§ 2 TVG.",
+            "explanation": "Tarifverträge werden zwischen Arbeitgeberverbänden und Gewerkschaften geschlossen."
+          },
+          {
+            "id": 19,
+            "type": "single",
+            "question": "Wie heißt das Recht der Tarifparteien, Löhne und Bedingungen selbst zu regeln?",
+            "options": [
+              "Tarifautonomie",
+              "Allgemeinverbindlichkeit",
+              "Tarifbindung",
+              "Freizügigkeit"
+            ],
+            "correctAnswer": [
+              "Tarifautonomie"
+            ],
+            "hint": "Grundgesetz Art. 9 Abs. 3.",
+            "explanation": "Die Tarifautonomie garantiert den Sozialpartnern freie Verhandlung über Arbeitsbedingungen."
+          },
+          {
+            "id": 20,
+            "type": "multiple",
+            "question": "Bringe die Schritte zum Zustandekommen eines Tarifvertrags in die richtige Reihenfolge.",
+            "options": [
+              "Tarifvertrag wird gekündigt",
+              "Verhandlungen",
+              "Scheitern der Verhandlungen",
+              "Schlichtung",
+              "Urabstimmung & Streik",
+              "Schlichterspruch angenommen"
+            ],
+            "correctAnswer": [
+              "Tarifvertrag wird gekündigt",
+              "Verhandlungen",
+              "Scheitern der Verhandlungen",
+              "Schlichtung",
+              "Urabstimmung & Streik",
+              "Schlichterspruch angenommen"
+            ],
+            "hint": "Ablauf Tarifverhandlungen.",
+            "explanation": "Ein Tarifvertrag entsteht nach Kündigung, Verhandlung, ggf. Streik und Einigung."
+          },
+          {
+            "id": 21,
+            "type": "single",
+            "question": "Welche Aussage beschreibt Kartelle richtig?",
+            "options": [
+              "Absprachen zur Einschränkung des Wettbewerbs auf gleicher Produktionsstufe",
+              "Unternehmen mit sozialem Auftrag",
+              "Kooperationen zur Innovationsförderung",
+              "Zulässige Preisabsprachen bei Genossenschaften"
+            ],
+            "correctAnswer": [
+              "Absprachen zur Einschränkung des Wettbewerbs auf gleicher Produktionsstufe"
+            ],
+            "hint": "Wettbewerbsrecht.",
+            "explanation": "Kartelle sind wettbewerbsbeschränkende Absprachen und nach GWB meist verboten."
+          },
+          {
+            "id": 22,
+            "type": "multiple",
+            "question": "Welche Maßnahmen fördern Nachhaltigkeit?",
+            "options": [
+              "Ladesäulen für E-Fahrzeuge bereitstellen",
+              "Produkte aus nachwachsenden Rohstoffen verwenden",
+              "Reisen nur per Flugzeug durchführen",
+              "Nur Bewerber über 30 Jahre einstellen"
+            ],
+            "correctAnswer": [
+              "Ladesäulen für E-Fahrzeuge bereitstellen",
+              "Produkte aus nachwachsenden Rohstoffen verwenden"
+            ],
+            "hint": "Ökologische Nachhaltigkeit.",
+            "explanation": "Nachhaltigkeit umfasst Umwelt-, Sozial- und Wirtschaftsverantwortung."
+          },
+          {
+            "id": 23,
+            "type": "single",
+            "question": "Welche Maßnahme trägt zur Verringerung von Umweltbelastungen bei?",
+            "options": [
+              "Bezug recycelter Verpackungen von lokalem Hersteller",
+              "Umstellung auf Diesel-Fahrzeuge",
+              "Nutzung schwerer Teppiche im Büro",
+              "Verwendung von Einwegplastikverpackungen"
+            ],
+            "correctAnswer": [
+              "Bezug recycelter Verpackungen von lokalem Hersteller"
+            ],
+            "hint": "Regionale Kreislaufwirtschaft.",
+            "explanation": "Lokaler Bezug und Recyclingmaterialien reduzieren Transportemissionen und Ressourcenverbrauch."
+          }
+        ]
+      },
+      "wirtschafts_und_sozialkunde_uebung_sommer_2024": {
+        "title": "Übungsfragen Wirtschafts- und Sozialkunde (Sommer 2024)",
+        "available": true,
+        "questions": [
+          {
+            "id": 2,
+            "type": "single",
+            "question": "Mit welcher Frist kann ein Auszubildender nach der Probezeit kündigen, wenn er den Beruf wechseln möchte?",
+            "options": [
+              "Sechs Monate",
+              "Vier Wochen",
+              "Fristlos",
+              "Gar nicht"
+            ],
+            "correctAnswer": [
+              "Vier Wochen"
+            ],
+            "hint": "§ 22 BBiG.",
+            "explanation": "Eine Kündigung mit vierwöchiger Frist ist zulässig, wenn ein Berufswechsel beabsichtigt ist."
+          },
+          {
+            "id": 3,
+            "type": "single",
+            "question": "Wann endet ein Berufsausbildungsverhältnis bei Bestehen der Abschlussprüfung?",
+            "options": [
+              "Am vertraglich vereinbarten Enddatum",
+              "Mit Bekanntgabe des Bestehens durch den Prüfungsausschuss",
+              "Mit der Zeugnisübergabe",
+              "Mit Ablauf des Prüfungsmonats"
+            ],
+            "correctAnswer": [
+              "Mit Bekanntgabe des Bestehens durch den Prüfungsausschuss"
+            ],
+            "hint": "§ 21 BBiG.",
+            "explanation": "Das Ausbildungsverhältnis endet automatisch mit der Bekanntgabe des Bestehens."
+          },
+          {
+            "id": 4,
+            "type": "single",
+            "question": "Was geschieht, wenn ein sachgrundlos befristetes Arbeitsverhältnis endet?",
+            "options": [
+              "Es endet automatisch, ohne Kündigung.",
+              "Es muss vom Arbeitgeber gekündigt werden.",
+              "Es verlängert sich automatisch.",
+              "Es wird unbefristet fortgesetzt."
+            ],
+            "correctAnswer": [
+              "Es endet automatisch, ohne Kündigung."
+            ],
+            "hint": "§ 15 TzBfG.",
+            "explanation": "Ein sachgrundlos befristetes Arbeitsverhältnis endet mit Ablauf der vereinbarten Frist."
+          },
+          {
+            "id": 5,
+            "type": "single",
+            "question": "Welches Thema kann in einer Betriebsvereinbarung geregelt werden?",
+            "options": [
+              "Höhe der Tariflöhne",
+              "Gesetzlicher Mindesturlaub",
+              "Nutzung von Firmenparkplätzen",
+              "Kündigungsfristen"
+            ],
+            "correctAnswer": [
+              "Nutzung von Firmenparkplätzen"
+            ],
+            "hint": "§ 77 BetrVG.",
+            "explanation": "Betriebsvereinbarungen regeln innerbetriebliche Angelegenheiten wie Arbeitszeit, Ordnung oder Parkplätze."
+          },
+          {
+            "id": 6,
+            "type": "single",
+            "question": "Wessen Interessen vertritt der Betriebsrat in einem Unternehmen?",
+            "options": [
+              "Die der Arbeitnehmer",
+              "Die der Arbeitgeber",
+              "Die der Aktionäre",
+              "Die der Gewerkschaften"
+            ],
+            "correctAnswer": [
+              "Die der Arbeitnehmer"
+            ],
+            "hint": "§ 80 BetrVG.",
+            "explanation": "Der Betriebsrat vertritt ausschließlich die Interessen der Arbeitnehmer im Betrieb."
+          },
+          {
+            "id": 7,
+            "type": "single",
+            "question": "Welches Gericht ist zuständig bei Streitigkeiten mit der Krankenkasse?",
+            "options": [
+              "Sozialgericht",
+              "Arbeitsgericht",
+              "Verwaltungsgericht",
+              "Amtsgericht"
+            ],
+            "correctAnswer": [
+              "Sozialgericht"
+            ],
+            "hint": "§ 51 SGG.",
+            "explanation": "Streitigkeiten über Sozialversicherungsleistungen fallen unter die Zuständigkeit der Sozialgerichte."
+          },
+          {
+            "id": 8,
+            "type": "single",
+            "question": "Was beschreibt die Beitragsbemessungsgrenze in der Sozialversicherung?",
+            "options": [
+              "Den Lohnanteil, bis zu dem Beiträge berechnet werden.",
+              "Das Mindesteinkommen für Versicherungspflicht.",
+              "Den maximalen Beitragssatz.",
+              "Die Höhe der späteren Rente."
+            ],
+            "correctAnswer": [
+              "Den Lohnanteil, bis zu dem Beiträge berechnet werden."
+            ],
+            "hint": "Sozialgesetzbuch IV.",
+            "explanation": "Nur bis zur Beitragsbemessungsgrenze wird das Einkommen zur Beitragsberechnung herangezogen."
+          },
+          {
+            "id": 9,
+            "type": "single",
+            "question": "Welcher Fall gilt nicht als Arbeitsunfall?",
+            "options": [
+              "Sturz auf dem Arbeitsweg",
+              "Sturz in der Kantine",
+              "Sturz im Lager während der Arbeit",
+              "Sturz beim Sport nach Feierabend"
+            ],
+            "correctAnswer": [
+              "Sturz beim Sport nach Feierabend"
+            ],
+            "hint": "§ 8 SGB VII.",
+            "explanation": "Unfälle in der Freizeit sind keine Arbeitsunfälle im Sinne der Unfallversicherung."
+          },
+          {
+            "id": 12,
+            "type": "single",
+            "question": "Welche Information steht nicht im Handelsregister Abteilung B?",
+            "options": [
+              "Stammkapital",
+              "Prokurist",
+              "Gegenstand des Unternehmens",
+              "Private Anschriften der Gesellschafter"
+            ],
+            "correctAnswer": [
+              "Private Anschriften der Gesellschafter"
+            ],
+            "hint": "Handelsregisterordnung.",
+            "explanation": "Private Adressen gehören nicht zu den veröffentlichten Angaben."
+          },
+          {
+            "id": 14,
+            "type": "single",
+            "question": "Ab welcher Mitarbeiterzahl ist ein Arbeitsschutzausschuss erforderlich?",
+            "options": [
+              "Ab 10",
+              "Ab 20",
+              "Ab 50",
+              "Ab 100"
+            ],
+            "correctAnswer": [
+              "Ab 20"
+            ],
+            "hint": "§ 11 Arbeitssicherheitsgesetz.",
+            "explanation": "Ab mehr als 20 Beschäftigten muss ein Arbeitsschutzausschuss gebildet werden."
+          },
+          {
+            "id": 15,
+            "type": "single",
+            "question": "Was zeigt ein grünes Schild mit weißem Kreuz?",
+            "options": [
+              "Fluchtweg",
+              "Feuerlöscher",
+              "Erste-Hilfe-Standort",
+              "Gefahr durch Laser"
+            ],
+            "correctAnswer": [
+              "Erste-Hilfe-Standort"
+            ],
+            "hint": "DIN EN ISO 7010.",
+            "explanation": "Das weiße Kreuz auf grünem Grund kennzeichnet Erste-Hilfe-Einrichtungen."
+          },
+          {
+            "id": 16,
+            "type": "single",
+            "question": "Was ist im Brandfall die erste Maßnahme?",
+            "options": [
+              "Brand melden",
+              "Fenster öffnen",
+              "Löschen beginnen",
+              "Dokumente sichern"
+            ],
+            "correctAnswer": [
+              "Brand melden"
+            ],
+            "hint": "Brandschutzordnung.",
+            "explanation": "Zuerst muss der Brand gemeldet werden, um Hilfe zu alarmieren."
+          },
+          {
+            "id": 17,
+            "type": "single",
+            "question": "Ein rotes Schild mit Löschschlauchsymbol ist welches Sicherheitszeichen?",
+            "options": [
+              "Warnzeichen",
+              "Gebotszeichen",
+              "Rettungszeichen",
+              "Brandschutzzeichen"
+            ],
+            "correctAnswer": [
+              "Brandschutzzeichen"
+            ],
+            "hint": "DIN EN ISO 7010.",
+            "explanation": "Brandschutzzeichen sind rot und kennzeichnen Brandbekämpfungsmittel."
+          },
+          {
+            "id": 18,
+            "type": "single",
+            "question": "Wie wird Wirtschaftlichkeit am einfachsten gemessen?",
+            "options": [
+              "Durch Vergleich von Aufwand und Ertrag",
+              "Nur durch Gewinnhöhe",
+              "Nur durch Mitarbeiteranzahl",
+              "Nur durch Aufwand"
+            ],
+            "correctAnswer": [
+              "Durch Vergleich von Aufwand und Ertrag"
+            ],
+            "hint": "Betriebswirtschaftliche Kennzahl.",
+            "explanation": "Wirtschaftlichkeit = Ertrag ÷ Aufwand."
+          },
+          {
+            "id": 19,
+            "type": "single",
+            "question": "Ein Gesellschafter hält 40 % an einer GmbH mit 20.000 € Gewinn. Wie hoch ist sein Gewinnanteil?",
+            "options": [
+              "4.000 €",
+              "8.000 €",
+              "10.000 €",
+              "20.000 €"
+            ],
+            "correctAnswer": [
+              "8.000 €"
+            ],
+            "hint": "Proportionaler Gewinnanteil.",
+            "explanation": "40 % von 20.000 € = 8.000 €."
+          },
+          {
+            "id": 20,
+            "type": "single",
+            "question": "Wie lange dauert die Mutterschutzfrist nach der Entbindung?",
+            "options": [
+              "4 Wochen",
+              "6 Wochen",
+              "8 Wochen",
+              "12 Wochen"
+            ],
+            "correctAnswer": [
+              "8 Wochen"
+            ],
+            "hint": "§ 3 Mutterschutzgesetz.",
+            "explanation": "Nach der Geburt gilt ein Beschäftigungsverbot von 8 Wochen."
+          },
+          {
+            "id": 21,
+            "type": "single",
+            "question": "Welche Personengruppe hat keinen besonderen Kündigungsschutz?",
+            "options": [
+              "Mitarbeiter in der Probezeit",
+              "Schwerbehinderte",
+              "Werdende Mütter",
+              "Azubis nach Probezeit"
+            ],
+            "correctAnswer": [
+              "Mitarbeiter in der Probezeit"
+            ],
+            "hint": "KSchG, MuSchG, SGB IX.",
+            "explanation": "In der Probezeit gilt kein besonderer Kündigungsschutz."
+          },
+          {
+            "id": 22,
+            "type": "single",
+            "question": "Wozu dient ein Businessplan in der Gründungsphase?",
+            "options": [
+              "Zur Anmeldung beim Gewerbeamt",
+              "Zur Darstellung der Idee und Finanzierung für Banken",
+              "Zur ersten Steuererklärung",
+              "Als Vertrag mit Kunden"
+            ],
+            "correctAnswer": [
+              "Zur Darstellung der Idee und Finanzierung für Banken"
+            ],
+            "hint": "Gründungsdokument.",
+            "explanation": "Ein Businessplan dient der Präsentation des Geschäftsmodells gegenüber Banken oder Investoren."
+          },
+          {
+            "id": 23,
+            "type": "single",
+            "question": "Welche Organisationsform zeigt eine klare Hierarchie mit einem Vorgesetzten pro Mitarbeiter?",
+            "options": [
+              "Einliniensystem",
+              "Mehrliniensystem",
+              "Matrixsystem",
+              "Stabliniensystem"
+            ],
+            "correctAnswer": [
+              "Einliniensystem"
+            ],
+            "hint": "Organisationsstruktur.",
+            "explanation": "Im Einliniensystem hat jeder Mitarbeiter genau einen direkten Vorgesetzten."
+          },
+          {
+            "id": 24,
+            "type": "single",
+            "question": "Welche Art von Kartell ist zulässig, wenn sie angemeldet ist?",
+            "options": [
+              "Normen- und Typenkartell",
+              "Preiskartell",
+              "Gebietskartell",
+              "Quotenkartell"
+            ],
+            "correctAnswer": [
+              "Normen- und Typenkartell"
+            ],
+            "hint": "Gesetz gegen Wettbewerbsbeschränkungen (GWB).",
+            "explanation": "Normen- und Typenkartelle vereinheitlichen technische Standards und sind zulässig."
+          },
+          {
+            "id": 27,
+            "type": "single",
+            "question": "Was beschreibt den Generationenvertrag in der Rentenversicherung?",
+            "options": [
+              "Die Jüngeren finanzieren die Renten der Älteren.",
+              "Jede Generation spart ihre eigene Rente an.",
+              "Der Staat zahlt alle Renten aus Steuern.",
+              "Beiträge werden verzinst ausgezahlt."
+            ],
+            "correctAnswer": [
+              "Die Jüngeren finanzieren die Renten der Älteren."
+            ],
+            "hint": "Umlageverfahren.",
+            "explanation": "Die gesetzliche Rentenversicherung funktioniert nach dem Umlageprinzip."
+          },
+          {
+            "id": 28,
+            "type": "single",
+            "question": "Welches Merkmal ist nicht durch das Allgemeine Gleichbehandlungsgesetz (AGG) geschützt?",
+            "options": [
+              "Alter",
+              "Religion",
+              "Sexuelle Identität",
+              "Familienstand"
+            ],
+            "correctAnswer": [
+              "Familienstand"
+            ],
+            "hint": "§ 1 AGG.",
+            "explanation": "Das AGG schützt u. a. Alter, Geschlecht, Religion, Herkunft und sexuelle Identität – nicht den Familienstand."
+          },
+          {
+            "id": 30,
+            "type": "single",
+            "question": "Welche Maßnahme gilt als Beispiel für ökologische Nachhaltigkeit im Betrieb?",
+            "options": [
+              "Umstellung des Fuhrparks auf Elektrofahrzeuge",
+              "Erhöhung der Löhne",
+              "Gründung eines Betriebsrats",
+              "Auftragsvergabe nur an billigste Anbieter"
+            ],
+            "correctAnswer": [
+              "Umstellung des Fuhrparks auf Elektrofahrzeuge"
+            ],
+            "hint": "Nachhaltigkeit in Unternehmen.",
+            "explanation": "Ökologische Nachhaltigkeit fördert ressourcenschonende und klimafreundliche Maßnahmen."
+          }
+        ]
       }
     }
   }
+}

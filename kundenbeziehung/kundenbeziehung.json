@@ -329,7 +329,7 @@
       },
       "kundendaten_zusammenstellen": {
         "title": "Kundendaten zusammenstellen, aufbereiten und auswerten",
-        "available": false,
+        "available": true,
         "questions": [
           {
             "id": 1,

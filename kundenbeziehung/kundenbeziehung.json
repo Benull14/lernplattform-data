@@ -350,10 +350,10 @@
             "type": "single",
             "question": "Welche Aussage beschreibt Kundenstammdaten am besten?",
             "options": [
-              "Dynamische Daten, die sich ständig ändern.",
-              "Grundlegende Informationen zur Identifikation des Kunden.",
-              "Interaktionshistorie und Kaufverhalten.",
-              "Marketingdaten zur Werbewirksamkeit."
+              "Dynamische Daten, die sich ständig ändern",
+              "Grundlegende Informationen zur Identifikation des Kunden",
+              "Interaktionshistorie und Kaufverhalten",
+              "Marketingdaten zur Werbewirksamkeit"
             ],
             "correctAnswer": [
               "Grundlegende Informationen zur Identifikation des Kunden"
@@ -445,10 +445,10 @@
             "type": "single",
             "question": "Was versteht man unter einer 360-Grad-Sicht auf den Kunden?",
             "options": [
-              "Eine Kameraansicht im Büro.",
-              "Vollständige und ganzheitliche Darstellung aller Kundendaten.",
-              "Nur Umsatzdaten des Kunden.",
-              "Nur interne Daten aus der Buchhaltung."
+              "Eine Kameraansicht im Büro",
+              "Vollständige und ganzheitliche Darstellung aller Kundendaten",
+              "Nur Umsatzdaten des Kunden",
+              "Nur interne Daten aus der Buchhaltung"
             ],
             "correctAnswer": [
               "Vollständige und ganzheitliche Darstellung aller Kundendaten"
@@ -508,10 +508,10 @@
             "type": "single",
             "question": "Was beschreibt die Rolle eines Data Stewards am besten?",
             "options": [
-              "Er pflegt Social-Media-Beiträge.",
-              "Er ist verantwortlich für Datenintegrität und Qualität.",
-              "Er entwickelt neue Produkte.",
-              "Er erstellt Marketingkampagnen."
+              "Er pflegt Social-Media-Beiträge",
+              "Er ist verantwortlich für Datenintegrität und Qualität",
+              "Er entwickelt neue Produkte",
+              "Er erstellt Marketingkampagnen"
             ],
             "correctAnswer": [
               "Er ist verantwortlich für Datenintegrität und Qualität"
@@ -557,10 +557,10 @@
             "type": "single",
             "question": "Was ist laut DSGVO bei personenbezogenen Daten wichtig?",
             "options": [
-              "Sie dürfen beliebig lange gespeichert werden.",
-              "Sie müssen richtig, aktuell und geschützt sein.",
-              "Sie können an Dritte verkauft werden.",
-              "Sie dürfen offen im Büro liegen."
+              "Sie dürfen beliebig lange gespeichert werden",
+              "Sie müssen richtig, aktuell und geschützt sein",
+              "Sie können an Dritte verkauft werden",
+              "Sie dürfen offen im Büro liegen"
             ],
             "correctAnswer": [
               "Sie müssen richtig, aktuell und geschützt sein"
@@ -605,10 +605,10 @@
             "type": "single",
             "question": "Was ist das Ziel einer ABC-Analyse?",
             "options": [
-              "Kunden nach ihrer Wichtigkeit zu segmentieren.",
-              "Nur neue Kunden zu erfassen.",
-              "Alte Kundendaten zu löschen.",
-              "Daten zu anonymisieren."
+              "Kunden nach ihrer Wichtigkeit zu segmentieren",
+              "Nur neue Kunden zu erfassen",
+              "Alte Kundendaten zu löschen",
+              "Daten zu anonymisieren"
             ],
             "correctAnswer": [
               "Kunden nach ihrer Wichtigkeit zu segmentieren"
